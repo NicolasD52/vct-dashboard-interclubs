@@ -1,5 +1,9 @@
 import { getOurTeams, getRencontresForTeam, getAllPlayers, loadRencontres } from "@/lib/loadData";
-import { SEUIL_FIABILITE, SIGMA_CPPH } from "@/lib/calculations/weightedWinRate";
+import {
+  PERFORMANCE_NEUTRE,
+  SEUIL_FIABILITE,
+  SIGMA_CPPH,
+} from "@/lib/calculations/performanceVsRanking";
 
 export async function GET() {
   // "matches" (l'historique détaillé) n'est pas utilisé par cette page — on ne l'envoie pas au client.
@@ -41,7 +45,12 @@ export async function GET() {
       .filter((p) => p.overall.n >= SEUIL_FIABILITE)
       .sort((a, b) => (b.overall.weighted ?? 0) - (a.overall.weighted ?? 0))
       .slice(0, 6)
-      .map((p) => ({ name: p.name, record: `${p.overall.w} – ${p.overall.l}`, weighted: p.overall.weighted }));
+      .map((p) => ({
+        name: p.name,
+        record: `${p.overall.w} – ${p.overall.l}`,
+        weighted: p.overall.weighted,
+        expectedWins: p.overall.expectedWins,
+      }));
 
     return {
       id: team.id,
@@ -69,5 +78,6 @@ export async function GET() {
     lastRencontreDate,
     seuilFiabilite: SEUIL_FIABILITE,
     sigmaCpph: SIGMA_CPPH,
+    performanceNeutre: PERFORMANCE_NEUTRE,
   });
 }

@@ -1,7 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
 import { RencontreSchema, type Rencontre, type TeamRef, type Discipline } from "./schema";
-import { computeWeightedWinRate } from "./calculations/weightedWinRate";
+import {
+  computeExpectedWins,
+  computePerformanceVsRanking,
+} from "./calculations/performanceVsRanking";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
@@ -137,7 +140,10 @@ function summarize(matches: PlayerMatchEntry[]) {
     w,
     l: n - w,
     raw: n === 0 ? null : (w / n) * 100,
-    weighted: n === 0 ? null : computeWeightedWinRate(matches) * 100,
+    /** Victoires que le classement laissait attendre sur ces matchs. */
+    expectedWins: n === 0 ? null : computeExpectedWins(matches),
+    /** Victoires réelles / attendues, en % : 100 = pile au niveau de son classement. */
+    weighted: n === 0 ? null : computePerformanceVsRanking(matches),
   };
 }
 

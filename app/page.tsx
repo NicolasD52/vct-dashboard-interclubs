@@ -3,7 +3,16 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 
 type Bucket = "S" | "D" | "M";
-type BucketStats = { n: number; w: number; l: number; raw: number | null; weighted: number | null };
+type BucketStats = {
+  n: number;
+  w: number;
+  l: number;
+  raw: number | null;
+  /** Victoires que le classement laissait attendre. */
+  expectedWins: number | null;
+  /** Victoires réelles / attendues, en % : 100 = pile au niveau de son classement. */
+  weighted: number | null;
+};
 
 interface ApiPlayer {
   playerId: string;
@@ -35,7 +44,7 @@ interface ApiTeam {
   matchTotal: number;
   rosterSize: number;
   fixtures: ApiFixture[];
-  topPlayers: { name: string; record: string; weighted: number | null }[];
+  topPlayers: { name: string; record: string; weighted: number | null; expectedWins: number | null }[];
 }
 
 interface SeasonResponse {
@@ -44,6 +53,7 @@ interface SeasonResponse {
   lastRencontreDate: string | undefined;
   seuilFiabilite: number;
   sigmaCpph: number;
+  performanceNeutre: number;
 }
 
 const RED = "#dc0338";
@@ -60,6 +70,20 @@ function pct(v: number | null | undefined): string {
 
 function sgn(v: number): string {
   return (v >= 0 ? "+" : "−") + Math.abs(Math.round(v));
+}
+
+/** Nombre de victoires attendues, en français (une décimale). */
+function attendues(v: number | null | undefined): string {
+  return v === null || v === undefined ? "—" : v.toFixed(1).replace(".", ",");
+}
+
+/**
+ * Position de la performance sur la barre. Le repère neutre (100) est au milieu,
+ * et l'échelle sature à 200 pour qu'une performance exceptionnelle reste lisible.
+ */
+function barPosition(performance: number | null | undefined): number {
+  if (performance === null || performance === undefined) return 0;
+  return Math.max(2, Math.min(100, (performance / 200) * 100));
 }
 
 function frDate(iso: string): string {
@@ -81,7 +105,7 @@ export default function Home() {
   const [team, setTeam] = useState("all");
   const [disc, setDisc] = useState<"all" | Bucket>("all");
   const [sex, setSex] = useState<"all" | "F" | "H">("all");
-  const [sort, setSort] = useState<"weighted" | "raw" | "delta" | "matches" | "cpph">("weighted");
+  const [sort, setSort] = useState<"weighted" | "raw" | "matches" | "cpph">("weighted");
   const [hideLow, setHideLow] = useState(true);
   const [selTeam, setSelTeam] = useState<string | null>(null);
 
@@ -128,8 +152,6 @@ export default function Home() {
     const cmp: Record<typeof sort, (a: (typeof rows)[number], b: (typeof rows)[number]) => number> = {
       weighted: (a, b) => (b.stats.weighted ?? -1) - (a.stats.weighted ?? -1),
       raw: (a, b) => (b.stats.raw ?? -1) - (a.stats.raw ?? -1),
-      delta: (a, b) =>
-        (b.stats.weighted ?? 0) - (b.stats.raw ?? 0) - ((a.stats.weighted ?? 0) - (a.stats.raw ?? 0)),
       matches: (a, b) => b.stats.n - a.stats.n,
       cpph: (a, b) => b.player.cpph - a.player.cpph,
     };
@@ -152,7 +174,7 @@ export default function Home() {
         cpphLabel: String(p.cpph),
         wStr: pct(p.overall.weighted),
         rawStr: pct(p.overall.raw),
-        deltaStr: sgn((p.overall.weighted ?? 0) - (p.overall.raw ?? 0)) + " pts",
+        deltaStr: `${p.overall.w} victoires pour ${attendues(p.overall.expectedWins)} attendues`,
         sStr: pct(p.perDiscipline.S.weighted),
         dStr: pct(p.perDiscipline.D.weighted),
         mStr: pct(p.perDiscipline.M.weighted),
@@ -303,7 +325,7 @@ export default function Home() {
                         <div style={{ fontFamily: "var(--font-display)", fontSize: 52, lineHeight: 0.9, color: RED }}>{p.wStr}</div>
                         <div style={{ paddingBottom: 7 }}>
                           <div style={{ fontFamily: "var(--font-display)", fontSize: 10, letterSpacing: ".08em", textTransform: "uppercase", color: INK_MUTED }}>Perf. vs classement</div>
-                          <div style={{ fontSize: 12.5, color: "#3a3c42", marginTop: 4 }}>{p.rawStr} de victoires ({p.deltaStr} pts)</div>
+                          <div style={{ fontSize: 12.5, color: "#3a3c42", marginTop: 4 }}>{p.deltaStr}</div>
                         </div>
                       </div>
                       <div style={{ display: "flex", gap: 10, marginTop: 20, paddingTop: 18, borderTop: `1px solid ${BORDER}` }}>
@@ -385,10 +407,11 @@ export default function Home() {
                 p = 1 / (1 + 10^((CPPH_adverse − CPPH_camp) / {data.sigmaCpph}))<br />
                 <span style={{ color: INK_MUTED }}>gain d&apos;une victoire</span> = 1 − p<br />
                 <span style={{ color: INK_MUTED }}>coût d&apos;une défaite</span> = p<br />
-                <strong>perf. = Σgains / (Σgains + Σcoûts)</strong>
+                <span style={{ color: INK_MUTED }}>victoires attendues</span> = Σp sur tous ses matchs<br />
+                <strong>perf. = victoires réelles / victoires attendues</strong>
               </div>
               <p style={{ margin: "16px 0 0", fontSize: 13.5, lineHeight: 1.6, color: INK_MUTED }}>
-                50 % signifie « exactement au niveau de son classement » : ce n&apos;est pas un taux de victoire. L&apos;échelle de {data.sigmaCpph} points CPPH est celle qui reproduit le mieux les résultats réellement observés cette saison — elle sera réajustée à mesure que d&apos;autres équipes seront importées.
+                100 % signifie « a gagné exactement ce que son classement laissait attendre » : ce n&apos;est pas un taux de victoire. L&apos;échelle de {data.sigmaCpph} points CPPH est celle qui reproduit le mieux les résultats réellement observés cette saison — elle sera réajustée à mesure que d&apos;autres équipes seront importées.
               </p>
             </div>
             <div>
@@ -436,7 +459,7 @@ export default function Home() {
             </div>
           </div>
           <p style={{ margin: "0 0 26px", fontSize: 14.5, color: "#3a3c42", maxWidth: 720 }}>
-            <strong style={{ fontWeight: 700 }}>« Perf. vs classement » n&apos;est pas un taux de victoire</strong> : 50 % signifie « exactement au niveau de son classement », au-dessus « mieux que ce que son classement laissait attendre ». Un joueur peut donc gagner beaucoup tout en restant sous 50 % s&apos;il était favori partout. Le % de victoires brut reste affiché à côté pour comparaison.
+            <strong style={{ fontWeight: 700 }}>« Perf. vs classement » compare les victoires réelles à celles que le classement laissait attendre.</strong> 100 % = le compte y est exactement ; au-dessus, le joueur a fait mieux que prévu. Ce n&apos;est donc pas un taux de victoire : on peut gagner beaucoup et rester sous 100 % si on était favori partout.
           </p>
 
           <div style={{ display: "flex", gap: 12, alignItems: "center", flexWrap: "wrap", background: SURFACE, borderRadius: 14, padding: "16px 18px", marginBottom: 26 }}>
@@ -466,7 +489,6 @@ export default function Home() {
             <select value={sort} onChange={(e) => setSort(e.target.value as typeof sort)} style={{ border: `1px solid ${BORDER}`, background: "#fff", borderRadius: 8, padding: "11px 12px", fontSize: 13.5, color: INK }}>
               <option value="weighted">Tri : perf. vs classement</option>
               <option value="raw">Tri : % de victoires</option>
-              <option value="delta">Tri : écart perf. − victoires</option>
               <option value="matches">Tri : nombre de matchs</option>
               <option value="cpph">Tri : classement CPPH</option>
             </select>
@@ -480,11 +502,11 @@ export default function Home() {
           <table style={{ width: "100%", minWidth: 1040, fontSize: 14 }}>
             <thead>
               <tr>
-                {["#", "Joueur·se", "Équipe", "CPPH", "Bilan", "% victoires", "Perf. vs classement", "Écart", "S", "D", "M", "Fiabilité"].map((h) => (
+                {["#", "Joueur·se", "Équipe", "CPPH", "Bilan", "% victoires", "V. attendues", "Perf. vs classement", "Écart", "S", "D", "M", "Fiabilité"].map((h) => (
                   <th
                     key={h}
                     style={{
-                      textAlign: ["CPPH", "Bilan", "% victoires", "Écart", "S", "D", "M"].includes(h) ? "right" : "left",
+                      textAlign: ["CPPH", "Bilan", "% victoires", "V. attendues", "Écart", "S", "D", "M"].includes(h) ? "right" : "left",
                       padding: "0 10px 12px 0",
                       fontFamily: "var(--font-display)",
                       fontSize: 9.5,
@@ -502,8 +524,10 @@ export default function Home() {
             <tbody>
               {playerRows.map(({ player: p, stats }, i) => {
                 const low = stats.n < data.seuilFiabilite;
-                const wPct = Math.max(2, Math.min(100, Math.round(stats.weighted ?? 0)));
-                const delta = (stats.weighted ?? 0) - (stats.raw ?? 0);
+                const neutre = data.performanceNeutre;
+                const wPct = barPosition(stats.weighted);
+                // Écart au niveau attendu, en points de pourcentage.
+                const delta = (stats.weighted ?? neutre) - neutre;
                 return (
                   <tr key={p.playerId} style={{ borderBottom: `1px solid ${PILL}` }}>
                     <td style={{ padding: "13px 10px 13px 0", fontFamily: "var(--font-display)", fontSize: 14, color: low ? INK_MUTED : i < 3 ? RED : INK }}>
@@ -517,12 +541,16 @@ export default function Home() {
                     <td style={{ padding: "13px 10px", textAlign: "right", color: "#3a3c42" }}>{p.cpph}</td>
                     <td style={{ padding: "13px 10px", textAlign: "right", color: "#3a3c42" }}>{stats.w} – {stats.l}</td>
                     <td style={{ padding: "13px 10px", textAlign: "right", color: INK_MUTED }}>{pct(stats.raw)}</td>
+                    <td style={{ padding: "13px 10px", textAlign: "right", color: INK_MUTED }}>{attendues(stats.expectedWins)}</td>
                     <td style={{ padding: "13px 10px" }}>
                       <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
                         <span style={{ fontFamily: "var(--font-display)", fontSize: 15, color: INK, width: 52, textAlign: "right" }}>{pct(stats.weighted)}</span>
-                        <span style={{ flex: 1, height: 7, borderRadius: 999, background: PILL, display: "block", position: "relative" }} title="50 % = exactement au niveau de son classement">
-                          <span style={{ display: "block", height: "100%", borderRadius: 999, background: low ? "#e4e6e9" : (stats.weighted ?? 0) >= 50 ? RED : RED_DEEP, width: `${wPct}%` }} />
-                          {/* repère du niveau attendu : 50 % */}
+                        <span
+                          style={{ flex: 1, height: 7, borderRadius: 999, background: PILL, display: "block", position: "relative" }}
+                          title={`${neutre} % = a gagné exactement ce que son classement laissait attendre`}
+                        >
+                          <span style={{ display: "block", height: "100%", borderRadius: 999, background: low ? "#e4e6e9" : (stats.weighted ?? 0) >= neutre ? RED : RED_DEEP, width: `${wPct}%` }} />
+                          {/* repère du niveau attendu, au milieu de l'échelle (0–200 %) */}
                           <span style={{ position: "absolute", left: "50%", top: -2, width: 1, height: 11, background: INK_MUTED, opacity: 0.55 }} />
                         </span>
                       </div>
@@ -618,8 +646,12 @@ export default function Home() {
                     <div key={i} style={{ display: "flex", alignItems: "center", gap: 14, padding: "11px 0", borderBottom: `1px solid ${PILL}` }}>
                       <span style={{ fontWeight: 700, fontSize: 13.5, flex: 1 }}>{p.name}</span>
                       <span style={{ fontSize: 12.5, color: INK_MUTED, width: 66, textAlign: "right" }}>{p.record}</span>
-                      <span style={{ height: 7, width: 96, borderRadius: 999, background: PILL, overflow: "hidden", display: "block" }}>
-                        <span style={{ display: "block", height: "100%", borderRadius: 999, background: RED, width: `${Math.max(2, Math.round(p.weighted ?? 0))}%` }} />
+                      <span
+                        style={{ height: 7, width: 96, borderRadius: 999, background: PILL, display: "block", position: "relative" }}
+                        title={`${data.performanceNeutre} % = a gagné exactement ce que son classement laissait attendre (${attendues(p.expectedWins)} victoires)`}
+                      >
+                        <span style={{ display: "block", height: "100%", borderRadius: 999, background: (p.weighted ?? 0) >= data.performanceNeutre ? RED : RED_DEEP, width: `${barPosition(p.weighted)}%` }} />
+                        <span style={{ position: "absolute", left: "50%", top: -2, width: 1, height: 11, background: INK_MUTED, opacity: 0.55 }} />
                       </span>
                       <span style={{ fontFamily: "var(--font-display)", fontSize: 13.5, width: 52, textAlign: "right" }}>{pct(p.weighted)}</span>
                     </div>

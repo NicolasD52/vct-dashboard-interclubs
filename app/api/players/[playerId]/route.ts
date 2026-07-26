@@ -1,5 +1,8 @@
 import { getPlayerMatches } from "@/lib/loadData";
-import { computeWeightedWinRate } from "@/lib/calculations/weightedWinRate";
+import {
+  computeExpectedWins,
+  computePerformanceVsRanking,
+} from "@/lib/calculations/performanceVsRanking";
 
 export async function GET(
   _request: Request,
@@ -12,15 +15,20 @@ export async function GET(
     return Response.json({ error: "Joueur introuvable" }, { status: 404 });
   }
 
-  const weightedWinRate = computeWeightedWinRate(
-    matches.map((m) => ({ sideCpph: m.sideCpph, opponentCpph: m.opponentCpph, won: m.won }))
-  );
+  const inputs = matches.map((m) => ({
+    sideCpph: m.sideCpph,
+    opponentCpph: m.opponentCpph,
+    won: m.won,
+  }));
 
   return Response.json({
     playerId,
     name: matches[0].playerName,
     club: matches[0].playerClub,
-    weightedWinRate,
+    wins: matches.filter((m) => m.won).length,
+    expectedWins: computeExpectedWins(inputs),
+    /** 100 = exactement au niveau de son classement. */
+    performanceVsRanking: computePerformanceVsRanking(inputs),
     matches,
   });
 }
