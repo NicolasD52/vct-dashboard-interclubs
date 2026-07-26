@@ -1,0 +1,83 @@
+/* Design tokens portés depuis le design system Claude Design (vct-design-system) */
+:root {
+  --vct-red-800: #a3042c;
+  --vct-red-600: #dc0338;
+  --vct-red-500: #ef1146;
+  --vct-red-100: #fde8ec;
+  --vct-ink-900: #14151a;
+  --vct-ink-700: #3a3c42;
+  --vct-ink-500: #6b7178;
+  --vct-neutral-200: #e4e6e9;
+  --vct-neutral-100: #eef0f2;
+  --vct-neutral-50: #f7f8f9;
+  --vct-white: #ffffff;
+  --color-brand: var(--vct-red-600);
+  --color-brand-deep: var(--vct-red-800);
+  --color-brand-tint: var(--vct-red-100);
+  --text-heading: var(--vct-ink-900);
+  --text-body: var(--vct-ink-700);
+  --text-muted: var(--vct-ink-500);
+  --text-on-brand: var(--vct-white);
+  --surface-page: var(--vct-white);
+  --surface-card: var(--vct-white);
+  --surface-subtle: var(--vct-neutral-50);
+  --surface-pill: var(--vct-neutral-100);
+  --border-subtle: var(--vct-neutral-200);
+  --border-card-accent: var(--vct-red-600);
+  --gradient-editorial: linear-gradient(135deg, var(--vct-red-800) 0%, #5a1220 55%, var(--vct-ink-900) 100%);
+
+  --font-display: "Archivo Black", "Arial Black", sans-serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --tracking-caps: 0.02em;
+  --tracking-micro: 0.06em;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+  --container-max: 1400px;
+
+  --shadow-card: 0 1px 2px rgba(20, 21, 26, 0.04), 0 8px 24px rgba(20, 21, 26, 0.08);
+  --shadow-card-hover: 0 2px 4px rgba(20, 21, 26, 0.06), 0 14px 32px rgba(20, 21, 26, 0.12);
+  --ease-standard: cubic-bezier(0.2, 0.7, 0.3, 1);
+  --duration-fast: 140ms;
+  --duration-base: 220ms;
+}
+
+@font-face {
+  font-family: "Archivo Black";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/archivo-black-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/inter-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/inter-700.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/fonts/inter-800.woff2") format("woff2");
+}

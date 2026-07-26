@@ -1,0 +1,349 @@
+{
+  "id": "704688",
+  "season": "2025/2026",
+  "competition": "Interclubs Régionaux OCCI Pré-National - 2025/2026 - Pré Nationale - Interclubs Adultes Mixte",
+  "date": "2026-03-15",
+  "ourTeamSide": "home",
+  "homeTeam": {
+    "id": "58699",
+    "name": "Volant Club Toulousain",
+    "division": "Pré Nationale"
+  },
+  "awayTeam": {
+    "id": "58693",
+    "name": "Association Sportive des Alain Savary",
+    "division": "Pré Nationale"
+  },
+  "scoreHome": 6,
+  "scoreAway": 2,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06575151",
+          "name": "Leo GUETIN-MALEPRADE",
+          "rankLabel": "N3",
+          "cpph": 2517,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07191096",
+          "name": "Mathieu MARTEAU",
+          "rankLabel": "R6",
+          "cpph": 1689,
+          "club": "Association Sportive des Alain Savary"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 16
+        },
+        {
+          "home": 21,
+          "away": 3
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06532749",
+          "name": "Arnaud DANCHET",
+          "rankLabel": "N3",
+          "cpph": 2428,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07535827",
+          "name": "Thibault GAMBIN",
+          "rankLabel": "D9",
+          "cpph": 1040,
+          "club": "Association Sportive des Alain Savary"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 1
+        },
+        {
+          "home": 21,
+          "away": 7
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "06821255",
+          "name": "Marine MERIGUET",
+          "rankLabel": "N3",
+          "cpph": 1867,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06821224",
+          "name": "Anne BRENO",
+          "rankLabel": "N3",
+          "cpph": 1827,
+          "club": "Association Sportive des Alain Savary"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 11
+        },
+        {
+          "home": 21,
+          "away": 15
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD2",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "06569531",
+          "name": "Claire DELAGE",
+          "rankLabel": "R4",
+          "cpph": 1607,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07115788",
+          "name": "Clemence MARTINEZ",
+          "rankLabel": "R4",
+          "cpph": 1686,
+          "club": "Association Sportive des Alain Savary"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 23
+        },
+        {
+          "home": 21,
+          "away": 18
+        },
+        {
+          "home": 21,
+          "away": 17
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "00437652",
+          "name": "Loïc ALARCON",
+          "rankLabel": "N3",
+          "cpph": 2596,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06532749",
+          "name": "Arnaud DANCHET",
+          "rankLabel": "N3",
+          "cpph": 2540,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07085654",
+          "name": "Thomas NAESSENS",
+          "rankLabel": "N2",
+          "cpph": 2759,
+          "club": "Association Sportive des Alain Savary"
+        },
+        {
+          "playerId": "06907689",
+          "name": "Damien RIGAUX",
+          "rankLabel": "N3",
+          "cpph": 2368,
+          "club": "Association Sportive des Alain Savary"
+        }
+      ],
+      "sets": [
+        {
+          "home": 24,
+          "away": 22
+        },
+        {
+          "home": 17,
+          "away": 21
+        },
+        {
+          "home": 24,
+          "away": 26
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "06569531",
+          "name": "Claire DELAGE",
+          "rankLabel": "R4",
+          "cpph": 1727,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06658708",
+          "name": "Marion OBRIOT",
+          "rankLabel": "R5",
+          "cpph": 1596,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06821224",
+          "name": "Anne BRENO",
+          "rankLabel": "R4",
+          "cpph": 1672,
+          "club": "Association Sportive des Alain Savary"
+        },
+        {
+          "playerId": "07027886",
+          "name": "Maëlia JOUGLA",
+          "rankLabel": "R5",
+          "cpph": 1584,
+          "club": "Association Sportive des Alain Savary"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 17
+        },
+        {
+          "home": 21,
+          "away": 19
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "00437652",
+          "name": "Loïc ALARCON",
+          "rankLabel": "N3",
+          "cpph": 2538,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06821255",
+          "name": "Marine MERIGUET",
+          "rankLabel": "N2",
+          "cpph": 2744,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07085654",
+          "name": "Thomas NAESSENS",
+          "rankLabel": "N3",
+          "cpph": 2570,
+          "club": "Association Sportive des Alain Savary"
+        },
+        {
+          "playerId": "07027886",
+          "name": "Maëlia JOUGLA",
+          "rankLabel": "R4",
+          "cpph": 2207,
+          "club": "Association Sportive des Alain Savary"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06575151",
+          "name": "Leo GUETIN-MALEPRADE",
+          "rankLabel": "N3",
+          "cpph": 2478,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07421300",
+          "name": "Jehdia BONNAIRE",
+          "rankLabel": "N3",
+          "cpph": 2461,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06907689",
+          "name": "Damien RIGAUX",
+          "rankLabel": "R5",
+          "cpph": 1868,
+          "club": "Association Sportive des Alain Savary"
+        },
+        {
+          "playerId": "07115788",
+          "name": "Clemence MARTINEZ",
+          "rankLabel": "N3",
+          "cpph": 2340,
+          "club": "Association Sportive des Alain Savary"
+        }
+      ],
+      "sets": [
+        {
+          "home": 18,
+          "away": 21
+        },
+        {
+          "home": 9,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    }
+  ]
+}

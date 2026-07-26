@@ -1,0 +1,345 @@
+{
+  "id": "704663",
+  "season": "2025/2026",
+  "competition": "Interclubs Régionaux OCCI Pré-National - 2025/2026 - Pré Nationale - Interclubs Adultes Mixte",
+  "date": "2025-11-09",
+  "ourTeamSide": "away",
+  "homeTeam": {
+    "id": "58692",
+    "name": "Association Bad In Lez",
+    "division": "Pré Nationale"
+  },
+  "awayTeam": {
+    "id": "58699",
+    "name": "Volant Club Toulousain",
+    "division": "Pré Nationale"
+  },
+  "scoreHome": 4,
+  "scoreAway": 4,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "00295897",
+          "name": "Thomas DEMARIA",
+          "rankLabel": "N3",
+          "cpph": 2593,
+          "club": "Association Bad In Lez"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06575151",
+          "name": "Leo GUETIN-MALEPRADE",
+          "rankLabel": "N3",
+          "cpph": 2524,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 18
+        },
+        {
+          "home": 21,
+          "away": 11
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06895070",
+          "name": "Baptiste CHERAMY",
+          "rankLabel": "N3",
+          "cpph": 2442,
+          "club": "Association Bad In Lez"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06532749",
+          "name": "Arnaud DANCHET",
+          "rankLabel": "N3",
+          "cpph": 2367,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 12,
+          "away": 21
+        },
+        {
+          "home": 14,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "06526596",
+          "name": "Krissie LOISY",
+          "rankLabel": "R4",
+          "cpph": 1618,
+          "club": "Association Bad In Lez"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06821255",
+          "name": "Marine MERIGUET",
+          "rankLabel": "N3",
+          "cpph": 1804,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 14,
+          "away": 21
+        },
+        {
+          "home": 19,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SD2",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "06894369",
+          "name": "Laura ORTOLA",
+          "rankLabel": "R5",
+          "cpph": 1510,
+          "club": "Association Bad In Lez"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06569531",
+          "name": "Claire DELAGE",
+          "rankLabel": "R5",
+          "cpph": 1567,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 8,
+          "away": 21
+        },
+        {
+          "home": 14,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "00295897",
+          "name": "Thomas DEMARIA",
+          "rankLabel": "N3",
+          "cpph": 2563,
+          "club": "Association Bad In Lez"
+        },
+        {
+          "playerId": "06767229",
+          "name": "Emmanuel LUSSEAUD",
+          "rankLabel": "N3",
+          "cpph": 2477,
+          "club": "Association Bad In Lez"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00437652",
+          "name": "Loïc ALARCON",
+          "rankLabel": "N3",
+          "cpph": 2460,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06532749",
+          "name": "Arnaud DANCHET",
+          "rankLabel": "N3",
+          "cpph": 2460,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 16,
+          "away": 21
+        },
+        {
+          "home": 19,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "06970995",
+          "name": "Cecile CHASTAGNER",
+          "rankLabel": "R4",
+          "cpph": 1620,
+          "club": "Association Bad In Lez"
+        },
+        {
+          "playerId": "07174258",
+          "name": "Isabelle WO",
+          "rankLabel": "R4",
+          "cpph": 1692,
+          "club": "Association Bad In Lez"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07421300",
+          "name": "Jehdia BONNAIRE",
+          "rankLabel": "N3",
+          "cpph": 1840,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06569531",
+          "name": "Claire DELAGE",
+          "rankLabel": "R4",
+          "cpph": 1750,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06895070",
+          "name": "Baptiste CHERAMY",
+          "rankLabel": "N3",
+          "cpph": 2649,
+          "club": "Association Bad In Lez"
+        },
+        {
+          "playerId": "06970995",
+          "name": "Cecile CHASTAGNER",
+          "rankLabel": "N3",
+          "cpph": 2566,
+          "club": "Association Bad In Lez"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00437652",
+          "name": "Loïc ALARCON",
+          "rankLabel": "N3",
+          "cpph": 2534,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06821255",
+          "name": "Marine MERIGUET",
+          "rankLabel": "N2",
+          "cpph": 2721,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 18
+        },
+        {
+          "home": 12,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06767229",
+          "name": "Emmanuel LUSSEAUD",
+          "rankLabel": "R4",
+          "cpph": 2252,
+          "club": "Association Bad In Lez"
+        },
+        {
+          "playerId": "07174258",
+          "name": "Isabelle WO",
+          "rankLabel": "N3",
+          "cpph": 2559,
+          "club": "Association Bad In Lez"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06575151",
+          "name": "Leo GUETIN-MALEPRADE",
+          "rankLabel": "N3",
+          "cpph": 2557,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07421300",
+          "name": "Jehdia BONNAIRE",
+          "rankLabel": "N3",
+          "cpph": 2561,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    }
+  ]
+}

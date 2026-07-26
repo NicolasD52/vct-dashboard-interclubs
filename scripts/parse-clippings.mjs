@@ -1,0 +1,185 @@
+import fs from "node:fs";
+import path from "node:path";
+import * as cheerio from "cheerio";
+
+const CLIPPINGS_DIR = path.join(process.cwd(), "..", "VCT_obsi", "Clippings");
+const OUTPUT_DIR = path.join(process.cwd(), "data", "saison-2025-2026");
+
+const OUR_CLUB_NAME = "Volant Club Toulousain";
+
+const MONTHS_FR = {
+  janvier: "01", février: "02", fevrier: "02", mars: "03", avril: "04",
+  mai: "05", juin: "06", juillet: "07", août: "08", aout: "08",
+  septembre: "09", octobre: "10", novembre: "11", décembre: "12", decembre: "12",
+};
+
+const DISCIPLINE_MAP = {
+  "Simple Homme": "SH",
+  "Simple Dame": "SD",
+  "Double Hommes": "DH",
+  "Double Dames": "DD",
+  "Double Mixte": "DX",
+};
+
+function parseFrontmatter(raw) {
+  const match = raw.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+  if (!match) throw new Error("Frontmatter introuvable");
+  const [, yaml, body] = match;
+  const get = (key) => {
+    const m = yaml.match(new RegExp(`^${key}:\\s*"?(.*?)"?\\s*$`, "m"));
+    return m ? m[1] : "";
+  };
+  return {
+    title: get("title"),
+    source: get("source"),
+    description: get("description"),
+    body,
+  };
+}
+
+function parseTitle(title) {
+  const m = title.match(
+    /rencontre (.+?) vs (.+?) du \w+ (\d{1,2}) (\p{L}+) (\d{4})/u
+  );
+  if (!m) throw new Error(`Titre non reconnu: ${title}`);
+  const [, teamAName, teamBName, day, monthName, year] = m;
+  const month = MONTHS_FR[monthName.toLowerCase()];
+  if (!month) throw new Error(`Mois inconnu: ${monthName}`);
+  const date = `${year}-${month}-${day.padStart(2, "0")}`;
+  return { teamAName, teamBName, date, year: Number(year), month: Number(month) };
+}
+
+function parseDivision(description) {
+  const m = description.match(/(Pré[- ]?Nationale|Nationale\s*\d?|Régionale\s*\d?|R\d)/i);
+  return m ? m[1] : description;
+}
+
+function cleanText(text) {
+  return text.replace(/\s+/g, " ").trim();
+}
+
+function parseRencontre(fileContent) {
+  const { title, source, description, body } = parseFrontmatter(fileContent);
+  const { teamAName, teamBName, date, year, month } = parseTitle(title);
+  const idMatch = source.match(/\/rencontre\/(\d+)/);
+  if (!idMatch) throw new Error(`Source URL sans id: ${source}`);
+  const id = idMatch[1];
+
+  const $ = cheerio.load(body);
+  const tables = $("table.rencontre");
+  const headerTable = tables.eq(0);
+  const teamLinks = headerTable.find("a.uk-link-reset");
+  const homeTeamId = teamLinks.eq(0).attr("href").match(/\/equipe\/(\d+)/)[1];
+  const awayTeamId = teamLinks.eq(1).attr("href").match(/\/equipe\/(\d+)/)[1];
+  const scoreText = headerTable.find("th.uk-text-nowrap").text().trim();
+  const [scoreHome, scoreAway] = scoreText.split("-").map((s) => Number(s.trim()));
+
+  const ourTeamSide = teamAName === OUR_CLUB_NAME ? "home" : "away";
+  const division = parseDivision(description);
+
+  const homeTeam = { id: homeTeamId, name: teamAName, division };
+  const awayTeam = { id: awayTeamId, name: teamBName, division };
+
+  const matches = [];
+  for (let i = 1; i < tables.length; i++) {
+    const table = tables.eq(i);
+    const headerText = cleanText(table.find("th[colspan]").first().text());
+    const disciplineMatch = Object.keys(DISCIPLINE_MAP).find((key) =>
+      headerText.startsWith(key)
+    );
+    if (!disciplineMatch) throw new Error(`Discipline non reconnue: ${headerText}`);
+    const discipline = DISCIPLINE_MAP[disciplineMatch];
+    const number = headerText.replace(disciplineMatch, "").trim();
+    const code = `${discipline}${number}`;
+
+    const rows = table
+      .children("tbody")
+      .children("tr")
+      .filter((_, el) => $(el).find("th").length === 0);
+    if (rows.length !== 2) throw new Error(`Attendu 2 lignes pour ${code}, trouvé ${rows.length}`);
+
+    const sides = rows.toArray().map((row) => {
+      const $row = $(row);
+      const isWinner = $row.hasClass("mobile-winner-gradient");
+      const players = $row
+        .children("td")
+        .eq(0)
+        .find("table")
+        .first()
+        .children("tbody")
+        .children("tr")
+        .toArray()
+        .map((playerRow) => {
+          const $p = $(playerRow);
+          const clsmt = $p.find(".ic-match-clsmt");
+          const link = $p.find(".joueur-nom a");
+          const playerIdMatch = (link.attr("href") || "").match(/\/joueur\/(\d+)/);
+          return {
+            playerId: playerIdMatch ? playerIdMatch[1] : null,
+            name: cleanText(link.text()),
+            rankLabel: cleanText(clsmt.text()),
+            cpph: Number(clsmt.attr("data-cote")),
+          };
+        });
+      const setScores = $row
+        .find("table.table-score td")
+        .toArray()
+        .map((td) => Number($(td).text().trim()));
+      return { players, setScores, isWinner };
+    });
+
+    const [homeSide, awaySide] = sides;
+    const sets = homeSide.setScores.map((homeScore, idx) => ({
+      home: homeScore,
+      away: awaySide.setScores[idx],
+    }));
+    const winnerSide = homeSide.isWinner ? "home" : awaySide.isWinner ? "away" : null;
+    if (!winnerSide) throw new Error(`Aucun gagnant identifié pour ${code} (rencontre ${id})`);
+
+    matches.push({
+      code,
+      discipline,
+      home: homeSide.players.map((p) => ({ ...p, club: homeTeam.name })),
+      away: awaySide.players.map((p) => ({ ...p, club: awayTeam.name })),
+      sets,
+      winnerSide,
+    });
+  }
+
+  const season = month >= 7 ? `${year}/${year + 1}` : `${year - 1}/${year}`;
+
+  return {
+    id,
+    season,
+    competition: description,
+    date,
+    ourTeamSide,
+    homeTeam,
+    awayTeam,
+    scoreHome,
+    scoreAway,
+    matches,
+  };
+}
+
+function main() {
+  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+  const files = fs.readdirSync(CLIPPINGS_DIR).filter((f) => f.endsWith(".md"));
+  let ok = 0;
+  for (const file of files) {
+    const fullPath = path.join(CLIPPINGS_DIR, file);
+    const content = fs.readFileSync(fullPath, "utf-8").replace(/\r\n/g, "\n");
+    try {
+      const rencontre = parseRencontre(content);
+      const outPath = path.join(OUTPUT_DIR, `rencontre-${rencontre.id}.json`);
+      fs.writeFileSync(outPath, JSON.stringify(rencontre, null, 2) + "\n", "utf-8");
+      console.log(`OK   ${file} -> rencontre-${rencontre.id}.json`);
+      ok++;
+    } catch (err) {
+      console.error(`FAIL ${file}: ${err.message}`);
+    }
+  }
+  console.log(`\n${ok}/${files.length} rencontres converties.`);
+}
+
+main();

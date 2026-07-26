@@ -1,0 +1,39 @@
+@import "./tokens.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--surface-page);
+  color: var(--text-heading);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--color-brand);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--color-brand-deep);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+input,
+select,
+button {
+  font-family: inherit;
+}
+
+/* L'en-tête est collant : on le garde compact pour qu'il ne mange pas l'écran
+   au défilement sur les fenêtres étroites. */
+@media (max-width: 820px) {
+  .app-header-meta {
+    display: none !important;
+  }
+}
