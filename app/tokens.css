@@ -26,7 +26,7 @@
   --border-card-accent: var(--vct-red-600);
   --gradient-editorial: linear-gradient(135deg, var(--vct-red-800) 0%, #5a1220 55%, var(--vct-ink-900) 100%);
 
-  --font-display: "Archivo Black", "Arial Black", sans-serif;
+  --font-display: var(--font-archivo-black), "Arial Black", sans-serif;
   --font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
   --tracking-caps: 0.02em;
   --tracking-micro: 0.06em;
@@ -53,13 +53,7 @@
   --duration-base: 220ms;
 }
 
-@font-face {
-  font-family: "Archivo Black";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("/fonts/archivo-black-400.woff2") format("woff2");
-}
+/* Archivo Black est chargée via next/font/google dans app/layout.tsx. */
 @font-face {
   font-family: "Inter";
   font-style: normal;
