@@ -277,7 +277,7 @@ export default function Home() {
                 <h2 style={{ fontFamily: "var(--font-display)", fontSize: 26, textTransform: "uppercase", letterSpacing: "-.005em", margin: 0 }}>
                   Les plus belles saisons
                 </h2>
-                <div style={{ fontSize: 12.5, color: INK_MUTED }}>Classées à l&apos;indice pondéré · minimum {data.seuilFiabilite} matchs</div>
+                <div style={{ fontSize: 12.5, color: INK_MUTED }}>Classées à la performance rapportée au classement · minimum {data.seuilFiabilite} matchs</div>
               </div>
 
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(300px,1fr))", gap: 24, marginBottom: 84 }}>
@@ -302,8 +302,8 @@ export default function Home() {
                       <div style={{ display: "flex", alignItems: "flex-end", gap: 14 }}>
                         <div style={{ fontFamily: "var(--font-display)", fontSize: 52, lineHeight: 0.9, color: RED }}>{p.wStr}</div>
                         <div style={{ paddingBottom: 7 }}>
-                          <div style={{ fontFamily: "var(--font-display)", fontSize: 10, letterSpacing: ".08em", textTransform: "uppercase", color: INK_MUTED }}>Indice pondéré</div>
-                          <div style={{ fontSize: 12.5, color: "#3a3c42", marginTop: 4 }}>{p.deltaStr} vs brut ({p.rawStr})</div>
+                          <div style={{ fontFamily: "var(--font-display)", fontSize: 10, letterSpacing: ".08em", textTransform: "uppercase", color: INK_MUTED }}>Perf. vs classement</div>
+                          <div style={{ fontSize: 12.5, color: "#3a3c42", marginTop: 4 }}>{p.rawStr} de victoires ({p.deltaStr} pts)</div>
                         </div>
                       </div>
                       <div style={{ display: "flex", gap: 10, marginTop: 20, paddingTop: 18, borderTop: `1px solid ${BORDER}` }}>
@@ -379,16 +379,16 @@ export default function Home() {
                 Tous les matchs ne valent pas la même chose
               </h2>
               <p style={{ margin: "0 0 14px", fontSize: 15, lineHeight: 1.65, color: "#3a3c42" }}>
-                Pour chaque match, on calcule la probabilité de victoire attendue à partir de l&apos;écart de points CPPH entre le joueur et son adversaire, au moment de la rencontre :
+                Pour chaque match, on calcule la probabilité de victoire attendue à partir de l&apos;écart de points CPPH entre les deux camps, au moment de la rencontre. En double, on compare la moyenne de chaque paire :
               </p>
               <div style={{ background: "#fff", borderRadius: 8, padding: "18px 20px", fontFamily: "ui-monospace,Menlo,monospace", fontSize: 13, color: INK, lineHeight: 1.7 }}>
-                p = 1 / (1 + 10^((CPPH_adv − CPPH_joueur) / {data.sigmaCpph}))<br />
+                p = 1 / (1 + 10^((CPPH_adverse − CPPH_camp) / {data.sigmaCpph}))<br />
                 <span style={{ color: INK_MUTED }}>gain d&apos;une victoire</span> = 1 − p<br />
                 <span style={{ color: INK_MUTED }}>coût d&apos;une défaite</span> = p<br />
-                <strong>indice = Σgains / (Σgains + Σcoûts)</strong>
+                <strong>perf. = Σgains / (Σgains + Σcoûts)</strong>
               </div>
               <p style={{ margin: "16px 0 0", fontSize: 13.5, lineHeight: 1.6, color: INK_MUTED }}>
-                Un indice de 50 % signifie « exactement au niveau de son classement ». L&apos;échelle {data.sigmaCpph} points CPPH correspond à l&apos;écart pour lequel la victoire attendue passe à 90 %.
+                50 % signifie « exactement au niveau de son classement » : ce n&apos;est pas un taux de victoire. L&apos;échelle de {data.sigmaCpph} points CPPH est celle qui reproduit le mieux les résultats réellement observés cette saison — elle sera réajustée à mesure que d&apos;autres équipes seront importées.
               </p>
             </div>
             <div>
@@ -436,7 +436,7 @@ export default function Home() {
             </div>
           </div>
           <p style={{ margin: "0 0 26px", fontSize: 14.5, color: "#3a3c42", maxWidth: 720 }}>
-            Trié par indice pondéré. Le pourcentage brut reste affiché pour comparaison : l&apos;écart entre les deux mesure la difficulté du programme joué.
+            <strong style={{ fontWeight: 700 }}>« Perf. vs classement » n&apos;est pas un taux de victoire</strong> : 50 % signifie « exactement au niveau de son classement », au-dessus « mieux que ce que son classement laissait attendre ». Un joueur peut donc gagner beaucoup tout en restant sous 50 % s&apos;il était favori partout. Le % de victoires brut reste affiché à côté pour comparaison.
           </p>
 
           <div style={{ display: "flex", gap: 12, alignItems: "center", flexWrap: "wrap", background: SURFACE, borderRadius: 14, padding: "16px 18px", marginBottom: 26 }}>
@@ -464,9 +464,9 @@ export default function Home() {
               <option value="H">Joueurs</option>
             </select>
             <select value={sort} onChange={(e) => setSort(e.target.value as typeof sort)} style={{ border: `1px solid ${BORDER}`, background: "#fff", borderRadius: 8, padding: "11px 12px", fontSize: 13.5, color: INK }}>
-              <option value="weighted">Tri : indice pondéré</option>
-              <option value="raw">Tri : % brut</option>
-              <option value="delta">Tri : écart pondéré − brut</option>
+              <option value="weighted">Tri : perf. vs classement</option>
+              <option value="raw">Tri : % de victoires</option>
+              <option value="delta">Tri : écart perf. − victoires</option>
               <option value="matches">Tri : nombre de matchs</option>
               <option value="cpph">Tri : classement CPPH</option>
             </select>
@@ -480,11 +480,11 @@ export default function Home() {
           <table style={{ width: "100%", minWidth: 1040, fontSize: 14 }}>
             <thead>
               <tr>
-                {["#", "Joueur·se", "Équipe", "CPPH", "Bilan", "Brut", "Indice pondéré", "Écart", "S", "D", "M", "Fiabilité"].map((h) => (
+                {["#", "Joueur·se", "Équipe", "CPPH", "Bilan", "% victoires", "Perf. vs classement", "Écart", "S", "D", "M", "Fiabilité"].map((h) => (
                   <th
                     key={h}
                     style={{
-                      textAlign: ["CPPH", "Bilan", "Brut", "Écart", "S", "D", "M"].includes(h) ? "right" : "left",
+                      textAlign: ["CPPH", "Bilan", "% victoires", "Écart", "S", "D", "M"].includes(h) ? "right" : "left",
                       padding: "0 10px 12px 0",
                       fontFamily: "var(--font-display)",
                       fontSize: 9.5,
@@ -520,8 +520,10 @@ export default function Home() {
                     <td style={{ padding: "13px 10px" }}>
                       <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
                         <span style={{ fontFamily: "var(--font-display)", fontSize: 15, color: INK, width: 52, textAlign: "right" }}>{pct(stats.weighted)}</span>
-                        <span style={{ flex: 1, height: 7, borderRadius: 999, background: PILL, overflow: "hidden", display: "block" }}>
+                        <span style={{ flex: 1, height: 7, borderRadius: 999, background: PILL, display: "block", position: "relative" }} title="50 % = exactement au niveau de son classement">
                           <span style={{ display: "block", height: "100%", borderRadius: 999, background: low ? "#e4e6e9" : (stats.weighted ?? 0) >= 50 ? RED : RED_DEEP, width: `${wPct}%` }} />
+                          {/* repère du niveau attendu : 50 % */}
+                          <span style={{ position: "absolute", left: "50%", top: -2, width: 1, height: 11, background: INK_MUTED, opacity: 0.55 }} />
                         </span>
                       </div>
                     </td>

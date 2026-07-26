@@ -54,7 +54,16 @@ export interface PlayerMatchEntry {
   code: string;
   side: "home" | "away";
   won: boolean;
+  /** CPPH du joueur lui-même (affichage). */
   playerCpph: number;
+  /**
+   * Force du camp du joueur : son propre CPPH en simple, la moyenne de la paire
+   * en double. C'est cette valeur qui sert à la pondération, car un double se
+   * joue paire contre paire — comparer un joueur seul à une paire adverse
+   * surestimait la force du camp du meilleur joueur de chaque paire.
+   */
+  sideCpph: number;
+  /** Force du camp adverse (moyenne de la paire, ou CPPH unique en simple). */
   opponentCpph: number;
 }
 
@@ -65,11 +74,13 @@ function buildPlayerMatchIndex(): Map<string, PlayerMatchEntry[]> {
   for (const rencontre of loadRencontres()) {
     for (const match of rencontre.matches) {
       const sides = { home: match.home, away: match.away } as const;
+      const avgCpph = (players: { cpph: number }[]) =>
+        players.reduce((sum, p) => sum + p.cpph, 0) / players.length;
+
       for (const side of ["home", "away"] as const) {
         const opponentSideKey = side === "home" ? "away" : "home";
-        const opponentSide = sides[opponentSideKey];
-        const opponentCpph =
-          opponentSide.reduce((sum, p) => sum + p.cpph, 0) / opponentSide.length;
+        const opponentCpph = avgCpph(sides[opponentSideKey]);
+        const sideCpph = avgCpph(sides[side]);
         const opponentTeam = opponentSideKey === "home" ? rencontre.homeTeam : rencontre.awayTeam;
 
         for (const player of sides[side]) {
@@ -84,6 +95,7 @@ function buildPlayerMatchIndex(): Map<string, PlayerMatchEntry[]> {
             side,
             won: match.winnerSide === side,
             playerCpph: player.cpph,
+            sideCpph,
             opponentCpph,
           };
           const list = index.get(player.playerId);

@@ -13,7 +13,7 @@ export async function GET(
   }
 
   const weightedWinRate = computeWeightedWinRate(
-    matches.map((m) => ({ playerCpph: m.playerCpph, opponentCpph: m.opponentCpph, won: m.won }))
+    matches.map((m) => ({ sideCpph: m.sideCpph, opponentCpph: m.opponentCpph, won: m.won }))
   );
 
   return Response.json({
