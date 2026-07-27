@@ -2,8 +2,11 @@ import fs from "node:fs";
 import path from "node:path";
 import * as cheerio from "cheerio";
 
-const CLIPPINGS_DIR = path.join(process.cwd(), "..", "VCT_obsi", "Clippings");
+const VAULT_DIR = path.join(process.cwd(), "..", "VCT_obsi");
 const DATA_DIR = path.join(process.cwd(), "data");
+
+/** Une note n'est traitée que si elle vient bien d'une page de rencontre icbad. */
+const SOURCE_RENCONTRE = /^source:\s*"?https:\/\/icbad\.ffbad\.org\/rencontre\/\d+/m;
 
 const OUR_CLUB_NAME = "Volant Club Toulousain";
 
@@ -170,14 +173,43 @@ function parseRencontre(fileContent) {
   };
 }
 
+/**
+ * Parcourt tout le coffre à la recherche des notes de rencontre, quelle que
+ * soit l'arborescence choisie dans Obsidian. On filtre sur la source icbad
+ * plutôt que sur un dossier : réorganiser le coffre ne casse plus l'import,
+ * et les notes qui ne sont pas des rencontres sont ignorées sans bruit.
+ */
+function findClippings(dir) {
+  return fs.readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
+    if (entry.name.startsWith(".")) return [];
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) return findClippings(fullPath);
+    if (!entry.isFile() || !entry.name.endsWith(".md")) return [];
+    const content = fs.readFileSync(fullPath, "utf-8").replace(/\r\n/g, "\n");
+    return SOURCE_RENCONTRE.test(content) ? [{ fullPath, content }] : [];
+  });
+}
+
 function main() {
-  const files = fs.readdirSync(CLIPPINGS_DIR).filter((f) => f.endsWith(".md"));
+  if (!fs.existsSync(VAULT_DIR)) {
+    console.error(`Coffre Obsidian introuvable : ${VAULT_DIR}`);
+    process.exitCode = 1;
+    return;
+  }
+
+  const files = findClippings(VAULT_DIR);
+  if (files.length === 0) {
+    console.error(`Aucune note de rencontre trouvée dans ${VAULT_DIR}.`);
+    console.error(`Vérifie que les clips contiennent bien « source: https://icbad.ffbad.org/rencontre/... ».`);
+    process.exitCode = 1;
+    return;
+  }
+
   let ok = 0;
   const equipes = new Map();
 
-  for (const file of files) {
-    const fullPath = path.join(CLIPPINGS_DIR, file);
-    const content = fs.readFileSync(fullPath, "utf-8").replace(/\r\n/g, "\n");
+  for (const { fullPath, content } of files) {
+    const file = path.relative(VAULT_DIR, fullPath);
     try {
       const rencontre = parseRencontre(content);
       // Le dossier suit la saison déduite de la date, pour que l'ajout d'une
@@ -191,7 +223,7 @@ function main() {
       const cle = nous.code ?? nous.id;
       equipes.set(cle, (equipes.get(cle) ?? 0) + 1);
 
-      console.log(`OK   ${file} -> ${path.basename(dossier)}/rencontre-${rencontre.id}.json`);
+      console.log(`OK   ${path.basename(file)} -> ${path.basename(dossier)}/rencontre-${rencontre.id}.json`);
       ok++;
     } catch (err) {
       console.error(`FAIL ${file}: ${err.message}`);
