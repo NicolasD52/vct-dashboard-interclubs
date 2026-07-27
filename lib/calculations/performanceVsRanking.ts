@@ -29,6 +29,21 @@ export const SEUIL_FIABILITE = 4;
 /** Repère de la performance attendue : gagner exactement ce que le classement prédit. */
 export const PERFORMANCE_NEUTRE = 100;
 
+/**
+ * Nombre de matchs fictifs, joués exactement au niveau attendu, ajoutés au
+ * bilan de chaque joueur pour le classement du podium.
+ *
+ * Sur un petit échantillon, une ou deux bonnes surprises suffisent à produire
+ * un pourcentage spectaculaire : 4 matchs à 139 % devançaient une saison
+ * complète à 114 %. Ces matchs fictifs tirent les petits échantillons vers
+ * 100 % et laissent les gros quasi inchangés — une performance ne se maintient
+ * en tête que si elle tient sur la durée.
+ *
+ * Plus la valeur est élevée, plus il faut de matchs pour peser : à 15, un
+ * joueur de 4 matchs ne peut plus atteindre le podium.
+ */
+export const MATCHS_DE_REFERENCE = 10;
+
 /** Probabilité de victoire attendue d'un camp face à l'autre, à partir de l'écart CPPH. */
 export function expectedWinProbability(
   sideCpph: number,
@@ -68,4 +83,22 @@ export function computePerformanceVsRanking(matches: WeightedMatchInput[]): numb
   if (attendues <= 0) return PERFORMANCE_NEUTRE;
   const victoires = matches.filter((m) => m.won).length;
   return (victoires / attendues) * 100;
+}
+
+/**
+ * Même performance, mais ramenée vers 100 % d'autant plus fortement que le
+ * joueur a disputé peu de matchs (voir MATCHS_DE_REFERENCE).
+ *
+ * Sert à classer le podium : une saison complète au-dessus de son niveau y pèse
+ * plus qu'une poignée de matchs réussis. Le tableau détaillé, lui, continue
+ * d'afficher la performance brute.
+ */
+export function computeAdjustedPerformance(
+  matches: WeightedMatchInput[],
+  matchsDeReference: number = MATCHS_DE_REFERENCE
+): number {
+  if (matches.length === 0) return PERFORMANCE_NEUTRE;
+  const attendues = computeExpectedWins(matches);
+  const victoires = matches.filter((m) => m.won).length;
+  return ((victoires + matchsDeReference) / (attendues + matchsDeReference)) * 100;
 }

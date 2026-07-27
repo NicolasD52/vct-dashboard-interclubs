@@ -12,6 +12,8 @@ type BucketStats = {
   expectedWins: number | null;
   /** Victoires réelles / attendues, en % : 100 = pile au niveau de son classement. */
   weighted: number | null;
+  /** Même mesure, atténuée pour les petits échantillons. Sert au podium. */
+  adjusted: number | null;
 };
 
 interface ApiPlayer {
@@ -164,7 +166,9 @@ export default function Home() {
     const teamById = new Map(data.teams.map((t) => [t.id, t]));
     return [...data.players]
       .filter((p) => p.overall.n >= data.seuilFiabilite)
-      .sort((a, b) => (b.overall.weighted ?? 0) - (a.overall.weighted ?? 0))
+      // Classé sur la performance atténuée : une saison complète pèse plus
+      // qu'une poignée de matchs réussis.
+      .sort((a, b) => (b.overall.adjusted ?? 0) - (a.overall.adjusted ?? 0))
       .slice(0, 3)
       .map((p, i) => ({
         rankLabel: ["1er du club", "2e du club", "3e du club"][i],
@@ -172,9 +176,9 @@ export default function Home() {
         team: teamById.get(p.teamId)?.name ?? p.club,
         division: teamById.get(p.teamId)?.division ?? "",
         cpphLabel: String(p.cpph),
-        wStr: pct(p.overall.weighted),
+        wStr: pct(p.overall.adjusted),
         rawStr: pct(p.overall.raw),
-        deltaStr: `${p.overall.w} victoires pour ${attendues(p.overall.expectedWins)} attendues`,
+        deltaStr: `${p.overall.n} matchs · ${pct(p.overall.weighted)} brut`,
         sStr: pct(p.perDiscipline.S.weighted),
         dStr: pct(p.perDiscipline.D.weighted),
         mStr: pct(p.perDiscipline.M.weighted),
@@ -299,7 +303,9 @@ export default function Home() {
                 <h2 style={{ fontFamily: "var(--font-display)", fontSize: 26, textTransform: "uppercase", letterSpacing: "-.005em", margin: 0 }}>
                   Les plus belles saisons
                 </h2>
-                <div style={{ fontSize: 12.5, color: INK_MUTED }}>Classées à la performance rapportée au classement · minimum {data.seuilFiabilite} matchs</div>
+                <div style={{ fontSize: 12.5, color: INK_MUTED, maxWidth: 420, textAlign: "right" }}>
+                  Performance atténuée pour les petits échantillons, afin qu&apos;une saison complète pèse plus qu&apos;une poignée de matchs réussis · minimum {data.seuilFiabilite} matchs
+                </div>
               </div>
 
               <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(300px,1fr))", gap: 24, marginBottom: 84 }}>
@@ -324,7 +330,7 @@ export default function Home() {
                       <div style={{ display: "flex", alignItems: "flex-end", gap: 14 }}>
                         <div style={{ fontFamily: "var(--font-display)", fontSize: 52, lineHeight: 0.9, color: RED }}>{p.wStr}</div>
                         <div style={{ paddingBottom: 7 }}>
-                          <div style={{ fontFamily: "var(--font-display)", fontSize: 10, letterSpacing: ".08em", textTransform: "uppercase", color: INK_MUTED }}>Perf. vs classement</div>
+                          <div style={{ fontFamily: "var(--font-display)", fontSize: 10, letterSpacing: ".08em", textTransform: "uppercase", color: INK_MUTED }}>Perf. ajustée</div>
                           <div style={{ fontSize: 12.5, color: "#3a3c42", marginTop: 4 }}>{p.deltaStr}</div>
                         </div>
                       </div>

@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { RencontreSchema, type Rencontre, type TeamRef, type Discipline } from "./schema";
 import {
+  computeAdjustedPerformance,
   computeExpectedWins,
   computePerformanceVsRanking,
 } from "./calculations/performanceVsRanking";
@@ -144,6 +145,8 @@ function summarize(matches: PlayerMatchEntry[]) {
     expectedWins: n === 0 ? null : computeExpectedWins(matches),
     /** Victoires réelles / attendues, en % : 100 = pile au niveau de son classement. */
     weighted: n === 0 ? null : computePerformanceVsRanking(matches),
+    /** Même mesure, atténuée pour les petits échantillons. Sert au podium. */
+    adjusted: n === 0 ? null : computeAdjustedPerformance(matches),
   };
 }
 
