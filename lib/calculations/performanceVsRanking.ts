@@ -24,7 +24,7 @@ export interface WeightedMatchInput {
 export const SIGMA_CPPH = 460;
 
 /** Nombre de matchs minimum pour considérer une performance comme fiable. */
-export const SEUIL_FIABILITE = 8;
+export const SEUIL_FIABILITE = 4;
 
 /** Repère de la performance attendue : gagner exactement ce que le classement prédit. */
 export const PERFORMANCE_NEUTRE = 100;
