@@ -10,18 +10,24 @@ export interface WeightedMatchInput {
 }
 
 /**
- * Échelle de l'écart CPPH, en points.
+ * Échelle de l'écart CPPH, en points : l'écart qui donne 90 % de chances au
+ * favori. Plus la valeur est grande, moins le classement départage.
  *
- * Calibrée sur les 112 matchs individuels de la saison 2025/2026 par maximum de
- * vraisemblance : c'est la valeur qui reproduit le mieux les résultats observés.
- * L'échelle de 200 héritée de la maquette rendait le modèle bien trop sûr de lui
- * (elle prédisait 95% de victoire pour un écart de 200-300 points, là où le
- * favori ne l'emporte en réalité que 76% du temps).
+ * Calibrée par maximum de vraisemblance sur les 763 matchs de la saison
+ * 2025/2026 — les 9 équipes du club, de la Pré Nationale à la D4. Intervalle
+ * de confiance à 95 % : 478 – 724. Le modèle est bien calibré sur toute la
+ * plage d'écarts : à 250–500 points le favori l'emporte 82,1 % du temps pour
+ * 79,4 % prédits, à 500–800 points 89,7 % pour 91,4 % prédits.
  *
- * À réévaluer quand d'autres équipes du club auront été importées : l'échantillon
- * actuel ne couvre qu'une équipe, et sert à la fois à calibrer et à juger.
+ * Une valeur par division ou par discipline a été testée et écartée : les huit
+ * sous-groupes ont tous un intervalle qui contient 582, donc leurs écarts
+ * apparents (355 en D1, 748 en R2) ne sont que du bruit d'échantillonnage. Le
+ * classement départage aussi bien en D4 (69,4 % de favoris vainqueurs) qu'en
+ * Pré Nationale (67,6 %).
+ *
+ * Rejouer `node scripts/calibrate-sigma.mjs` à chaque fin de saison.
  */
-export const SIGMA_CPPH = 460;
+export const SIGMA_CPPH = 582;
 
 /** Nombre de matchs minimum pour considérer une performance comme fiable. */
 export const SEUIL_FIABILITE = 4;
