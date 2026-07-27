@@ -1,0 +1,357 @@
+{
+  "id": "711563",
+  "season": "2025/2026",
+  "competition": "Interclubs Régionaux OCCI R2 - 2025-2026 - Poule D - Interclubs Adultes Mixte",
+  "date": "2025-10-19",
+  "ourTeamSide": "away",
+  "homeTeam": {
+    "id": "58734",
+    "name": "U.S. Ramonville Badminton",
+    "division": "R2",
+    "code": "31-USRB-3",
+    "number": 3
+  },
+  "awayTeam": {
+    "id": "58735",
+    "name": "Volant Club Toulousain",
+    "division": "R2",
+    "code": "31-VCT-2",
+    "number": 2
+  },
+  "scoreHome": 5,
+  "scoreAway": 3,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "00502757",
+          "name": "François GONZALES",
+          "rankLabel": "N3",
+          "cpph": 2407,
+          "club": "U.S. Ramonville Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06539655",
+          "name": "Maxime WEILL",
+          "rankLabel": "N3",
+          "cpph": 2534,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 16
+        },
+        {
+          "home": 22,
+          "away": 20
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "00562207",
+          "name": "Marc MAURICE",
+          "rankLabel": "N3",
+          "cpph": 2321,
+          "club": "U.S. Ramonville Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06903185",
+          "name": "Antoine LESCA ALLOUL",
+          "rankLabel": "R5",
+          "cpph": 1937,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 12
+        },
+        {
+          "home": 19,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 15
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "07036786",
+          "name": "Aurélie MONTROT",
+          "rankLabel": "R5",
+          "cpph": 1443,
+          "club": "U.S. Ramonville Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06903575",
+          "name": "Marie SABATOU",
+          "rankLabel": "R4",
+          "cpph": 1640,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 13
+        },
+        {
+          "home": 21,
+          "away": 15
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD2",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "07028936",
+          "name": "Mélina HEMMEN",
+          "rankLabel": "R6",
+          "cpph": 1292,
+          "club": "U.S. Ramonville Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07151612",
+          "name": "Léa MERLOZ",
+          "rankLabel": "R5",
+          "cpph": 1547,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 12,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 19,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "06764752",
+          "name": "Valentin AUSSEL",
+          "rankLabel": "R4",
+          "cpph": 2105,
+          "club": "U.S. Ramonville Badminton"
+        },
+        {
+          "playerId": "00247386",
+          "name": "Quentin DUQUESNE",
+          "rankLabel": "R4",
+          "cpph": 2140,
+          "club": "U.S. Ramonville Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06549435",
+          "name": "Amon AMADIS",
+          "rankLabel": "N3",
+          "cpph": 2368,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06708413",
+          "name": "Alban BAUDRY",
+          "rankLabel": "N3",
+          "cpph": 2315,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 25,
+          "away": 23
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "07036786",
+          "name": "Aurélie MONTROT",
+          "rankLabel": "R5",
+          "cpph": 1544,
+          "club": "U.S. Ramonville Badminton"
+        },
+        {
+          "playerId": "06725900",
+          "name": "Alexia POMAGRZAK",
+          "rankLabel": "R5",
+          "cpph": 1459,
+          "club": "U.S. Ramonville Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06903575",
+          "name": "Marie SABATOU",
+          "rankLabel": "R4",
+          "cpph": 1775,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07568165",
+          "name": "Barbara SALINAS MARTINEZ",
+          "rankLabel": "R6",
+          "cpph": 1386,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 12,
+          "away": 21
+        },
+        {
+          "home": 13,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06764752",
+          "name": "Valentin AUSSEL",
+          "rankLabel": "N3",
+          "cpph": 2291,
+          "club": "U.S. Ramonville Badminton"
+        },
+        {
+          "playerId": "06725900",
+          "name": "Alexia POMAGRZAK",
+          "rankLabel": "R5",
+          "cpph": 1829,
+          "club": "U.S. Ramonville Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06539655",
+          "name": "Maxime WEILL",
+          "rankLabel": "R4",
+          "cpph": 2112,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06748457",
+          "name": "Celine BARES",
+          "rankLabel": "R4",
+          "cpph": 2194,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 17
+        },
+        {
+          "home": 13,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 19
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "00247386",
+          "name": "Quentin DUQUESNE",
+          "rankLabel": "R4",
+          "cpph": 2219,
+          "club": "U.S. Ramonville Badminton"
+        },
+        {
+          "playerId": "06528092",
+          "name": "Lucie DUMONT",
+          "rankLabel": "R5",
+          "cpph": 1844,
+          "club": "U.S. Ramonville Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06549435",
+          "name": "Amon AMADIS",
+          "rankLabel": "N3",
+          "cpph": 2544,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07568165",
+          "name": "Barbara SALINAS MARTINEZ",
+          "rankLabel": "R6",
+          "cpph": 1706,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 10,
+          "away": 21
+        },
+        {
+          "home": 15,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    }
+  ]
+}

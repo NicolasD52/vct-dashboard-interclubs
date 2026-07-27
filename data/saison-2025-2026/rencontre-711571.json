@@ -1,0 +1,349 @@
+{
+  "id": "711571",
+  "season": "2025/2026",
+  "competition": "Interclubs Régionaux OCCI R2 - 2025-2026 - Poule D - Interclubs Adultes Mixte",
+  "date": "2025-11-09",
+  "ourTeamSide": "home",
+  "homeTeam": {
+    "id": "58735",
+    "name": "Volant Club Toulousain",
+    "division": "R2",
+    "code": "31-VCT-2",
+    "number": 2
+  },
+  "awayTeam": {
+    "id": "58730",
+    "name": "Badminton Club Appameen",
+    "division": "R2",
+    "code": "09-BCAP-1",
+    "number": 1
+  },
+  "scoreHome": 7,
+  "scoreAway": 1,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06539655",
+          "name": "Maxime WEILL",
+          "rankLabel": "N3",
+          "cpph": 2486,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00012350",
+          "name": "Joel POULIQUEN",
+          "rankLabel": "R4",
+          "cpph": 2011,
+          "club": "Badminton Club Appameen"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 17
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06929112",
+          "name": "Nicolas JESBAC",
+          "rankLabel": "N3",
+          "cpph": 2472,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06513059",
+          "name": "Benoit HOULIE",
+          "rankLabel": "D8",
+          "cpph": 1232,
+          "club": "Badminton Club Appameen"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 21,
+          "away": 17
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "07151612",
+          "name": "Léa MERLOZ",
+          "rankLabel": "R5",
+          "cpph": 1565,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00489494",
+          "name": "Mélodie POULIQUEN",
+          "rankLabel": "R6",
+          "cpph": 1336,
+          "club": "Badminton Club Appameen"
+        }
+      ],
+      "sets": [
+        {
+          "home": 17,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 21,
+          "away": 17
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD2",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "06748457",
+          "name": "Celine BARES",
+          "rankLabel": "R6",
+          "cpph": 1373,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06971150",
+          "name": "Christelle FEDOU",
+          "rankLabel": "D7",
+          "cpph": 1071,
+          "club": "Badminton Club Appameen"
+        }
+      ],
+      "sets": [
+        {
+          "home": 14,
+          "away": 21
+        },
+        {
+          "home": 16,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "06549435",
+          "name": "Amon AMADIS",
+          "rankLabel": "N3",
+          "cpph": 2391,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06929112",
+          "name": "Nicolas JESBAC",
+          "rankLabel": "N3",
+          "cpph": 2327,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06878238",
+          "name": "Maxandre GROUX",
+          "rankLabel": "D7",
+          "cpph": 1564,
+          "club": "Badminton Club Appameen"
+        },
+        {
+          "playerId": "06513059",
+          "name": "Benoit HOULIE",
+          "rankLabel": "D7",
+          "cpph": 1492,
+          "club": "Badminton Club Appameen"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 18
+        },
+        {
+          "home": 21,
+          "away": 19
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "00444470",
+          "name": "Heïdi DEMOULINS",
+          "rankLabel": "R6",
+          "cpph": 1335,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06903575",
+          "name": "Marie SABATOU",
+          "rankLabel": "R4",
+          "cpph": 1748,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06469460",
+          "name": "Clémentine ADAM",
+          "rankLabel": "D7",
+          "cpph": 1051,
+          "club": "Badminton Club Appameen"
+        },
+        {
+          "playerId": "06877993",
+          "name": "Stéphanie BONNANS",
+          "rankLabel": "D7",
+          "cpph": 1144,
+          "club": "Badminton Club Appameen"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 14
+        },
+        {
+          "home": 21,
+          "away": 10
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06549435",
+          "name": "Amon AMADIS",
+          "rankLabel": "N3",
+          "cpph": 2565,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00444470",
+          "name": "Heïdi DEMOULINS",
+          "rankLabel": "R4",
+          "cpph": 2032,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00012350",
+          "name": "Joel POULIQUEN",
+          "rankLabel": "N3",
+          "cpph": 2304,
+          "club": "Badminton Club Appameen"
+        },
+        {
+          "playerId": "00489494",
+          "name": "Mélodie POULIQUEN",
+          "rankLabel": "N3",
+          "cpph": 2315,
+          "club": "Badminton Club Appameen"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 21,
+          "away": 18
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06539655",
+          "name": "Maxime WEILL",
+          "rankLabel": "R4",
+          "cpph": 2034,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06748457",
+          "name": "Celine BARES",
+          "rankLabel": "R4",
+          "cpph": 2144,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06878238",
+          "name": "Maxandre GROUX",
+          "rankLabel": "D7",
+          "cpph": 1428,
+          "club": "Badminton Club Appameen"
+        },
+        {
+          "playerId": "06469460",
+          "name": "Clémentine ADAM",
+          "rankLabel": "D7",
+          "cpph": 1393,
+          "club": "Badminton Club Appameen"
+        }
+      ],
+      "sets": [
+        {
+          "home": 23,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 18
+        }
+      ],
+      "winnerSide": "home"
+    }
+  ]
+}

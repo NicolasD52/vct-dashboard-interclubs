@@ -1,0 +1,365 @@
+{
+  "id": "711589",
+  "season": "2025/2026",
+  "competition": "Interclubs Régionaux OCCI R2 - 2025-2026 - Poule D - Interclubs Adultes Mixte",
+  "date": "2026-03-15",
+  "ourTeamSide": "home",
+  "homeTeam": {
+    "id": "58735",
+    "name": "Volant Club Toulousain",
+    "division": "R2",
+    "code": "31-VCT-2",
+    "number": 2
+  },
+  "awayTeam": {
+    "id": "58733",
+    "name": "Toulouse Olympique Aerospatiale Club",
+    "division": "R2",
+    "code": "31-TOAC-3",
+    "number": 3
+  },
+  "scoreHome": 4,
+  "scoreAway": 4,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06539655",
+          "name": "Maxime WEILL",
+          "rankLabel": "N3",
+          "cpph": 2518,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06794944",
+          "name": "Vincenzo SAMMARTANO",
+          "rankLabel": "R4",
+          "cpph": 2212,
+          "club": "Toulouse Olympique Aerospatiale Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 18,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 17
+        },
+        {
+          "home": 19,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06929112",
+          "name": "Nicolas JESBAC",
+          "rankLabel": "N3",
+          "cpph": 2450,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00011150",
+          "name": "Timothe BEQUET",
+          "rankLabel": "R4",
+          "cpph": 2192,
+          "club": "Toulouse Olympique Aerospatiale Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 14
+        },
+        {
+          "home": 21,
+          "away": 13
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "07151612",
+          "name": "Léa MERLOZ",
+          "rankLabel": "R5",
+          "cpph": 1556,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00399630",
+          "name": "Lucile UCCELLI",
+          "rankLabel": "R5",
+          "cpph": 1549,
+          "club": "Toulouse Olympique Aerospatiale Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 11
+        },
+        {
+          "home": 21,
+          "away": 18
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD2",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "07019899",
+          "name": "Emma BARAL",
+          "rankLabel": "R6",
+          "cpph": 1259,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00270400",
+          "name": "Sophie CLARAZ",
+          "rankLabel": "R6",
+          "cpph": 1334,
+          "club": "Toulouse Olympique Aerospatiale Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 17
+        },
+        {
+          "home": 12,
+          "away": 21
+        },
+        {
+          "home": 14,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "06549435",
+          "name": "Amon AMADIS",
+          "rankLabel": "N3",
+          "cpph": 2550,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06903185",
+          "name": "Antoine LESCA ALLOUL",
+          "rankLabel": "N3",
+          "cpph": 2499,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00276556",
+          "name": "Pierre-antoine BERTRAND",
+          "rankLabel": "N3",
+          "cpph": 2481,
+          "club": "Toulouse Olympique Aerospatiale Club"
+        },
+        {
+          "playerId": "06794944",
+          "name": "Vincenzo SAMMARTANO",
+          "rankLabel": "N3",
+          "cpph": 2425,
+          "club": "Toulouse Olympique Aerospatiale Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 16,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 21,
+          "away": 13
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "00444470",
+          "name": "Heïdi DEMOULINS",
+          "rankLabel": "R6",
+          "cpph": 1358,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06903575",
+          "name": "Marie SABATOU",
+          "rankLabel": "R4",
+          "cpph": 1812,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06907685",
+          "name": "Clemence LEMOINE",
+          "rankLabel": "R4",
+          "cpph": 1708,
+          "club": "Toulouse Olympique Aerospatiale Club"
+        },
+        {
+          "playerId": "00399630",
+          "name": "Lucile UCCELLI",
+          "rankLabel": "R4",
+          "cpph": 1757,
+          "club": "Toulouse Olympique Aerospatiale Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 14,
+          "away": 21
+        },
+        {
+          "home": 19,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06929112",
+          "name": "Nicolas JESBAC",
+          "rankLabel": "N3",
+          "cpph": 2552,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00444470",
+          "name": "Heïdi DEMOULINS",
+          "rankLabel": "R4",
+          "cpph": 2113,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00276556",
+          "name": "Pierre-antoine BERTRAND",
+          "rankLabel": "N3",
+          "cpph": 2270,
+          "club": "Toulouse Olympique Aerospatiale Club"
+        },
+        {
+          "playerId": "06907685",
+          "name": "Clemence LEMOINE",
+          "rankLabel": "N3",
+          "cpph": 2454,
+          "club": "Toulouse Olympique Aerospatiale Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 17
+        },
+        {
+          "home": 18,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 15
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06549435",
+          "name": "Amon AMADIS",
+          "rankLabel": "N3",
+          "cpph": 2534,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07568165",
+          "name": "Barbara SALINAS MARTINEZ",
+          "rankLabel": "R4",
+          "cpph": 1995,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00011150",
+          "name": "Timothe BEQUET",
+          "rankLabel": "R4",
+          "cpph": 2218,
+          "club": "Toulouse Olympique Aerospatiale Club"
+        },
+        {
+          "playerId": "06683006",
+          "name": "Justine LUSSIANA",
+          "rankLabel": "N3",
+          "cpph": 2315,
+          "club": "Toulouse Olympique Aerospatiale Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 16,
+          "away": 21
+        },
+        {
+          "home": 18,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    }
+  ]
+}

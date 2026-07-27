@@ -1,0 +1,345 @@
+{
+  "id": "711567",
+  "season": "2025/2026",
+  "competition": "Interclubs Régionaux OCCI R2 - 2025-2026 - Poule D - Interclubs Adultes Mixte",
+  "date": "2025-11-09",
+  "ourTeamSide": "away",
+  "homeTeam": {
+    "id": "58731",
+    "name": "Badminton Club Lislois",
+    "division": "R2",
+    "code": "32-BCL-1",
+    "number": 1
+  },
+  "awayTeam": {
+    "id": "58735",
+    "name": "Volant Club Toulousain",
+    "division": "R2",
+    "code": "31-VCT-2",
+    "number": 2
+  },
+  "scoreHome": 2,
+  "scoreAway": 6,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07086967",
+          "name": "Martin CHADES",
+          "rankLabel": "N3",
+          "cpph": 2325,
+          "club": "Badminton Club Lislois"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06539655",
+          "name": "Maxime WEILL",
+          "rankLabel": "N3",
+          "cpph": 2486,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 18,
+          "away": 21
+        },
+        {
+          "home": 13,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07020157",
+          "name": "Gabriel VALLETTE",
+          "rankLabel": "R5",
+          "cpph": 1846,
+          "club": "Badminton Club Lislois"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06929112",
+          "name": "Nicolas JESBAC",
+          "rankLabel": "N3",
+          "cpph": 2472,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 23
+        },
+        {
+          "home": 18,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "07016310",
+          "name": "Nell HIEU",
+          "rankLabel": "R5",
+          "cpph": 1510,
+          "club": "Badminton Club Lislois"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07151612",
+          "name": "Léa MERLOZ",
+          "rankLabel": "R5",
+          "cpph": 1565,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 21,
+          "away": 15
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD2",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "07020775",
+          "name": "Anais GARNAUD",
+          "rankLabel": "R5",
+          "cpph": 1415,
+          "club": "Badminton Club Lislois"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06748457",
+          "name": "Celine BARES",
+          "rankLabel": "R6",
+          "cpph": 1373,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 21,
+          "away": 9
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "07208080",
+          "name": "Adrien MOULIS",
+          "rankLabel": "R6",
+          "cpph": 1574,
+          "club": "Badminton Club Lislois"
+        },
+        {
+          "playerId": "07020157",
+          "name": "Gabriel VALLETTE",
+          "rankLabel": "D8",
+          "cpph": 1354,
+          "club": "Badminton Club Lislois"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06549435",
+          "name": "Amon AMADIS",
+          "rankLabel": "N3",
+          "cpph": 2391,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06929112",
+          "name": "Nicolas JESBAC",
+          "rankLabel": "N3",
+          "cpph": 2327,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 15,
+          "away": 21
+        },
+        {
+          "home": 18,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "07020775",
+          "name": "Anais GARNAUD",
+          "rankLabel": "D8",
+          "cpph": 1025,
+          "club": "Badminton Club Lislois"
+        },
+        {
+          "playerId": "07016310",
+          "name": "Nell HIEU",
+          "rankLabel": "R6",
+          "cpph": 1333,
+          "club": "Badminton Club Lislois"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00444470",
+          "name": "Heïdi DEMOULINS",
+          "rankLabel": "R6",
+          "cpph": 1335,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06903575",
+          "name": "Marie SABATOU",
+          "rankLabel": "R4",
+          "cpph": 1748,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 13,
+          "away": 21
+        },
+        {
+          "home": 11,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06576870",
+          "name": "Raphael WALRAWENS",
+          "rankLabel": "R6",
+          "cpph": 1667,
+          "club": "Badminton Club Lislois"
+        },
+        {
+          "playerId": "06654938",
+          "name": "Tu-anh TRAN",
+          "rankLabel": "R6",
+          "cpph": 1749,
+          "club": "Badminton Club Lislois"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06549435",
+          "name": "Amon AMADIS",
+          "rankLabel": "N3",
+          "cpph": 2565,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00444470",
+          "name": "Heïdi DEMOULINS",
+          "rankLabel": "R4",
+          "cpph": 2032,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 11,
+          "away": 21
+        },
+        {
+          "home": 14,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "07271546",
+          "name": "Madeg GANDON",
+          "rankLabel": "D7",
+          "cpph": 1403,
+          "club": "Badminton Club Lislois"
+        },
+        {
+          "playerId": "07032437",
+          "name": "Lea BOUCHAUD",
+          "rankLabel": "D7",
+          "cpph": 1513,
+          "club": "Badminton Club Lislois"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06539655",
+          "name": "Maxime WEILL",
+          "rankLabel": "R4",
+          "cpph": 2034,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06748457",
+          "name": "Celine BARES",
+          "rankLabel": "R4",
+          "cpph": 2144,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 12,
+          "away": 21
+        },
+        {
+          "home": 14,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    }
+  ]
+}
