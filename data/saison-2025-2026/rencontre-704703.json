@@ -7,12 +7,16 @@
   "homeTeam": {
     "id": "58699",
     "name": "Volant Club Toulousain",
-    "division": "Pré Nationale"
+    "division": "Pré Nationale",
+    "code": "31-VCT-1",
+    "number": 1
   },
   "awayTeam": {
     "id": "58696",
     "name": "Saint-Orens Badminton",
-    "division": "Pré Nationale"
+    "division": "Pré Nationale",
+    "code": "31-SOBAD-1",
+    "number": 1
   },
   "scoreHome": 7,
   "scoreAway": 1,

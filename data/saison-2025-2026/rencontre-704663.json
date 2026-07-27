@@ -7,12 +7,16 @@
   "homeTeam": {
     "id": "58692",
     "name": "Association Bad In Lez",
-    "division": "Pré Nationale"
+    "division": "Pré Nationale",
+    "code": "34-ABIL-3",
+    "number": 3
   },
   "awayTeam": {
     "id": "58699",
     "name": "Volant Club Toulousain",
-    "division": "Pré Nationale"
+    "division": "Pré Nationale",
+    "code": "31-VCT-1",
+    "number": 1
   },
   "scoreHome": 4,
   "scoreAway": 4,

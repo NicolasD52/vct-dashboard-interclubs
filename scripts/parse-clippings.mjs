@@ -3,7 +3,7 @@ import path from "node:path";
 import * as cheerio from "cheerio";
 
 const CLIPPINGS_DIR = path.join(process.cwd(), "..", "VCT_obsi", "Clippings");
-const OUTPUT_DIR = path.join(process.cwd(), "data", "saison-2025-2026");
+const DATA_DIR = path.join(process.cwd(), "data");
 
 const OUR_CLUB_NAME = "Volant Club Toulousain";
 
@@ -71,14 +71,22 @@ function parseRencontre(fileContent) {
   const teamLinks = headerTable.find("a.uk-link-reset");
   const homeTeamId = teamLinks.eq(0).attr("href").match(/\/equipe\/(\d+)/)[1];
   const awayTeamId = teamLinks.eq(1).attr("href").match(/\/equipe\/(\d+)/)[1];
+  // Le code d'équipe (ex. « 31-VCT-2 ») est le seul endroit du clip qui porte le
+  // numéro d'équipe : le titre, lui, ne donne que le nom du club.
+  const homeCode = cleanText(teamLinks.eq(0).text());
+  const awayCode = cleanText(teamLinks.eq(1).text());
+  const teamNumber = (code) => {
+    const m = code.match(/-(\d+)$/);
+    return m ? Number(m[1]) : undefined;
+  };
   const scoreText = headerTable.find("th.uk-text-nowrap").text().trim();
   const [scoreHome, scoreAway] = scoreText.split("-").map((s) => Number(s.trim()));
 
   const ourTeamSide = teamAName === OUR_CLUB_NAME ? "home" : "away";
   const division = parseDivision(description);
 
-  const homeTeam = { id: homeTeamId, name: teamAName, division };
-  const awayTeam = { id: awayTeamId, name: teamBName, division };
+  const homeTeam = { id: homeTeamId, name: teamAName, division, code: homeCode, number: teamNumber(homeCode) };
+  const awayTeam = { id: awayTeamId, name: teamBName, division, code: awayCode, number: teamNumber(awayCode) };
 
   const matches = [];
   for (let i = 1; i < tables.length; i++) {
@@ -163,23 +171,38 @@ function parseRencontre(fileContent) {
 }
 
 function main() {
-  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   const files = fs.readdirSync(CLIPPINGS_DIR).filter((f) => f.endsWith(".md"));
   let ok = 0;
+  const equipes = new Map();
+
   for (const file of files) {
     const fullPath = path.join(CLIPPINGS_DIR, file);
     const content = fs.readFileSync(fullPath, "utf-8").replace(/\r\n/g, "\n");
     try {
       const rencontre = parseRencontre(content);
-      const outPath = path.join(OUTPUT_DIR, `rencontre-${rencontre.id}.json`);
+      // Le dossier suit la saison déduite de la date, pour que l'ajout d'une
+      // nouvelle saison ne vienne pas se mélanger à la précédente.
+      const dossier = path.join(DATA_DIR, `saison-${rencontre.season.replace("/", "-")}`);
+      fs.mkdirSync(dossier, { recursive: true });
+      const outPath = path.join(dossier, `rencontre-${rencontre.id}.json`);
       fs.writeFileSync(outPath, JSON.stringify(rencontre, null, 2) + "\n", "utf-8");
-      console.log(`OK   ${file} -> rencontre-${rencontre.id}.json`);
+
+      const nous = rencontre.ourTeamSide === "home" ? rencontre.homeTeam : rencontre.awayTeam;
+      const cle = nous.code ?? nous.id;
+      equipes.set(cle, (equipes.get(cle) ?? 0) + 1);
+
+      console.log(`OK   ${file} -> ${path.basename(dossier)}/rencontre-${rencontre.id}.json`);
       ok++;
     } catch (err) {
       console.error(`FAIL ${file}: ${err.message}`);
     }
   }
+
   console.log(`\n${ok}/${files.length} rencontres converties.`);
+  console.log(`Équipes du club détectées :`);
+  for (const [code, n] of [...equipes].sort()) {
+    console.log(`  ${code} — ${n} rencontre${n > 1 ? "s" : ""}`);
+  }
 }
 
 main();

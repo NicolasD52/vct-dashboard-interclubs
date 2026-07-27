@@ -7,12 +7,16 @@
   "homeTeam": {
     "id": "58695",
     "name": "Le Volant Salanquais",
-    "division": "Pré Nationale"
+    "division": "Pré Nationale",
+    "code": "66-LVS-1",
+    "number": 1
   },
   "awayTeam": {
     "id": "58699",
     "name": "Volant Club Toulousain",
-    "division": "Pré Nationale"
+    "division": "Pré Nationale",
+    "code": "31-VCT-1",
+    "number": 1
   },
   "scoreHome": 2,
   "scoreAway": 6,

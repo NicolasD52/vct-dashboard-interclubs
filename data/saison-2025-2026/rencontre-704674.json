@@ -7,12 +7,16 @@
   "homeTeam": {
     "id": "58698",
     "name": "Toulouse Université Club badminton",
-    "division": "Pré Nationale"
+    "division": "Pré Nationale",
+    "code": "31-TUCB-1",
+    "number": 1
   },
   "awayTeam": {
     "id": "58699",
     "name": "Volant Club Toulousain",
-    "division": "Pré Nationale"
+    "division": "Pré Nationale",
+    "code": "31-VCT-1",
+    "number": 1
   },
   "scoreHome": 1,
   "scoreAway": 7,

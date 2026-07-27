@@ -4,6 +4,15 @@ import {
   SEUIL_FIABILITE,
   SIGMA_CPPH,
 } from "@/lib/calculations/performanceVsRanking";
+import type { TeamRef } from "@/lib/schema";
+
+/**
+ * Libellé d'affichage d'une équipe. Un club peut engager plusieurs équipes :
+ * sans le numéro, elles seraient toutes affichées sous le même nom.
+ */
+function teamLabel(team: TeamRef): string {
+  return team.number ? `${team.name} ${team.number}` : team.name;
+}
 
 export async function GET() {
   // "matches" (l'historique détaillé) n'est pas utilisé par cette page — on ne l'envoie pas au client.
@@ -32,7 +41,7 @@ export async function GET() {
 
         return {
           date: rencontre.date,
-          opponent: opponent.name,
+          opponent: teamLabel(opponent),
           venue: isHome ? "Domicile" : "Extérieur",
           score: `${ourScore} – ${theirScore}`,
           result,
@@ -54,7 +63,7 @@ export async function GET() {
 
     return {
       id: team.id,
-      name: team.name,
+      name: teamLabel(team),
       division: team.division,
       w,
       d,

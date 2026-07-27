@@ -7,12 +7,16 @@
   "homeTeam": {
     "id": "58693",
     "name": "Association Sportive des Alain Savary",
-    "division": "Pré Nationale"
+    "division": "Pré Nationale",
+    "code": "34-ASDAS-1",
+    "number": 1
   },
   "awayTeam": {
     "id": "58699",
     "name": "Volant Club Toulousain",
-    "division": "Pré Nationale"
+    "division": "Pré Nationale",
+    "code": "31-VCT-1",
+    "number": 1
   },
   "scoreHome": 2,
   "scoreAway": 6,

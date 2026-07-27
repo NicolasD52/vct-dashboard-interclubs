@@ -36,8 +36,16 @@ export type Match = z.infer<typeof MatchSchema>;
 
 export const TeamRefSchema = z.object({
   id: z.string(),
+  /** Nom du club, sans le numéro d'équipe (ex. « Volant Club Toulousain »). */
   name: z.string(),
   division: z.string(),
+  /** Code d'équipe tel qu'affiché par icbad (ex. « 31-VCT-2 »). */
+  code: z.string().optional(),
+  /**
+   * Numéro de l'équipe au sein du club. Indispensable dès qu'un club engage
+   * plusieurs équipes : sans lui, deux équipes du même club sont indiscernables.
+   */
+  number: z.number().optional(),
 });
 export type TeamRef = z.infer<typeof TeamRefSchema>;
 
