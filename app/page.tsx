@@ -38,6 +38,8 @@ interface ApiFixture {
 interface ApiTeam {
   id: string;
   name: string;
+  /** Libellé court pour les tableaux (« Équipe 4 »). */
+  shortName: string;
   division: string;
   w: number;
   d: number;
@@ -134,6 +136,7 @@ export default function Home() {
   }, []);
 
   const teamOptions = useMemo(() => data?.teams.map((t) => ({ value: t.id, label: t.name })) ?? [], [data]);
+  const teamById = useMemo(() => new Map((data?.teams ?? []).map((t) => [t.id, t])), [data]);
 
   const playerRows = useMemo(() => {
     if (!data) return [];
@@ -163,7 +166,6 @@ export default function Home() {
 
   const podium = useMemo(() => {
     if (!data) return [];
-    const teamById = new Map(data.teams.map((t) => [t.id, t]));
     return [...data.players]
       .filter((p) => p.overall.n >= data.seuilFiabilite)
       // Classé sur la performance atténuée : une saison complète pèse plus
@@ -184,7 +186,7 @@ export default function Home() {
         mStr: pct(p.perDiscipline.M.weighted),
         record: `${p.overall.w}–${p.overall.l}`,
       }));
-  }, [data]);
+  }, [data, teamById]);
 
   const scale = useMemo(() => {
     if (!data) return [];
@@ -543,7 +545,13 @@ export default function Home() {
                       {p.name}
                       <span style={{ color: INK_MUTED, fontWeight: 400, fontSize: 12.5 }}> · {p.sex ?? "?"}</span>
                     </td>
-                    <td style={{ padding: "13px 10px", color: INK_MUTED, fontSize: 13 }}>{p.club}</td>
+                    <td style={{ padding: "13px 10px", fontSize: 13 }}>
+                      {/* Équipe où le joueur a disputé le plus de matchs (voir mainTeamId). */}
+                      <span style={{ color: "#3a3c42" }}>{teamById.get(p.teamId)?.shortName ?? p.club}</span>
+                      {teamById.get(p.teamId)?.division && (
+                        <span style={{ color: INK_MUTED }}> · {teamById.get(p.teamId)?.division}</span>
+                      )}
+                    </td>
                     <td style={{ padding: "13px 10px", textAlign: "right", color: "#3a3c42" }}>{p.cpph}</td>
                     <td style={{ padding: "13px 10px", textAlign: "right", color: "#3a3c42" }}>{stats.w} – {stats.l}</td>
                     <td style={{ padding: "13px 10px", textAlign: "right", color: INK_MUTED }}>{pct(stats.raw)}</td>

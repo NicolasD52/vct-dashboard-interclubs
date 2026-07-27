@@ -125,6 +125,37 @@ function bucketOf(discipline: Discipline): DisciplineBucket {
   return "M";
 }
 
+/**
+ * Équipe de rattachement : celle où le joueur a disputé le plus de matchs sur
+ * la saison, et non celle de sa dernière rencontre.
+ *
+ * Une poignée de joueur·ses dépannent une autre équipe en cours de saison ;
+ * les rattacher à leur dernière apparition les affichait sous une équipe où ils
+ * n'ont parfois joué que deux matchs sur vingt-six. À égalité, la rencontre la
+ * plus récente départage.
+ *
+ * @param matches triés par date croissante.
+ */
+function mainTeamId(
+  matches: PlayerMatchEntry[],
+  rencontreTeamId: Map<string, string>
+): string {
+  const compte = new Map<string, number>();
+  const dernier = new Map<string, string>();
+  for (const m of matches) {
+    const teamId = rencontreTeamId.get(m.rencontreId);
+    if (!teamId) continue;
+    compte.set(teamId, (compte.get(teamId) ?? 0) + 1);
+    dernier.set(teamId, m.date);
+  }
+  return (
+    [...compte.entries()].sort(
+      ([idA, nA], [idB, nB]) =>
+        nB - nA || (dernier.get(idB) ?? "").localeCompare(dernier.get(idA) ?? "")
+    )[0]?.[0] ?? ""
+  );
+}
+
 function inferSex(matches: PlayerMatchEntry[]): "F" | "H" | null {
   for (const m of matches) {
     if (m.discipline === "SH" || m.discipline === "DH") return "H";
@@ -188,7 +219,7 @@ export function getAllPlayers(): AggregatedPlayer[] {
       playerId,
       name: last.playerName,
       club: last.playerClub,
-      teamId: rencontreTeamId.get(last.rencontreId) ?? "",
+      teamId: mainTeamId(sorted, rencontreTeamId),
       sex: inferSex(matches),
       cpph: last.playerCpph,
       matches,

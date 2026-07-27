@@ -14,6 +14,14 @@ function teamLabel(team: TeamRef): string {
   return team.number ? `${team.name} ${team.number}` : team.name;
 }
 
+/**
+ * Libellé court, pour les colonnes de tableau : toutes les équipes listées
+ * étant celles du club, répéter son nom sur chaque ligne n'apporte rien.
+ */
+function teamShortLabel(team: TeamRef): string {
+  return team.number ? `Équipe ${team.number}` : team.name;
+}
+
 export async function GET() {
   // "matches" (l'historique détaillé) n'est pas utilisé par cette page — on ne l'envoie pas au client.
   const players = getAllPlayers().map(({ matches: _matches, ...rest }) => rest);
@@ -64,6 +72,7 @@ export async function GET() {
     return {
       id: team.id,
       name: teamLabel(team),
+      shortName: teamShortLabel(team),
       division: team.division,
       w,
       d,
