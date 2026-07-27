@@ -1,0 +1,330 @@
+{
+  "id": "747516",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D4 - Poule C - Interclubs Adultes Mixte",
+  "date": "2026-02-05",
+  "ourTeamSide": "away",
+  "homeTeam": {
+    "id": "31-BPC-1",
+    "icbadId": "64546",
+    "name": "Badminton Plaisance Club",
+    "division": "D4",
+    "code": "31-BPC-1",
+    "number": 1
+  },
+  "awayTeam": {
+    "id": "31-VCT-9",
+    "icbadId": "64551",
+    "name": "Volant Club Toulousain",
+    "division": "D4",
+    "code": "31-VCT-9",
+    "number": 9
+  },
+  "scoreHome": 1,
+  "scoreAway": 6,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "00557530",
+          "name": "Thomas BERNARD",
+          "rankLabel": "D9",
+          "cpph": 1061,
+          "club": "Badminton Plaisance Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07274952",
+          "name": "Isaac CIESIELSKI",
+          "rankLabel": "D7",
+          "cpph": 1380,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 14,
+          "away": 21
+        },
+        {
+          "home": 18,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06526326",
+          "name": "Vivien BARBIER",
+          "rankLabel": "P11",
+          "cpph": 716,
+          "club": "Badminton Plaisance Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07091017",
+          "name": "Xavier BERTIN",
+          "rankLabel": "P10",
+          "cpph": 924,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 15,
+          "away": 21
+        },
+        {
+          "home": 15,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "07117591",
+          "name": "Severine ANDRAUD",
+          "rankLabel": "P10",
+          "cpph": 699,
+          "club": "Badminton Plaisance Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06654076",
+          "name": "Kathya VENPIN",
+          "rankLabel": "D9",
+          "cpph": 769,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 17,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 16
+        },
+        {
+          "home": 16,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "06561040",
+          "name": "Fabrice BERTRAND",
+          "rankLabel": "D9",
+          "cpph": 1050,
+          "club": "Badminton Plaisance Club"
+        },
+        {
+          "playerId": "06947379",
+          "name": "Adrien VAN OSSEL",
+          "rankLabel": "P10",
+          "cpph": 782,
+          "club": "Badminton Plaisance Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07499367",
+          "name": "Radhakrishnan ASHOK",
+          "rankLabel": "D9",
+          "cpph": 1113,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06576827",
+          "name": "Doume DENIS",
+          "rankLabel": "P10",
+          "cpph": 816,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 13,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 18,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "07117591",
+          "name": "Severine ANDRAUD",
+          "rankLabel": "D9",
+          "cpph": 730,
+          "club": "Badminton Plaisance Club"
+        },
+        {
+          "playerId": "06546503",
+          "name": "Anne-françoise BERTRAND",
+          "rankLabel": "D9",
+          "cpph": 815,
+          "club": "Badminton Plaisance Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07209530",
+          "name": "Esther CIESIELSKI",
+          "rankLabel": "D9",
+          "cpph": 738,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07433019",
+          "name": "Elodie RINEAU",
+          "rankLabel": "D9",
+          "cpph": 864,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 13
+        },
+        {
+          "home": 23,
+          "away": 25
+        },
+        {
+          "home": 21,
+          "away": 13
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "00372683",
+          "name": "Nicolas BREARD",
+          "rankLabel": "D9",
+          "cpph": 1059,
+          "club": "Badminton Plaisance Club"
+        },
+        {
+          "playerId": "06546504",
+          "name": "Celine MAFFRE",
+          "rankLabel": "D9",
+          "cpph": 963,
+          "club": "Badminton Plaisance Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06881877",
+          "name": "Guillaume MAURY",
+          "rankLabel": "D9",
+          "cpph": 1042,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06959594",
+          "name": "Olivia BIALCZYK",
+          "rankLabel": "D8",
+          "cpph": 1302,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 19,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 13,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "07521445",
+          "name": "Alexandre GONZALEZ",
+          "rankLabel": "P11",
+          "cpph": 695,
+          "club": "Badminton Plaisance Club"
+        },
+        {
+          "playerId": "06546503",
+          "name": "Anne-françoise BERTRAND",
+          "rankLabel": "D9",
+          "cpph": 1038,
+          "club": "Badminton Plaisance Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06720953",
+          "name": "Jim KOMMER",
+          "rankLabel": "P10",
+          "cpph": 904,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06957215",
+          "name": "Mathilde SPIESSER",
+          "rankLabel": "D7",
+          "cpph": 1376,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 16,
+          "away": 21
+        },
+        {
+          "home": 15,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    }
+  ]
+}

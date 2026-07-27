@@ -1,0 +1,330 @@
+{
+  "id": "772586",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D4 - Barrages / Play-Offs - Interclubs Adultes Mixte",
+  "date": "2026-06-20",
+  "ourTeamSide": "away",
+  "homeTeam": {
+    "id": "31-BM-3",
+    "icbadId": "72787",
+    "name": "Badminton Muret",
+    "division": "D4",
+    "code": "31-BM-3",
+    "number": 3
+  },
+  "awayTeam": {
+    "id": "31-VCT-9",
+    "icbadId": "72793",
+    "name": "Volant Club Toulousain",
+    "division": "D4",
+    "code": "31-VCT-9",
+    "number": 9
+  },
+  "scoreHome": 5,
+  "scoreAway": 2,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06813364",
+          "name": "Xavier MARTY",
+          "rankLabel": "D7",
+          "cpph": 1359,
+          "club": "Badminton Muret"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07274952",
+          "name": "Isaac CIESIELSKI",
+          "rankLabel": "R6",
+          "cpph": 1559,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 18
+        },
+        {
+          "home": 16,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "00319731",
+          "name": "Jean françois OGLAZA",
+          "rankLabel": "D9",
+          "cpph": 954,
+          "club": "Badminton Muret"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07497950",
+          "name": "Jérémie CHHEANG",
+          "rankLabel": "D9",
+          "cpph": 1071,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 21,
+          "away": 9
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "06753764",
+          "name": "Roxane MARTY",
+          "rankLabel": "D8",
+          "cpph": 943,
+          "club": "Badminton Muret"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07209530",
+          "name": "Esther CIESIELSKI",
+          "rankLabel": "D7",
+          "cpph": 1046,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 21,
+          "away": 17
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "00463512",
+          "name": "Thierry DELINEAU",
+          "rankLabel": "D9",
+          "cpph": 1032,
+          "club": "Badminton Muret"
+        },
+        {
+          "playerId": "00319731",
+          "name": "Jean françois OGLAZA",
+          "rankLabel": "P11",
+          "cpph": 593,
+          "club": "Badminton Muret"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07499367",
+          "name": "Radhakrishnan ASHOK",
+          "rankLabel": "D9",
+          "cpph": 1159,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06720953",
+          "name": "Jim KOMMER",
+          "rankLabel": "D9",
+          "cpph": 1005,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 14,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 13
+        },
+        {
+          "home": 21,
+          "away": 15
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "07250641",
+          "name": "Fanny LAUTRE",
+          "rankLabel": "P10",
+          "cpph": 688,
+          "club": "Badminton Muret"
+        },
+        {
+          "playerId": "06753764",
+          "name": "Roxane MARTY",
+          "rankLabel": "D9",
+          "cpph": 753,
+          "club": "Badminton Muret"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07209530",
+          "name": "Esther CIESIELSKI",
+          "rankLabel": "D9",
+          "cpph": 778,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06957215",
+          "name": "Mathilde SPIESSER",
+          "rankLabel": "D8",
+          "cpph": 1033,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 13,
+          "away": 21
+        },
+        {
+          "home": 14,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06813364",
+          "name": "Xavier MARTY",
+          "rankLabel": "D8",
+          "cpph": 1309,
+          "club": "Badminton Muret"
+        },
+        {
+          "playerId": "07250641",
+          "name": "Fanny LAUTRE",
+          "rankLabel": "D8",
+          "cpph": 1239,
+          "club": "Badminton Muret"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06576827",
+          "name": "Doume DENIS",
+          "rankLabel": "P10",
+          "cpph": 859,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06957215",
+          "name": "Mathilde SPIESSER",
+          "rankLabel": "R6",
+          "cpph": 1587,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 18,
+          "away": 21
+        },
+        {
+          "home": 14,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "00463512",
+          "name": "Thierry DELINEAU",
+          "rankLabel": "D9",
+          "cpph": 1019,
+          "club": "Badminton Muret"
+        },
+        {
+          "playerId": "06820453",
+          "name": "Karine DELANOE",
+          "rankLabel": "D8",
+          "cpph": 1174,
+          "club": "Badminton Muret"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06881877",
+          "name": "Guillaume MAURY",
+          "rankLabel": "D9",
+          "cpph": 1061,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07209530",
+          "name": "Esther CIESIELSKI",
+          "rankLabel": "D9",
+          "cpph": 1027,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 14,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 14
+        },
+        {
+          "home": 21,
+          "away": 13
+        }
+      ],
+      "winnerSide": "home"
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "id": "719674",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D1 - Poule B - Interclubs Adultes Mixte",
+  "date": "2026-01-30",
+  "ourTeamSide": "away",
+  "homeTeam": {
+    "id": "31-SOBAD-3",
+    "icbadId": "62500",
+    "name": "Saint-Orens Badminton",
+    "division": "D1",
+    "code": "31-SOBAD-3",
+    "number": 3
+  },
+  "awayTeam": {
+    "id": "31-VCT-3",
+    "icbadId": "62503",
+    "name": "Volant Club Toulousain",
+    "division": "D1",
+    "code": "31-VCT-3",
+    "number": 3
+  },
+  "scoreHome": 1,
+  "scoreAway": 6,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "00467666",
+          "name": "Olivier NEGRE",
+          "rankLabel": "D7",
+          "cpph": 1515,
+          "club": "Saint-Orens Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06585382",
+          "name": "Guillaume NGUYEN",
+          "rankLabel": "R5",
+          "cpph": 1909,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 19,
+          "away": 21
+        },
+        {
+          "home": 15,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07363898",
+          "name": "Philippe WU",
+          "rankLabel": "D7",
+          "cpph": 1497,
+          "club": "Saint-Orens Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07327290",
+          "name": "étienne CORBEL",
+          "rankLabel": "R6",
+          "cpph": 1576,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 16,
+          "away": 21
+        },
+        {
+          "home": 18,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "06630905",
+          "name": "Natacha RENOU",
+          "rankLabel": "R6",
+          "cpph": 1256,
+          "club": "Saint-Orens Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00368130",
+          "name": "Lucie MORIN",
+          "rankLabel": "D7",
+          "cpph": 1126,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 19,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 13
+        },
+        {
+          "home": 21,
+          "away": 10
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "07219681",
+          "name": "Praveen ETHIRAJ",
+          "rankLabel": "R5",
+          "cpph": 1940,
+          "club": "Saint-Orens Badminton"
+        },
+        {
+          "playerId": "00385490",
+          "name": "Benoit MALENFANT",
+          "rankLabel": "R5",
+          "cpph": 1822,
+          "club": "Saint-Orens Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07327290",
+          "name": "étienne CORBEL",
+          "rankLabel": "R5",
+          "cpph": 1974,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06938462",
+          "name": "Maxime DETCHEPARE",
+          "rankLabel": "R4",
+          "cpph": 2044,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 17,
+          "away": 21
+        },
+        {
+          "home": 8,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "07085373",
+          "name": "Lucie SARI",
+          "rankLabel": "R6",
+          "cpph": 1277,
+          "club": "Saint-Orens Badminton"
+        },
+        {
+          "playerId": "00343521",
+          "name": "Myriam WEILLER",
+          "rankLabel": "R4",
+          "cpph": 1623,
+          "club": "Saint-Orens Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07019899",
+          "name": "Emma BARAL",
+          "rankLabel": "R5",
+          "cpph": 1394,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07158215",
+          "name": "Yvette CHENG",
+          "rankLabel": "D7",
+          "cpph": 1156,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 18,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 10
+        },
+        {
+          "home": 19,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "07219681",
+          "name": "Praveen ETHIRAJ",
+          "rankLabel": "R4",
+          "cpph": 2136,
+          "club": "Saint-Orens Badminton"
+        },
+        {
+          "playerId": "06987902",
+          "name": "Manon PORLAN",
+          "rankLabel": "R5",
+          "cpph": 1825,
+          "club": "Saint-Orens Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00443098",
+          "name": "Pierre THIERRY",
+          "rankLabel": "R5",
+          "cpph": 1926,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07158215",
+          "name": "Yvette CHENG",
+          "rankLabel": "R4",
+          "cpph": 2074,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 11,
+          "away": 21
+        },
+        {
+          "home": 17,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "07146019",
+          "name": "Loïc COUSIN",
+          "rankLabel": "R5",
+          "cpph": 1804,
+          "club": "Saint-Orens Badminton"
+        },
+        {
+          "playerId": "06487032",
+          "name": "Cécile ESTEVENY",
+          "rankLabel": "R6",
+          "cpph": 1700,
+          "club": "Saint-Orens Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06938462",
+          "name": "Maxime DETCHEPARE",
+          "rankLabel": "R6",
+          "cpph": 1724,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00443125",
+          "name": "Anne-laure THIERRY",
+          "rankLabel": "R6",
+          "cpph": 1774,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 11,
+          "away": 21
+        },
+        {
+          "home": 16,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    }
+  ]
+}

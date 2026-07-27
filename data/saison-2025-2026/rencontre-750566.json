@@ -1,0 +1,334 @@
+{
+  "id": "750566",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D2 - Poule C - Interclubs Adultes Mixte",
+  "date": "2026-02-04",
+  "ourTeamSide": "home",
+  "homeTeam": {
+    "id": "31-VCT-7",
+    "icbadId": "67061",
+    "name": "Volant Club Toulousain",
+    "division": "D2",
+    "code": "31-VCT-7",
+    "number": 7
+  },
+  "awayTeam": {
+    "id": "31-BM-2",
+    "icbadId": "67057",
+    "name": "Badminton Muret",
+    "division": "D2",
+    "code": "31-BM-2",
+    "number": 2
+  },
+  "scoreHome": 4,
+  "scoreAway": 3,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07234039",
+          "name": "Maxandre BEGUE-OLIE",
+          "rankLabel": "R6",
+          "cpph": 1617,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00405327",
+          "name": "Christophe JAVOUHEY",
+          "rankLabel": "D8",
+          "cpph": 1212,
+          "club": "Badminton Muret"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 10
+        },
+        {
+          "home": 6,
+          "away": 3
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "00324505",
+          "name": "Aurélien NANAME",
+          "rankLabel": "D8",
+          "cpph": 1191,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07018922",
+          "name": "Nicolas TOULZAC",
+          "rankLabel": "D8",
+          "cpph": 1289,
+          "club": "Badminton Muret"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 9,
+          "away": 21
+        },
+        {
+          "home": 18,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "07568153",
+          "name": "Elodie JEZ",
+          "rankLabel": "D9",
+          "cpph": 767,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00505878",
+          "name": "Sophie BARADAT",
+          "rankLabel": "D8",
+          "cpph": 967,
+          "club": "Badminton Muret"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 14
+        },
+        {
+          "home": 12,
+          "away": 21
+        },
+        {
+          "home": 18,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "00352262",
+          "name": "Nicolas LEPLAT",
+          "rankLabel": "D9",
+          "cpph": 1122,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07264703",
+          "name": "Renjith MUNNILATH",
+          "rankLabel": "D8",
+          "cpph": 1292,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07274954",
+          "name": "Nathanael BONIN",
+          "rankLabel": "D8",
+          "cpph": 1319,
+          "club": "Badminton Muret"
+        },
+        {
+          "playerId": "06586821",
+          "name": "Stephane RICARD",
+          "rankLabel": "D8",
+          "cpph": 1279,
+          "club": "Badminton Muret"
+        }
+      ],
+      "sets": [
+        {
+          "home": 9,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 18
+        },
+        {
+          "home": 21,
+          "away": 13
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "07422138",
+          "name": "Aurélie GARRIGUE",
+          "rankLabel": "D9",
+          "cpph": 792,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07568153",
+          "name": "Elodie JEZ",
+          "rankLabel": "D8",
+          "cpph": 921,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00505878",
+          "name": "Sophie BARADAT",
+          "rankLabel": "D8",
+          "cpph": 943,
+          "club": "Badminton Muret"
+        },
+        {
+          "playerId": "00509393",
+          "name": "Pauline LAROCHE-CAULET",
+          "rankLabel": "D9",
+          "cpph": 787,
+          "club": "Badminton Muret"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 7
+        },
+        {
+          "home": 19,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 9
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "00266559",
+          "name": "Antoine GUINET",
+          "rankLabel": "D7",
+          "cpph": 1443,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07422138",
+          "name": "Aurélie GARRIGUE",
+          "rankLabel": "R6",
+          "cpph": 1571,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07274954",
+          "name": "Nathanael BONIN",
+          "rankLabel": "R6",
+          "cpph": 1687,
+          "club": "Badminton Muret"
+        },
+        {
+          "playerId": "00505878",
+          "name": "Sophie BARADAT",
+          "rankLabel": "R5",
+          "cpph": 1791,
+          "club": "Badminton Muret"
+        }
+      ],
+      "sets": [
+        {
+          "home": 22,
+          "away": 20
+        },
+        {
+          "home": 21,
+          "away": 11
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "07234039",
+          "name": "Maxandre BEGUE-OLIE",
+          "rankLabel": "D9",
+          "cpph": 1156,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06816342",
+          "name": "Cécile LEFRANC",
+          "rankLabel": "D7",
+          "cpph": 1419,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07018922",
+          "name": "Nicolas TOULZAC",
+          "rankLabel": "D8",
+          "cpph": 1324,
+          "club": "Badminton Muret"
+        },
+        {
+          "playerId": "00509393",
+          "name": "Pauline LAROCHE-CAULET",
+          "rankLabel": "D7",
+          "cpph": 1402,
+          "club": "Badminton Muret"
+        }
+      ],
+      "sets": [
+        {
+          "home": 18,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 17,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    }
+  ]
+}

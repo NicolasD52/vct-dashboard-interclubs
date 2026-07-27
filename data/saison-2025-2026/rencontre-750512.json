@@ -1,0 +1,326 @@
+{
+  "id": "750512",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D2 - Poule A - Interclubs Adultes Mixte",
+  "date": "2026-03-18",
+  "ourTeamSide": "away",
+  "homeTeam": {
+    "id": "31-BBCA-1",
+    "icbadId": "67046",
+    "name": "Break and BAD Castelnau",
+    "division": "D2",
+    "code": "31-BBCA-1",
+    "number": 1
+  },
+  "awayTeam": {
+    "id": "31-VCT-4",
+    "icbadId": "67049",
+    "name": "Volant Club Toulousain",
+    "division": "D2",
+    "code": "31-VCT-4",
+    "number": 4
+  },
+  "scoreHome": 3,
+  "scoreAway": 4,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07479836",
+          "name": "Stefan GLEYSES",
+          "rankLabel": "R5",
+          "cpph": 1775,
+          "club": "Break and BAD Castelnau"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06596915",
+          "name": "Alexis GIACOMINI",
+          "rankLabel": "R6",
+          "cpph": 1728,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 10
+        },
+        {
+          "home": 21,
+          "away": 12
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07117723",
+          "name": "Clement DELTEIL",
+          "rankLabel": "P11",
+          "cpph": 650,
+          "club": "Break and BAD Castelnau"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06699298",
+          "name": "Quentin CERDEIRA",
+          "rankLabel": "R6",
+          "cpph": 1638,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 20,
+          "away": 22
+        },
+        {
+          "home": 17,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "00485040",
+          "name": "Camille BAGGIO",
+          "rankLabel": "D9",
+          "cpph": 850,
+          "club": "Break and BAD Castelnau"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00360138",
+          "name": "Delphine MAZARS",
+          "rankLabel": "D8",
+          "cpph": 963,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 22,
+          "away": 20
+        },
+        {
+          "home": 18,
+          "away": 21
+        },
+        {
+          "home": 17,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "06538601",
+          "name": "Corentin BANDIERA",
+          "rankLabel": "R6",
+          "cpph": 1580,
+          "club": "Break and BAD Castelnau"
+        },
+        {
+          "playerId": "07479836",
+          "name": "Stefan GLEYSES",
+          "rankLabel": "R6",
+          "cpph": 1716,
+          "club": "Break and BAD Castelnau"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00516772",
+          "name": "Nicolas DUJON",
+          "rankLabel": "R5",
+          "cpph": 1778,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06596915",
+          "name": "Alexis GIACOMINI",
+          "rankLabel": "R5",
+          "cpph": 1857,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 18,
+          "away": 21
+        },
+        {
+          "home": 19,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "06546055",
+          "name": "Anastasia AMIOT",
+          "rankLabel": "D8",
+          "cpph": 944,
+          "club": "Break and BAD Castelnau"
+        },
+        {
+          "playerId": "00485040",
+          "name": "Camille BAGGIO",
+          "rankLabel": "D8",
+          "cpph": 1015,
+          "club": "Break and BAD Castelnau"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06886971",
+          "name": "Mathilde CALCAGNO",
+          "rankLabel": "D7",
+          "cpph": 1144,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00360138",
+          "name": "Delphine MAZARS",
+          "rankLabel": "D7",
+          "cpph": 1159,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 18
+        },
+        {
+          "home": 21,
+          "away": 17
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "00397240",
+          "name": "Laurent TEULIE",
+          "rankLabel": "R6",
+          "cpph": 1566,
+          "club": "Break and BAD Castelnau"
+        },
+        {
+          "playerId": "06546055",
+          "name": "Anastasia AMIOT",
+          "rankLabel": "D7",
+          "cpph": 1524,
+          "club": "Break and BAD Castelnau"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06734777",
+          "name": "Pierre-jean GURIZZAN",
+          "rankLabel": "R5",
+          "cpph": 1783,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07276813",
+          "name": "Lena DUCROS",
+          "rankLabel": "R6",
+          "cpph": 1621,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 16
+        },
+        {
+          "home": 15,
+          "away": 21
+        },
+        {
+          "home": 20,
+          "away": 22
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "07479836",
+          "name": "Stefan GLEYSES",
+          "rankLabel": "D7",
+          "cpph": 1430,
+          "club": "Break and BAD Castelnau"
+        },
+        {
+          "playerId": "06756294",
+          "name": "Gaelle BERTHELOT",
+          "rankLabel": "D8",
+          "cpph": 1201,
+          "club": "Break and BAD Castelnau"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00441200",
+          "name": "Josselin LERON",
+          "rankLabel": "R6",
+          "cpph": 1615,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06472293",
+          "name": "Marie PRAT",
+          "rankLabel": "R6",
+          "cpph": 1699,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 17,
+          "away": 20
+        }
+      ],
+      "winnerSide": "home"
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": "750609",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D2 - Poule D - Interclubs Adultes Mixte",
+  "date": "2026-04-15",
+  "ourTeamSide": "home",
+  "homeTeam": {
+    "id": "31-VCT-6",
+    "icbadId": "67067",
+    "name": "Volant Club Toulousain",
+    "division": "D2",
+    "code": "31-VCT-6",
+    "number": 6
+  },
+  "awayTeam": {
+    "id": "31-BCDC-2",
+    "icbadId": "67063",
+    "name": "Badminton Club de Castanet",
+    "division": "D2",
+    "code": "31-BCDC-2",
+    "number": 2
+  },
+  "scoreHome": 3,
+  "scoreAway": 4,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07020746",
+          "name": "Gael RICHET",
+          "rankLabel": "D7",
+          "cpph": 1547,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06613499",
+          "name": "Florian CARBASA",
+          "rankLabel": "D7",
+          "cpph": 1549,
+          "club": "Badminton Club de Castanet"
+        }
+      ],
+      "sets": [
+        {
+          "home": 8,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 9
+        },
+        {
+          "home": 8,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06683103",
+          "name": "Gaspard BEZZA",
+          "rankLabel": "D7",
+          "cpph": 1443,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07487015",
+          "name": "Anthony ARIMAN",
+          "rankLabel": "D9",
+          "cpph": 1132,
+          "club": "Badminton Club de Castanet"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 12
+        },
+        {
+          "home": 21,
+          "away": 19
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "07322218",
+          "name": "Sophie FLECHE",
+          "rankLabel": "D7",
+          "cpph": 1030,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07425493",
+          "name": "Laura PERROT",
+          "rankLabel": "R6",
+          "cpph": 1179,
+          "club": "Badminton Club de Castanet"
+        }
+      ],
+      "sets": [
+        {
+          "home": 23,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 8
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "07486851",
+          "name": "Qadim KHAN",
+          "rankLabel": "D7",
+          "cpph": 1553,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06469427",
+          "name": "Benjamin POIRIER",
+          "rankLabel": "D7",
+          "cpph": 1429,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07487015",
+          "name": "Anthony ARIMAN",
+          "rankLabel": "D8",
+          "cpph": 1318,
+          "club": "Badminton Club de Castanet"
+        },
+        {
+          "playerId": "07570638",
+          "name": "Anthony MARTY",
+          "rankLabel": "D7",
+          "cpph": 1417,
+          "club": "Badminton Club de Castanet"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 12
+        },
+        {
+          "home": 18,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 19
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "00316703",
+          "name": "Carine BIDARD",
+          "rankLabel": "D8",
+          "cpph": 1004,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06784775",
+          "name": "Florence DOUDEMENT",
+          "rankLabel": "D7",
+          "cpph": 1086,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07336729",
+          "name": "Thi bich le NGUYEN",
+          "rankLabel": "D7",
+          "cpph": 1070,
+          "club": "Badminton Club de Castanet"
+        },
+        {
+          "playerId": "07425493",
+          "name": "Laura PERROT",
+          "rankLabel": "D7",
+          "cpph": 1122,
+          "club": "Badminton Club de Castanet"
+        }
+      ],
+      "sets": [
+        {
+          "home": 19,
+          "away": 21
+        },
+        {
+          "home": 16,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06469427",
+          "name": "Benjamin POIRIER",
+          "rankLabel": "R6",
+          "cpph": 1606,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00534519",
+          "name": "Cathy THOUVENIN",
+          "rankLabel": "D7",
+          "cpph": 1497,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07081031",
+          "name": "Thibaud MONCE",
+          "rankLabel": "R6",
+          "cpph": 1699,
+          "club": "Badminton Club de Castanet"
+        },
+        {
+          "playerId": "07425493",
+          "name": "Laura PERROT",
+          "rankLabel": "R6",
+          "cpph": 1658,
+          "club": "Badminton Club de Castanet"
+        }
+      ],
+      "sets": [
+        {
+          "home": 16,
+          "away": 21
+        },
+        {
+          "home": 11,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06574115",
+          "name": "Matteo CHAPUY",
+          "rankLabel": "D8",
+          "cpph": 1195,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06631266",
+          "name": "Iris LANG",
+          "rankLabel": "D7",
+          "cpph": 1550,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06613499",
+          "name": "Florian CARBASA",
+          "rankLabel": "R6",
+          "cpph": 1646,
+          "club": "Badminton Club de Castanet"
+        },
+        {
+          "playerId": "07336729",
+          "name": "Thi bich le NGUYEN",
+          "rankLabel": "D7",
+          "cpph": 1426,
+          "club": "Badminton Club de Castanet"
+        }
+      ],
+      "sets": [
+        {
+          "home": 13,
+          "away": 21
+        },
+        {
+          "home": 23,
+          "away": 21
+        },
+        {
+          "home": 12,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    }
+  ]
+}

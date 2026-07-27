@@ -1,0 +1,195 @@
+{
+  "id": "776143",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D1 - Playoffs - Interclubs Adultes Mixte",
+  "date": "2026-06-21",
+  "ourTeamSide": "home",
+  "homeTeam": {
+    "id": "31-VCT-3",
+    "icbadId": "75164",
+    "name": "Volant Club Toulousain",
+    "division": "D1",
+    "code": "31-VCT-3",
+    "number": 3
+  },
+  "awayTeam": {
+    "id": "31-PL-1",
+    "icbadId": "75161",
+    "name": "Plume Lauragaise",
+    "division": "D1",
+    "code": "31-PL-1",
+    "number": 1
+  },
+  "scoreHome": 0,
+  "scoreAway": 4,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06652133",
+          "name": "Camille BLOT",
+          "rankLabel": "R4",
+          "cpph": 2201,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00371377",
+          "name": "Aurélien SORRIAUX",
+          "rankLabel": "R4",
+          "cpph": 2064,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 13,
+          "away": 21
+        },
+        {
+          "home": 24,
+          "away": 22
+        },
+        {
+          "home": 12,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "07019899",
+          "name": "Emma BARAL",
+          "rankLabel": "R6",
+          "cpph": 1279,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06620215",
+          "name": "Cassandre GAROT",
+          "rankLabel": "R4",
+          "cpph": 1711,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 20,
+          "away": 22
+        },
+        {
+          "home": 9,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "06938462",
+          "name": "Maxime DETCHEPARE",
+          "rankLabel": "R4",
+          "cpph": 2080,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00443098",
+          "name": "Pierre THIERRY",
+          "rankLabel": "R4",
+          "cpph": 2202,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00207340",
+          "name": "Damien SOCCHI",
+          "rankLabel": "N3",
+          "cpph": 2527,
+          "club": "Plume Lauragaise"
+        },
+        {
+          "playerId": "00371377",
+          "name": "Aurélien SORRIAUX",
+          "rankLabel": "R4",
+          "cpph": 2123,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 13,
+          "away": 21
+        },
+        {
+          "home": 10,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "07019899",
+          "name": "Emma BARAL",
+          "rankLabel": "R5",
+          "cpph": 1625,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00443125",
+          "name": "Anne-laure THIERRY",
+          "rankLabel": "R6",
+          "cpph": 1318,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06812050",
+          "name": "Annaelle FERRETE",
+          "rankLabel": "R6",
+          "cpph": 1332,
+          "club": "Plume Lauragaise"
+        },
+        {
+          "playerId": "06620215",
+          "name": "Cassandre GAROT",
+          "rankLabel": "R4",
+          "cpph": 1724,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 13,
+          "away": 21
+        },
+        {
+          "home": 20,
+          "away": 22
+        }
+      ],
+      "winnerSide": "away"
+    }
+  ]
+}

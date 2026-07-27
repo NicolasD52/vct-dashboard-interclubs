@@ -5,14 +5,16 @@
   "date": "2025-11-09",
   "ourTeamSide": "away",
   "homeTeam": {
-    "id": "58696",
+    "id": "31-SOBAD-1",
+    "icbadId": "58696",
     "name": "Saint-Orens Badminton",
     "division": "Pré Nationale",
     "code": "31-SOBAD-1",
     "number": 1
   },
   "awayTeam": {
-    "id": "58699",
+    "id": "31-VCT-1",
+    "icbadId": "58699",
     "name": "Volant Club Toulousain",
     "division": "Pré Nationale",
     "code": "31-VCT-1",

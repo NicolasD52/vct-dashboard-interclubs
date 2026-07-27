@@ -5,14 +5,16 @@
   "date": "2026-01-18",
   "ourTeamSide": "home",
   "homeTeam": {
-    "id": "58735",
+    "id": "31-VCT-2",
+    "icbadId": "58735",
     "name": "Volant Club Toulousain",
     "division": "R2",
     "code": "31-VCT-2",
     "number": 2
   },
   "awayTeam": {
-    "id": "58732",
+    "id": "31-BBC-5",
+    "icbadId": "58732",
     "name": "Blagnac Badminton Club",
     "division": "R2",
     "code": "31-BBC-5",

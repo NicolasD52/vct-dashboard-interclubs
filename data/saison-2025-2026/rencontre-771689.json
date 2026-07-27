@@ -1,0 +1,375 @@
+{
+  "id": "771689",
+  "season": "2025/2026",
+  "competition": "Interclubs Régionaux OCCI R2 - 2025-2026 - Play-Off R2 (places de 1 à 4) - Interclubs Adultes Mixte",
+  "date": "2026-04-12",
+  "ourTeamSide": "home",
+  "homeTeam": {
+    "id": "31-VCT-2",
+    "icbadId": "72244",
+    "name": "Volant Club Toulousain",
+    "division": "R2",
+    "code": "31-VCT-2",
+    "number": 2
+  },
+  "awayTeam": {
+    "id": "81-UBAA-2",
+    "icbadId": "72243",
+    "name": "Union du Badminton de l'Agglomération Albigeoise",
+    "division": "R2",
+    "code": "81-UBAA-2",
+    "number": 2
+  },
+  "scoreHome": 7,
+  "scoreAway": 1,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06539655",
+          "name": "Maxime WEILL",
+          "rankLabel": "N3",
+          "cpph": 2505,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07164629",
+          "name": "Paul FERRY-MERCERON",
+          "rankLabel": "R4",
+          "cpph": 2129,
+          "club": "Union du Badminton de l'Agglomération Albigeoise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 18
+        },
+        {
+          "home": 19,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 14
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06903185",
+          "name": "Antoine LESCA ALLOUL",
+          "rankLabel": "R4",
+          "cpph": 2079,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06986544",
+          "name": "Léo RAMPNOUX",
+          "rankLabel": "R5",
+          "cpph": 1972,
+          "club": "Union du Badminton de l'Agglomération Albigeoise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 25,
+          "away": 27
+        },
+        {
+          "home": 24,
+          "away": 22
+        },
+        {
+          "home": 21,
+          "away": 18
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "06903575",
+          "name": "Marie SABATOU",
+          "rankLabel": "R4",
+          "cpph": 1608,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00479022",
+          "name": "Carine CAZALS",
+          "rankLabel": "R6",
+          "cpph": 1318,
+          "club": "Union du Badminton de l'Agglomération Albigeoise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 18,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 18
+        },
+        {
+          "home": 24,
+          "away": 22
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD2",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "07151612",
+          "name": "Léa MERLOZ",
+          "rankLabel": "R4",
+          "cpph": 1583,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07238924",
+          "name": "Emanuelle BRETTE",
+          "rankLabel": "R6",
+          "cpph": 1195,
+          "club": "Union du Badminton de l'Agglomération Albigeoise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 16,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 12
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "06549435",
+          "name": "Amon AMADIS",
+          "rankLabel": "N3",
+          "cpph": 2571,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06903185",
+          "name": "Antoine LESCA ALLOUL",
+          "rankLabel": "N3",
+          "cpph": 2522,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00450278",
+          "name": "Mathieu JALABERT",
+          "rankLabel": "N3",
+          "cpph": 2338,
+          "club": "Union du Badminton de l'Agglomération Albigeoise"
+        },
+        {
+          "playerId": "00557930",
+          "name": "Nicolas MARTIN",
+          "rankLabel": "N3",
+          "cpph": 2471,
+          "club": "Union du Badminton de l'Agglomération Albigeoise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 18,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 18
+        },
+        {
+          "home": 19,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "07151612",
+          "name": "Léa MERLOZ",
+          "rankLabel": "D7",
+          "cpph": 1135,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07568165",
+          "name": "Barbara SALINAS MARTINEZ",
+          "rankLabel": "R5",
+          "cpph": 1588,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00201101",
+          "name": "Florence BALLANT",
+          "rankLabel": "D7",
+          "cpph": 1078,
+          "club": "Union du Badminton de l'Agglomération Albigeoise"
+        },
+        {
+          "playerId": "00479022",
+          "name": "Carine CAZALS",
+          "rankLabel": "R6",
+          "cpph": 1248,
+          "club": "Union du Badminton de l'Agglomération Albigeoise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 16
+        },
+        {
+          "home": 21,
+          "away": 15
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06549435",
+          "name": "Amon AMADIS",
+          "rankLabel": "N3",
+          "cpph": 2513,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07568165",
+          "name": "Barbara SALINAS MARTINEZ",
+          "rankLabel": "R4",
+          "cpph": 1989,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00450278",
+          "name": "Mathieu JALABERT",
+          "rankLabel": "R4",
+          "cpph": 2153,
+          "club": "Union du Badminton de l'Agglomération Albigeoise"
+        },
+        {
+          "playerId": "07238924",
+          "name": "Emanuelle BRETTE",
+          "rankLabel": "R4",
+          "cpph": 2127,
+          "club": "Union du Badminton de l'Agglomération Albigeoise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 13
+        },
+        {
+          "home": 20,
+          "away": 22
+        },
+        {
+          "home": 21,
+          "away": 19
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06539655",
+          "name": "Maxime WEILL",
+          "rankLabel": "R4",
+          "cpph": 2022,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00444470",
+          "name": "Heïdi DEMOULINS",
+          "rankLabel": "R4",
+          "cpph": 2157,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07164629",
+          "name": "Paul FERRY-MERCERON",
+          "rankLabel": "R4",
+          "cpph": 2199,
+          "club": "Union du Badminton de l'Agglomération Albigeoise"
+        },
+        {
+          "playerId": "06746405",
+          "name": "Papatya PELT",
+          "rankLabel": "R4",
+          "cpph": 2038,
+          "club": "Union du Badminton de l'Agglomération Albigeoise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 19,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 26,
+          "away": 24
+        }
+      ],
+      "winnerSide": "home"
+    }
+  ]
+}

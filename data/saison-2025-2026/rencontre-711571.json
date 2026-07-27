@@ -5,14 +5,16 @@
   "date": "2025-11-09",
   "ourTeamSide": "home",
   "homeTeam": {
-    "id": "58735",
+    "id": "31-VCT-2",
+    "icbadId": "58735",
     "name": "Volant Club Toulousain",
     "division": "R2",
     "code": "31-VCT-2",
     "number": 2
   },
   "awayTeam": {
-    "id": "58730",
+    "id": "09-BCAP-1",
+    "icbadId": "58730",
     "name": "Badminton Club Appameen",
     "division": "R2",
     "code": "09-BCAP-1",

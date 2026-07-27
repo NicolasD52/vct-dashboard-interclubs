@@ -1,0 +1,330 @@
+{
+  "id": "750543",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D2 - Poule B - Interclubs Adultes Mixte",
+  "date": "2026-03-13",
+  "ourTeamSide": "away",
+  "homeTeam": {
+    "id": "31-BAL-1",
+    "icbadId": "67050",
+    "name": "Bad a Labege",
+    "division": "D2",
+    "code": "31-BAL-1",
+    "number": 1
+  },
+  "awayTeam": {
+    "id": "31-VCT-5",
+    "icbadId": "67055",
+    "name": "Volant Club Toulousain",
+    "division": "D2",
+    "code": "31-VCT-5",
+    "number": 5
+  },
+  "scoreHome": 5,
+  "scoreAway": 2,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07239727",
+          "name": "Yohan BERDAULON",
+          "rankLabel": "D7",
+          "cpph": 1486,
+          "club": "Bad a Labege"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06830786",
+          "name": "Maël PILLIOT",
+          "rankLabel": "D7",
+          "cpph": 1402,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 19,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 18
+        },
+        {
+          "home": 21,
+          "away": 23
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07010665",
+          "name": "Sven SALOMON",
+          "rankLabel": "P11",
+          "cpph": 669,
+          "club": "Bad a Labege"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06538234",
+          "name": "Robin CHARTIER",
+          "rankLabel": "D9",
+          "cpph": 1117,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 20,
+          "away": 22
+        },
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 21,
+          "away": 12
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "00506077",
+          "name": "Laëtitia CASSAN",
+          "rankLabel": "D7",
+          "cpph": 1139,
+          "club": "Bad a Labege"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07460502",
+          "name": "Jennifer SOULIER",
+          "rankLabel": "D8",
+          "cpph": 1000,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 18,
+          "away": 21
+        },
+        {
+          "home": 11,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "06715365",
+          "name": "Clement CANTIN",
+          "rankLabel": "D7",
+          "cpph": 1444,
+          "club": "Bad a Labege"
+        },
+        {
+          "playerId": "07277182",
+          "name": "Mathieu duc-thanh NGUYEN",
+          "rankLabel": "D7",
+          "cpph": 1495,
+          "club": "Bad a Labege"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06538234",
+          "name": "Robin CHARTIER",
+          "rankLabel": "D9",
+          "cpph": 1137,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06830786",
+          "name": "Maël PILLIOT",
+          "rankLabel": "D7",
+          "cpph": 1518,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 9
+        },
+        {
+          "home": 12,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 12
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "00506077",
+          "name": "Laëtitia CASSAN",
+          "rankLabel": "D7",
+          "cpph": 1149,
+          "club": "Bad a Labege"
+        },
+        {
+          "playerId": "00378657",
+          "name": "Céline CHAP",
+          "rankLabel": "D9",
+          "cpph": 873,
+          "club": "Bad a Labege"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00259936",
+          "name": "Xénia BANDIERA",
+          "rankLabel": "D8",
+          "cpph": 990,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07039257",
+          "name": "Laura FAUVEL",
+          "rankLabel": "D8",
+          "cpph": 962,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 13
+        },
+        {
+          "home": 21,
+          "away": 14
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "00519514",
+          "name": "Jean-philippe MARDEN",
+          "rankLabel": "D7",
+          "cpph": 1533,
+          "club": "Bad a Labege"
+        },
+        {
+          "playerId": "06952236",
+          "name": "Eléa TURC",
+          "rankLabel": "D7",
+          "cpph": 1443,
+          "club": "Bad a Labege"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06538234",
+          "name": "Robin CHARTIER",
+          "rankLabel": "D8",
+          "cpph": 1240,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00259936",
+          "name": "Xénia BANDIERA",
+          "rankLabel": "D7",
+          "cpph": 1505,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 12
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "07010665",
+          "name": "Sven SALOMON",
+          "rankLabel": "P10",
+          "cpph": 893,
+          "club": "Bad a Labege"
+        },
+        {
+          "playerId": "07267630",
+          "name": "Emeline LARRIEU",
+          "rankLabel": "D7",
+          "cpph": 1455,
+          "club": "Bad a Labege"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00365458",
+          "name": "Romain VIALA",
+          "rankLabel": "D8",
+          "cpph": 1170,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07039257",
+          "name": "Laura FAUVEL",
+          "rankLabel": "D8",
+          "cpph": 1268,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 18
+        },
+        {
+          "home": 20,
+          "away": 22
+        },
+        {
+          "home": 21,
+          "away": 19
+        }
+      ],
+      "winnerSide": "home"
+    }
+  ]
+}

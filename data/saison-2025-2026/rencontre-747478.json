@@ -1,0 +1,334 @@
+{
+  "id": "747478",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D4 - Poule B - Interclubs Adultes Mixte",
+  "date": "2025-12-11",
+  "ourTeamSide": "home",
+  "homeTeam": {
+    "id": "31-VCT-8",
+    "icbadId": "64545",
+    "name": "Volant Club Toulousain",
+    "division": "D4",
+    "code": "31-VCT-8",
+    "number": 8
+  },
+  "awayTeam": {
+    "id": "31-ASEAT-1",
+    "icbadId": "64540",
+    "name": "As Centre D'essais Aeronautique",
+    "division": "D4",
+    "code": "31-ASEAT-1",
+    "number": 1
+  },
+  "scoreHome": 4,
+  "scoreAway": 3,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07040524",
+          "name": "Clément FABRE-DAUCH",
+          "rankLabel": "D8",
+          "cpph": 1313,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06895548",
+          "name": "Erin LOUWERS",
+          "rankLabel": "D8",
+          "cpph": 1322,
+          "club": "As Centre D'essais Aeronautique"
+        }
+      ],
+      "sets": [
+        {
+          "home": 19,
+          "away": 21
+        },
+        {
+          "home": 18,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "00274963",
+          "name": "Paul adrien CORTET",
+          "rankLabel": "D8",
+          "cpph": 1199,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07583771",
+          "name": "Florian PAMIES",
+          "rankLabel": "D8",
+          "cpph": 1167,
+          "club": "As Centre D'essais Aeronautique"
+        }
+      ],
+      "sets": [
+        {
+          "home": 16,
+          "away": 21
+        },
+        {
+          "home": 16,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "06964977",
+          "name": "Léa ZANARDI-CESAR",
+          "rankLabel": "D9",
+          "cpph": 867,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00464234",
+          "name": "Corinne TRIGOSSE",
+          "rankLabel": "D9",
+          "cpph": 847,
+          "club": "As Centre D'essais Aeronautique"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 18
+        },
+        {
+          "home": 18,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 19
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "00514766",
+          "name": "Jordan HAAGER",
+          "rankLabel": "D9",
+          "cpph": 1012,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07562369",
+          "name": "Pierre RICHAUD",
+          "rankLabel": "D8",
+          "cpph": 1184,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00371060",
+          "name": "Vincent DECOUT",
+          "rankLabel": "D9",
+          "cpph": 1056,
+          "club": "As Centre D'essais Aeronautique"
+        },
+        {
+          "playerId": "06895548",
+          "name": "Erin LOUWERS",
+          "rankLabel": "D8",
+          "cpph": 1241,
+          "club": "As Centre D'essais Aeronautique"
+        }
+      ],
+      "sets": [
+        {
+          "home": 17,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 8
+        },
+        {
+          "home": 21,
+          "away": 9
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "07359164",
+          "name": "Léa CORROCHER",
+          "rankLabel": "D9",
+          "cpph": 756,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00540337",
+          "name": "Anne LAGARDE",
+          "rankLabel": "P10",
+          "cpph": 678,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07232067",
+          "name": "Justine BESSIERES",
+          "rankLabel": "P10",
+          "cpph": 662,
+          "club": "As Centre D'essais Aeronautique"
+        },
+        {
+          "playerId": "07447835",
+          "name": "Mathilde VIALA",
+          "rankLabel": "P10",
+          "cpph": 592,
+          "club": "As Centre D'essais Aeronautique"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 13
+        },
+        {
+          "home": 20,
+          "away": 22
+        },
+        {
+          "home": 9,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "07562369",
+          "name": "Pierre RICHAUD",
+          "rankLabel": "D8",
+          "cpph": 1264,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07373812",
+          "name": "Lisa FOURNIER",
+          "rankLabel": "D8",
+          "cpph": 1230,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07420773",
+          "name": "Clément LEMEUNIER",
+          "rankLabel": "D9",
+          "cpph": 1045,
+          "club": "As Centre D'essais Aeronautique"
+        },
+        {
+          "playerId": "07447835",
+          "name": "Mathilde VIALA",
+          "rankLabel": "D8",
+          "cpph": 1200,
+          "club": "As Centre D'essais Aeronautique"
+        }
+      ],
+      "sets": [
+        {
+          "home": 24,
+          "away": 26
+        },
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 21,
+          "away": 10
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "00514766",
+          "name": "Jordan HAAGER",
+          "rankLabel": "D8",
+          "cpph": 1258,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06959638",
+          "name": "Shana MASDEU",
+          "rankLabel": "D9",
+          "cpph": 1162,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00371060",
+          "name": "Vincent DECOUT",
+          "rankLabel": "D9",
+          "cpph": 1107,
+          "club": "As Centre D'essais Aeronautique"
+        },
+        {
+          "playerId": "07528763",
+          "name": "Florence BONNIN",
+          "rankLabel": "D9",
+          "cpph": 1083,
+          "club": "As Centre D'essais Aeronautique"
+        }
+      ],
+      "sets": [
+        {
+          "home": 14,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 9
+        },
+        {
+          "home": 21,
+          "away": 17
+        }
+      ],
+      "winnerSide": "home"
+    }
+  ]
+}

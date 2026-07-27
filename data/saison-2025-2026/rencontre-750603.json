@@ -1,0 +1,318 @@
+{
+  "id": "750603",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D2 - Poule D - Interclubs Adultes Mixte",
+  "date": "2026-03-20",
+  "ourTeamSide": "home",
+  "homeTeam": {
+    "id": "31-VCT-6",
+    "icbadId": "67067",
+    "name": "Volant Club Toulousain",
+    "division": "D2",
+    "code": "31-VCT-6",
+    "number": 6
+  },
+  "awayTeam": {
+    "id": "31-SOBAD-5",
+    "icbadId": "67065",
+    "name": "Saint-Orens Badminton",
+    "division": "D2",
+    "code": "31-SOBAD-5",
+    "number": 5
+  },
+  "scoreHome": 6,
+  "scoreAway": 1,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07020746",
+          "name": "Gael RICHET",
+          "rankLabel": "D7",
+          "cpph": 1522,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07097112",
+          "name": "Marceau DUCROS",
+          "rankLabel": "R6",
+          "cpph": 1743,
+          "club": "Saint-Orens Badminton"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 17
+        },
+        {
+          "home": 21,
+          "away": 10
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06683103",
+          "name": "Gaspard BEZZA",
+          "rankLabel": "D7",
+          "cpph": 1469,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07273504",
+          "name": "Lucien CLAVERO",
+          "rankLabel": "R6",
+          "cpph": 1761,
+          "club": "Saint-Orens Badminton"
+        }
+      ],
+      "sets": [
+        {
+          "home": 17,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 11
+        },
+        {
+          "home": 17,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "07322218",
+          "name": "Sophie FLECHE",
+          "rankLabel": "D7",
+          "cpph": 1059,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07499201",
+          "name": "Aurianne CAMER",
+          "rankLabel": "P11",
+          "cpph": 474,
+          "club": "Saint-Orens Badminton"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 21,
+          "away": 10
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "07486851",
+          "name": "Qadim KHAN",
+          "rankLabel": "D7",
+          "cpph": 1525,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00116543",
+          "name": "Jean-christophe POFILET",
+          "rankLabel": "D7",
+          "cpph": 1530,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00435117",
+          "name": "Stéphane BARRERE",
+          "rankLabel": "D7",
+          "cpph": 1400,
+          "club": "Saint-Orens Badminton"
+        },
+        {
+          "playerId": "07163801",
+          "name": "Charli FERNANDEZ",
+          "rankLabel": "D8",
+          "cpph": 1330,
+          "club": "Saint-Orens Badminton"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 21,
+          "away": 17
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "06784775",
+          "name": "Florence DOUDEMENT",
+          "rankLabel": "D8",
+          "cpph": 1036,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06631266",
+          "name": "Iris LANG",
+          "rankLabel": "D8",
+          "cpph": 978,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06875328",
+          "name": "Julie CEREDE",
+          "rankLabel": "D9",
+          "cpph": 819,
+          "club": "Saint-Orens Badminton"
+        },
+        {
+          "playerId": "06767942",
+          "name": "Noémie VIGUIER",
+          "rankLabel": "D9",
+          "cpph": 739,
+          "club": "Saint-Orens Badminton"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 21,
+          "away": 10
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06469427",
+          "name": "Benjamin POIRIER",
+          "rankLabel": "R6",
+          "cpph": 1611,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00534519",
+          "name": "Cathy THOUVENIN",
+          "rankLabel": "D7",
+          "cpph": 1502,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00435117",
+          "name": "Stéphane BARRERE",
+          "rankLabel": "D8",
+          "cpph": 1333,
+          "club": "Saint-Orens Badminton"
+        },
+        {
+          "playerId": "06534685",
+          "name": "Florence LATIERRE",
+          "rankLabel": "D9",
+          "cpph": 1053,
+          "club": "Saint-Orens Badminton"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 14
+        },
+        {
+          "home": 21,
+          "away": 7
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06683103",
+          "name": "Gaspard BEZZA",
+          "rankLabel": "D8",
+          "cpph": 1249,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06631266",
+          "name": "Iris LANG",
+          "rankLabel": "R6",
+          "cpph": 1555,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07163801",
+          "name": "Charli FERNANDEZ",
+          "rankLabel": "D8",
+          "cpph": 1227,
+          "club": "Saint-Orens Badminton"
+        },
+        {
+          "playerId": "07499201",
+          "name": "Aurianne CAMER",
+          "rankLabel": "P11",
+          "cpph": 656,
+          "club": "Saint-Orens Badminton"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 14
+        },
+        {
+          "home": 21,
+          "away": 15
+        }
+      ],
+      "winnerSide": "home"
+    }
+  ]
+}

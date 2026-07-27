@@ -1,0 +1,322 @@
+{
+  "id": "772583",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D4 - Barrages / Play-Offs - Interclubs Adultes Mixte",
+  "date": "2026-05-20",
+  "ourTeamSide": "home",
+  "homeTeam": {
+    "id": "31-VCT-9",
+    "icbadId": "72793",
+    "name": "Volant Club Toulousain",
+    "division": "D4",
+    "code": "31-VCT-9",
+    "number": 9
+  },
+  "awayTeam": {
+    "id": "31-USC-2",
+    "icbadId": "72791",
+    "name": "Union Sportive De Colomiers",
+    "division": "D4",
+    "code": "31-USC-2",
+    "number": 2
+  },
+  "scoreHome": 7,
+  "scoreAway": 0,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07274952",
+          "name": "Isaac CIESIELSKI",
+          "rankLabel": "D7",
+          "cpph": 1408,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07018074",
+          "name": "Quentin IMBERT",
+          "rankLabel": "D8",
+          "cpph": 1225,
+          "club": "Union Sportive De Colomiers"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 21,
+          "away": 17
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06576827",
+          "name": "Doume DENIS",
+          "rankLabel": "P10",
+          "cpph": 912,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07415341",
+          "name": "Yoann CARREZ",
+          "rankLabel": "P10",
+          "cpph": 842,
+          "club": "Union Sportive De Colomiers"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 11
+        },
+        {
+          "home": 21,
+          "away": 9
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "07209530",
+          "name": "Esther CIESIELSKI",
+          "rankLabel": "D7",
+          "cpph": 1038,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06599720",
+          "name": "Emilie MAUNOURY",
+          "rankLabel": "P10",
+          "cpph": 670,
+          "club": "Union Sportive De Colomiers"
+        }
+      ],
+      "sets": [
+        {
+          "home": 11,
+          "away": 21
+        },
+        {
+          "home": 22,
+          "away": 20
+        },
+        {
+          "home": 21,
+          "away": 9
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "07497950",
+          "name": "Jérémie CHHEANG",
+          "rankLabel": "P10",
+          "cpph": 893,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06881877",
+          "name": "Guillaume MAURY",
+          "rankLabel": "D9",
+          "cpph": 971,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07018074",
+          "name": "Quentin IMBERT",
+          "rankLabel": "D9",
+          "cpph": 962,
+          "club": "Union Sportive De Colomiers"
+        },
+        {
+          "playerId": "06752569",
+          "name": "Julien MARTINEZ",
+          "rankLabel": "D9",
+          "cpph": 1171,
+          "club": "Union Sportive De Colomiers"
+        }
+      ],
+      "sets": [
+        {
+          "home": 25,
+          "away": 23
+        },
+        {
+          "home": 21,
+          "away": 17
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "06959594",
+          "name": "Olivia BIALCZYK",
+          "rankLabel": "D9",
+          "cpph": 806,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06957215",
+          "name": "Mathilde SPIESSER",
+          "rankLabel": "D7",
+          "cpph": 1058,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07505124",
+          "name": "Edith BOUSSARIE",
+          "rankLabel": "P10",
+          "cpph": 649,
+          "club": "Union Sportive De Colomiers"
+        },
+        {
+          "playerId": "07245465",
+          "name": "Marie CHARRE",
+          "rankLabel": "P10",
+          "cpph": 641,
+          "club": "Union Sportive De Colomiers"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 5
+        },
+        {
+          "home": 21,
+          "away": 10
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06576827",
+          "name": "Doume DENIS",
+          "rankLabel": "P10",
+          "cpph": 846,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06957215",
+          "name": "Mathilde SPIESSER",
+          "rankLabel": "D7",
+          "cpph": 1538,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06536379",
+          "name": "Anthony MARET",
+          "rankLabel": "D9",
+          "cpph": 965,
+          "club": "Union Sportive De Colomiers"
+        },
+        {
+          "playerId": "06851773",
+          "name": "Cléhia PINNA",
+          "rankLabel": "D9",
+          "cpph": 945,
+          "club": "Union Sportive De Colomiers"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 13
+        },
+        {
+          "home": 21,
+          "away": 5
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06881877",
+          "name": "Guillaume MAURY",
+          "rankLabel": "D9",
+          "cpph": 1049,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06959594",
+          "name": "Olivia BIALCZYK",
+          "rankLabel": "D7",
+          "cpph": 1482,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06752569",
+          "name": "Julien MARTINEZ",
+          "rankLabel": "D9",
+          "cpph": 981,
+          "club": "Union Sportive De Colomiers"
+        },
+        {
+          "playerId": "06774476",
+          "name": "Anais MACHEMY",
+          "rankLabel": "D9",
+          "cpph": 1016,
+          "club": "Union Sportive De Colomiers"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 17
+        },
+        {
+          "home": 16,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    }
+  ]
+}

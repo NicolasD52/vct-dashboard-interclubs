@@ -1,0 +1,322 @@
+{
+  "id": "747475",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D4 - Poule B - Interclubs Adultes Mixte",
+  "date": "2025-11-27",
+  "ourTeamSide": "home",
+  "homeTeam": {
+    "id": "31-VCT-8",
+    "icbadId": "64545",
+    "name": "Volant Club Toulousain",
+    "division": "D4",
+    "code": "31-VCT-8",
+    "number": 8
+  },
+  "awayTeam": {
+    "id": "31-ABCD-1",
+    "icbadId": "64541",
+    "name": "Association Badminton Croix Daurade",
+    "division": "D4",
+    "code": "31-ABCD-1",
+    "number": 1
+  },
+  "scoreHome": 5,
+  "scoreAway": 2,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "00274963",
+          "name": "Paul adrien CORTET",
+          "rankLabel": "D8",
+          "cpph": 1171,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06621940",
+          "name": "Thomas GUEGAN",
+          "rankLabel": "D9",
+          "cpph": 1016,
+          "club": "Association Badminton Croix Daurade"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 9
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07318481",
+          "name": "Maxime PIRAS",
+          "rankLabel": "D9",
+          "cpph": 1035,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07277791",
+          "name": "Laurent KAMEL",
+          "rankLabel": "P10",
+          "cpph": 904,
+          "club": "Association Badminton Croix Daurade"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 15,
+          "away": 21
+        },
+        {
+          "home": 16,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "06964977",
+          "name": "Léa ZANARDI-CESAR",
+          "rankLabel": "D9",
+          "cpph": 869,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00458322",
+          "name": "Julie ENDERLIN",
+          "rankLabel": "P11",
+          "cpph": 569,
+          "club": "Association Badminton Croix Daurade"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 14
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "07496481",
+          "name": "Alexis ANGEVIN",
+          "rankLabel": "P10",
+          "cpph": 892,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07499080",
+          "name": "Kyllian CHEVALIER",
+          "rankLabel": "D7",
+          "cpph": 1369,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07303196",
+          "name": "Christophe ERNANDEZ",
+          "rankLabel": "P11",
+          "cpph": 681,
+          "club": "Association Badminton Croix Daurade"
+        },
+        {
+          "playerId": "07463761",
+          "name": "Fabien MATHIS",
+          "rankLabel": "P11",
+          "cpph": 607,
+          "club": "Association Badminton Croix Daurade"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 16
+        },
+        {
+          "home": 21,
+          "away": 7
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "00540337",
+          "name": "Anne LAGARDE",
+          "rankLabel": "D9",
+          "cpph": 721,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06964977",
+          "name": "Léa ZANARDI-CESAR",
+          "rankLabel": "D8",
+          "cpph": 975,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00458322",
+          "name": "Julie ENDERLIN",
+          "rankLabel": "D9",
+          "cpph": 742,
+          "club": "Association Badminton Croix Daurade"
+        },
+        {
+          "playerId": "06845271",
+          "name": "Coline ROLLET",
+          "rankLabel": "P10",
+          "cpph": 669,
+          "club": "Association Badminton Croix Daurade"
+        }
+      ],
+      "sets": [
+        {
+          "home": 20,
+          "away": 22
+        },
+        {
+          "home": 19,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "00514766",
+          "name": "Jordan HAAGER",
+          "rankLabel": "D8",
+          "cpph": 1224,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06959638",
+          "name": "Shana MASDEU",
+          "rankLabel": "D9",
+          "cpph": 1134,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07277791",
+          "name": "Laurent KAMEL",
+          "rankLabel": "D9",
+          "cpph": 1076,
+          "club": "Association Badminton Croix Daurade"
+        },
+        {
+          "playerId": "00458322",
+          "name": "Julie ENDERLIN",
+          "rankLabel": "P10",
+          "cpph": 884,
+          "club": "Association Badminton Croix Daurade"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 23
+        },
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 21,
+          "away": 17
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "07562369",
+          "name": "Pierre RICHAUD",
+          "rankLabel": "D9",
+          "cpph": 1161,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00540337",
+          "name": "Anne LAGARDE",
+          "rankLabel": "D8",
+          "cpph": 1205,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07024925",
+          "name": "Hugo BORDAS",
+          "rankLabel": "P10",
+          "cpph": 812,
+          "club": "Association Badminton Croix Daurade"
+        },
+        {
+          "playerId": "06845271",
+          "name": "Coline ROLLET",
+          "rankLabel": "D9",
+          "cpph": 1117,
+          "club": "Association Badminton Croix Daurade"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 16
+        },
+        {
+          "home": 21,
+          "away": 13
+        }
+      ],
+      "winnerSide": "home"
+    }
+  ]
+}

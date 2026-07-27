@@ -1,0 +1,322 @@
+{
+  "id": "750562",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D2 - Poule C - Interclubs Adultes Mixte",
+  "date": "2026-01-12",
+  "ourTeamSide": "away",
+  "homeTeam": {
+    "id": "31-BCT-2",
+    "icbadId": "67058",
+    "name": "Bc Tournefeuille",
+    "division": "D2",
+    "code": "31-BCT-2",
+    "number": 2
+  },
+  "awayTeam": {
+    "id": "31-VCT-7",
+    "icbadId": "67061",
+    "name": "Volant Club Toulousain",
+    "division": "D2",
+    "code": "31-VCT-7",
+    "number": 7
+  },
+  "scoreHome": 2,
+  "scoreAway": 5,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06654968",
+          "name": "Christophe DROBNY",
+          "rankLabel": "D7",
+          "cpph": 1498,
+          "club": "Bc Tournefeuille"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07234039",
+          "name": "Maxandre BEGUE-OLIE",
+          "rankLabel": "R6",
+          "cpph": 1621,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 13,
+          "away": 21
+        },
+        {
+          "home": 11,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "00551738",
+          "name": "Brice MORTIER",
+          "rankLabel": "D7",
+          "cpph": 1410,
+          "club": "Bc Tournefeuille"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07264703",
+          "name": "Renjith MUNNILATH",
+          "rankLabel": "D9",
+          "cpph": 1083,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 19,
+          "away": 21
+        },
+        {
+          "home": 19,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "06901648",
+          "name": "Julie-claire LO",
+          "rankLabel": "D9",
+          "cpph": 766,
+          "club": "Bc Tournefeuille"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07273506",
+          "name": "Tram NGUYEN",
+          "rankLabel": "D7",
+          "cpph": 1124,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 9,
+          "away": 21
+        },
+        {
+          "home": 5,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "06654968",
+          "name": "Christophe DROBNY",
+          "rankLabel": "D7",
+          "cpph": 1370,
+          "club": "Bc Tournefeuille"
+        },
+        {
+          "playerId": "06697799",
+          "name": "Lucas GRAUERHOLZ",
+          "rankLabel": "D8",
+          "cpph": 1246,
+          "club": "Bc Tournefeuille"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00266559",
+          "name": "Antoine GUINET",
+          "rankLabel": "D8",
+          "cpph": 1355,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00352262",
+          "name": "Nicolas LEPLAT",
+          "rankLabel": "D9",
+          "cpph": 1135,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 17,
+          "away": 21
+        },
+        {
+          "home": 23,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 15
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "06842831",
+          "name": "Charline ALBIACH",
+          "rankLabel": "D9",
+          "cpph": 807,
+          "club": "Bc Tournefeuille"
+        },
+        {
+          "playerId": "06534669",
+          "name": "Aurelie REGIMBEAU",
+          "rankLabel": "D8",
+          "cpph": 903,
+          "club": "Bc Tournefeuille"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07568153",
+          "name": "Elodie JEZ",
+          "rankLabel": "D8",
+          "cpph": 951,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06690980",
+          "name": "Juliette LE MOUEL",
+          "rankLabel": "D8",
+          "cpph": 972,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 22,
+          "away": 20
+        },
+        {
+          "home": 19,
+          "away": 21
+        },
+        {
+          "home": 22,
+          "away": 20
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06697799",
+          "name": "Lucas GRAUERHOLZ",
+          "rankLabel": "D8",
+          "cpph": 1226,
+          "club": "Bc Tournefeuille"
+        },
+        {
+          "playerId": "00347314",
+          "name": "Virginie TASTAVY",
+          "rankLabel": "D8",
+          "cpph": 1288,
+          "club": "Bc Tournefeuille"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00266559",
+          "name": "Antoine GUINET",
+          "rankLabel": "D7",
+          "cpph": 1412,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07568153",
+          "name": "Elodie JEZ",
+          "rankLabel": "D8",
+          "cpph": 1317,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 17,
+          "away": 21
+        },
+        {
+          "home": 17,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "07095247",
+          "name": "Marc GAYOUT",
+          "rankLabel": "D8",
+          "cpph": 1214,
+          "club": "Bc Tournefeuille"
+        },
+        {
+          "playerId": "06534669",
+          "name": "Aurelie REGIMBEAU",
+          "rankLabel": "D8",
+          "cpph": 1225,
+          "club": "Bc Tournefeuille"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07264703",
+          "name": "Renjith MUNNILATH",
+          "rankLabel": "D8",
+          "cpph": 1261,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06690980",
+          "name": "Juliette LE MOUEL",
+          "rankLabel": "D8",
+          "cpph": 1183,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 15,
+          "away": 21
+        },
+        {
+          "home": 13,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    }
+  ]
+}

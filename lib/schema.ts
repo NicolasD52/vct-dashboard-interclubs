@@ -35,7 +35,14 @@ export const MatchSchema = z.object({
 export type Match = z.infer<typeof MatchSchema>;
 
 export const TeamRefSchema = z.object({
+  /**
+   * Identité stable de l'équipe sur la saison : son code (« 31-VCT-2 »).
+   * Surtout pas l'id icbad, qui change à chaque phase de la compétition
+   * (poule, barrages, petite finale) et dédoublerait donc l'équipe.
+   */
   id: z.string(),
+  /** Id icbad de l'équipe pour la phase concernée, conservé pour référence. */
+  icbadId: z.string().optional(),
   /** Nom du club, sans le numéro d'équipe (ex. « Volant Club Toulousain »). */
   name: z.string(),
   division: z.string(),

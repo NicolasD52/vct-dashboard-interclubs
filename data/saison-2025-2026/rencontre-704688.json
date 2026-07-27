@@ -5,14 +5,16 @@
   "date": "2026-03-15",
   "ourTeamSide": "home",
   "homeTeam": {
-    "id": "58699",
+    "id": "31-VCT-1",
+    "icbadId": "58699",
     "name": "Volant Club Toulousain",
     "division": "Pré Nationale",
     "code": "31-VCT-1",
     "number": 1
   },
   "awayTeam": {
-    "id": "58693",
+    "id": "34-ASDAS-1",
+    "icbadId": "58693",
     "name": "Association Sportive des Alain Savary",
     "division": "Pré Nationale",
     "code": "34-ASDAS-1",

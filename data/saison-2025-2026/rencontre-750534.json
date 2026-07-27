@@ -1,0 +1,318 @@
+{
+  "id": "750534",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D2 - Poule B - Interclubs Adultes Mixte",
+  "date": "2026-01-23",
+  "ourTeamSide": "away",
+  "homeTeam": {
+    "id": "31-ASBV--1",
+    "icbadId": "67052",
+    "name": "Les Figuiers Volants",
+    "division": "D2",
+    "code": "31-ASBV--1",
+    "number": 1
+  },
+  "awayTeam": {
+    "id": "31-VCT-5",
+    "icbadId": "67055",
+    "name": "Volant Club Toulousain",
+    "division": "D2",
+    "code": "31-VCT-5",
+    "number": 5
+  },
+  "scoreHome": 7,
+  "scoreAway": 0,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "00003042",
+          "name": "Fréderic FERRETE",
+          "rankLabel": "R5",
+          "cpph": 1832,
+          "club": "Les Figuiers Volants"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06830786",
+          "name": "Maël PILLIOT",
+          "rankLabel": "D7",
+          "cpph": 1381,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 21,
+          "away": 14
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06576195",
+          "name": "Benjamin CAPRI",
+          "rankLabel": "D9",
+          "cpph": 1148,
+          "club": "Les Figuiers Volants"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06675505",
+          "name": "Corentin BONAFOS",
+          "rankLabel": "D7",
+          "cpph": 1361,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 12,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 16
+        },
+        {
+          "home": 21,
+          "away": 15
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "06498930",
+          "name": "Laura VERGEZ",
+          "rankLabel": "R6",
+          "cpph": 1229,
+          "club": "Les Figuiers Volants"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00259936",
+          "name": "Xénia BANDIERA",
+          "rankLabel": "D8",
+          "cpph": 921,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 7
+        },
+        {
+          "home": 21,
+          "away": 13
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "06756968",
+          "name": "Adrien BARRE",
+          "rankLabel": "D8",
+          "cpph": 1204,
+          "club": "Les Figuiers Volants"
+        },
+        {
+          "playerId": "06536772",
+          "name": "Antoine RUILLE",
+          "rankLabel": "D8",
+          "cpph": 1236,
+          "club": "Les Figuiers Volants"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06538234",
+          "name": "Robin CHARTIER",
+          "rankLabel": "D9",
+          "cpph": 1097,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07025499",
+          "name": "Kaïs GHARBI",
+          "rankLabel": "R6",
+          "cpph": 1604,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 21,
+          "away": 17
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "06547268",
+          "name": "Céline GENTILHOMME",
+          "rankLabel": "D9",
+          "cpph": 861,
+          "club": "Les Figuiers Volants"
+        },
+        {
+          "playerId": "00262893",
+          "name": "Pauline SENIOW",
+          "rankLabel": "R6",
+          "cpph": 1316,
+          "club": "Les Figuiers Volants"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00259936",
+          "name": "Xénia BANDIERA",
+          "rankLabel": "D8",
+          "cpph": 1002,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06505776",
+          "name": "Marie-laure DESSE",
+          "rankLabel": "D8",
+          "cpph": 899,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 16
+        },
+        {
+          "home": 21,
+          "away": 9
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "00003042",
+          "name": "Fréderic FERRETE",
+          "rankLabel": "R5",
+          "cpph": 1893,
+          "club": "Les Figuiers Volants"
+        },
+        {
+          "playerId": "00262893",
+          "name": "Pauline SENIOW",
+          "rankLabel": "R5",
+          "cpph": 1968,
+          "club": "Les Figuiers Volants"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06538234",
+          "name": "Robin CHARTIER",
+          "rankLabel": "D8",
+          "cpph": 1230,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06505776",
+          "name": "Marie-laure DESSE",
+          "rankLabel": "D7",
+          "cpph": 1376,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 10
+        },
+        {
+          "home": 21,
+          "away": 10
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06756968",
+          "name": "Adrien BARRE",
+          "rankLabel": "D8",
+          "cpph": 1164,
+          "club": "Les Figuiers Volants"
+        },
+        {
+          "playerId": "06498930",
+          "name": "Laura VERGEZ",
+          "rankLabel": "R6",
+          "cpph": 1722,
+          "club": "Les Figuiers Volants"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00365458",
+          "name": "Romain VIALA",
+          "rankLabel": "D8",
+          "cpph": 1199,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00259936",
+          "name": "Xénia BANDIERA",
+          "rankLabel": "D7",
+          "cpph": 1520,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 12
+        },
+        {
+          "home": 21,
+          "away": 9
+        }
+      ],
+      "winnerSide": "home"
+    }
+  ]
+}

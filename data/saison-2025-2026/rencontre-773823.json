@@ -1,0 +1,318 @@
+{
+  "id": "773823",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D2 - Barrages / Play-offs - Interclubs Adultes Mixte",
+  "date": "2026-05-20",
+  "ourTeamSide": "home",
+  "homeTeam": {
+    "id": "31-VCT-7",
+    "icbadId": "73576",
+    "name": "Volant Club Toulousain",
+    "division": "D2",
+    "code": "31-VCT-7",
+    "number": 7
+  },
+  "awayTeam": {
+    "id": "31-PL-2",
+    "icbadId": "73572",
+    "name": "Plume Lauragaise",
+    "division": "D2",
+    "code": "31-PL-2",
+    "number": 2
+  },
+  "scoreHome": 1,
+  "scoreAway": 6,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07234039",
+          "name": "Maxandre BEGUE-OLIE",
+          "rankLabel": "R6",
+          "cpph": 1692,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07330056",
+          "name": "Lukas NICOLAESCU",
+          "rankLabel": "R5",
+          "cpph": 1963,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 9,
+          "away": 21
+        },
+        {
+          "home": 15,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07264703",
+          "name": "Renjith MUNNILATH",
+          "rankLabel": "D9",
+          "cpph": 1121,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06906847",
+          "name": "Maelan TUDEAU",
+          "rankLabel": "R5",
+          "cpph": 1809,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 14,
+          "away": 21
+        },
+        {
+          "home": 14,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "07273506",
+          "name": "Tram NGUYEN",
+          "rankLabel": "R6",
+          "cpph": 1191,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07211123",
+          "name": "Marion ALBERT",
+          "rankLabel": "D8",
+          "cpph": 999,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 17,
+          "away": 21
+        },
+        {
+          "home": 11,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "00352262",
+          "name": "Nicolas LEPLAT",
+          "rankLabel": "D9",
+          "cpph": 1158,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07264703",
+          "name": "Renjith MUNNILATH",
+          "rankLabel": "D7",
+          "cpph": 1374,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06518332",
+          "name": "Baptiste ARVIS",
+          "rankLabel": "R6",
+          "cpph": 1600,
+          "club": "Plume Lauragaise"
+        },
+        {
+          "playerId": "07330056",
+          "name": "Lukas NICOLAESCU",
+          "rankLabel": "R6",
+          "cpph": 1617,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 10,
+          "away": 21
+        },
+        {
+          "home": 20,
+          "away": 22
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "07568153",
+          "name": "Elodie JEZ",
+          "rankLabel": "D7",
+          "cpph": 1082,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07273506",
+          "name": "Tram NGUYEN",
+          "rankLabel": "D7",
+          "cpph": 1149,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07211123",
+          "name": "Marion ALBERT",
+          "rankLabel": "R6",
+          "cpph": 1337,
+          "club": "Plume Lauragaise"
+        },
+        {
+          "playerId": "00239802",
+          "name": "Eva BEUILLE",
+          "rankLabel": "R6",
+          "cpph": 1395,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 10,
+          "away": 21
+        },
+        {
+          "home": 15,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "00266559",
+          "name": "Antoine GUINET",
+          "rankLabel": "R5",
+          "cpph": 1823,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07568153",
+          "name": "Elodie JEZ",
+          "rankLabel": "D7",
+          "cpph": 1393,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06518332",
+          "name": "Baptiste ARVIS",
+          "rankLabel": "R6",
+          "cpph": 1566,
+          "club": "Plume Lauragaise"
+        },
+        {
+          "playerId": "00239802",
+          "name": "Eva BEUILLE",
+          "rankLabel": "R5",
+          "cpph": 1875,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 16
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06809919",
+          "name": "Jean-didier MEROPE",
+          "rankLabel": "D7",
+          "cpph": 1386,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07273506",
+          "name": "Tram NGUYEN",
+          "rankLabel": "D8",
+          "cpph": 1262,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07242378",
+          "name": "Elio ROUSSEAU",
+          "rankLabel": "D8",
+          "cpph": 1265,
+          "club": "Plume Lauragaise"
+        },
+        {
+          "playerId": "06888697",
+          "name": "Linda TEMPESTINI",
+          "rankLabel": "D8",
+          "cpph": 1348,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 16
+        },
+        {
+          "home": 12,
+          "away": 21
+        },
+        {
+          "home": 11,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    }
+  ]
+}

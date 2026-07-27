@@ -1,0 +1,318 @@
+{
+  "id": "719684",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D1 - Poule B - Interclubs Adultes Mixte",
+  "date": "2026-04-03",
+  "ourTeamSide": "home",
+  "homeTeam": {
+    "id": "31-VCT-3",
+    "icbadId": "62503",
+    "name": "Volant Club Toulousain",
+    "division": "D1",
+    "code": "31-VCT-3",
+    "number": 3
+  },
+  "awayTeam": {
+    "id": "31-CBV-1",
+    "icbadId": "62498",
+    "name": "Club De Badminton Villeneuvois",
+    "division": "D1",
+    "code": "31-CBV-1",
+    "number": 1
+  },
+  "scoreHome": 7,
+  "scoreAway": 0,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06585382",
+          "name": "Guillaume NGUYEN",
+          "rankLabel": "R5",
+          "cpph": 1936,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00457174",
+          "name": "Yoann LEDIEU",
+          "rankLabel": "D7",
+          "cpph": 1445,
+          "club": "Club De Badminton Villeneuvois"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 14
+        },
+        {
+          "home": 21,
+          "away": 9
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "00390628",
+          "name": "Julien MORIN",
+          "rankLabel": "R6",
+          "cpph": 1699,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07062012",
+          "name": "Theo PETIT",
+          "rankLabel": "D7",
+          "cpph": 1476,
+          "club": "Club De Badminton Villeneuvois"
+        }
+      ],
+      "sets": [
+        {
+          "home": 23,
+          "away": 25
+        },
+        {
+          "home": 21,
+          "away": 16
+        },
+        {
+          "home": 21,
+          "away": 14
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "07019899",
+          "name": "Emma BARAL",
+          "rankLabel": "R6",
+          "cpph": 1269,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00355566",
+          "name": "Anaïs AUROUX",
+          "rankLabel": "D7",
+          "cpph": 1162,
+          "club": "Club De Badminton Villeneuvois"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 21,
+          "away": 15
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "06938462",
+          "name": "Maxime DETCHEPARE",
+          "rankLabel": "R4",
+          "cpph": 2057,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00443098",
+          "name": "Pierre THIERRY",
+          "rankLabel": "R4",
+          "cpph": 2015,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06848267",
+          "name": "Maxime GAGET",
+          "rankLabel": "R5",
+          "cpph": 1831,
+          "club": "Club De Badminton Villeneuvois"
+        },
+        {
+          "playerId": "00113673",
+          "name": "Ghislain SAULNIER",
+          "rankLabel": "R6",
+          "cpph": 1622,
+          "club": "Club De Badminton Villeneuvois"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 14
+        },
+        {
+          "home": 21,
+          "away": 17
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "07019899",
+          "name": "Emma BARAL",
+          "rankLabel": "R5",
+          "cpph": 1594,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00443125",
+          "name": "Anne-laure THIERRY",
+          "rankLabel": "R6",
+          "cpph": 1227,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06752628",
+          "name": "Sandrine GUEUDRE",
+          "rankLabel": "D7",
+          "cpph": 1057,
+          "club": "Club De Badminton Villeneuvois"
+        },
+        {
+          "playerId": "07029549",
+          "name": "Anaïs TOURIN",
+          "rankLabel": "R6",
+          "cpph": 1316,
+          "club": "Club De Badminton Villeneuvois"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 13
+        },
+        {
+          "home": 21,
+          "away": 13
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "07327290",
+          "name": "étienne CORBEL",
+          "rankLabel": "R5",
+          "cpph": 1804,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00443125",
+          "name": "Anne-laure THIERRY",
+          "rankLabel": "R5",
+          "cpph": 1849,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00457174",
+          "name": "Yoann LEDIEU",
+          "rankLabel": "R6",
+          "cpph": 1770,
+          "club": "Club De Badminton Villeneuvois"
+        },
+        {
+          "playerId": "00426420",
+          "name": "Christine PIAN",
+          "rankLabel": "R6",
+          "cpph": 1705,
+          "club": "Club De Badminton Villeneuvois"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 14
+        },
+        {
+          "home": 21,
+          "away": 12
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06938462",
+          "name": "Maxime DETCHEPARE",
+          "rankLabel": "R6",
+          "cpph": 1748,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07158215",
+          "name": "Yvette CHENG",
+          "rankLabel": "R4",
+          "cpph": 2039,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07062012",
+          "name": "Theo PETIT",
+          "rankLabel": "D8",
+          "cpph": 1178,
+          "club": "Club De Badminton Villeneuvois"
+        },
+        {
+          "playerId": "00355566",
+          "name": "Anaïs AUROUX",
+          "rankLabel": "R5",
+          "cpph": 1821,
+          "club": "Club De Badminton Villeneuvois"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 14
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    }
+  ]
+}

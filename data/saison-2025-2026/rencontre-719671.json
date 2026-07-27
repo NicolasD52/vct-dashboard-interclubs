@@ -1,0 +1,326 @@
+{
+  "id": "719671",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D1 - Poule B - Interclubs Adultes Mixte",
+  "date": "2026-01-20",
+  "ourTeamSide": "home",
+  "homeTeam": {
+    "id": "31-VCT-3",
+    "icbadId": "62503",
+    "name": "Volant Club Toulousain",
+    "division": "D1",
+    "code": "31-VCT-3",
+    "number": 3
+  },
+  "awayTeam": {
+    "id": "31-PL-1",
+    "icbadId": "62499",
+    "name": "Plume Lauragaise",
+    "division": "D1",
+    "code": "31-PL-1",
+    "number": 1
+  },
+  "scoreHome": 2,
+  "scoreAway": 5,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07079131",
+          "name": "Sébastien ROLLAND",
+          "rankLabel": "R4",
+          "cpph": 2086,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00371377",
+          "name": "Aurélien SORRIAUX",
+          "rankLabel": "R4",
+          "cpph": 2039,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 18,
+          "away": 21
+        },
+        {
+          "home": 15,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06585382",
+          "name": "Guillaume NGUYEN",
+          "rankLabel": "R5",
+          "cpph": 1919,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00207340",
+          "name": "Damien SOCCHI",
+          "rankLabel": "R4",
+          "cpph": 2193,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 18,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 18
+        },
+        {
+          "home": 10,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "07019899",
+          "name": "Emma BARAL",
+          "rankLabel": "R6",
+          "cpph": 1281,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06620215",
+          "name": "Cassandre GAROT",
+          "rankLabel": "R5",
+          "cpph": 1567,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 18,
+          "away": 21
+        },
+        {
+          "home": 8,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "06938462",
+          "name": "Maxime DETCHEPARE",
+          "rankLabel": "R4",
+          "cpph": 2051,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00443098",
+          "name": "Pierre THIERRY",
+          "rankLabel": "R5",
+          "cpph": 1973,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00207340",
+          "name": "Damien SOCCHI",
+          "rankLabel": "N3",
+          "cpph": 2543,
+          "club": "Plume Lauragaise"
+        },
+        {
+          "playerId": "00371377",
+          "name": "Aurélien SORRIAUX",
+          "rankLabel": "R4",
+          "cpph": 2113,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 13,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 13
+        },
+        {
+          "home": 15,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "07158215",
+          "name": "Yvette CHENG",
+          "rankLabel": "D7",
+          "cpph": 1141,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00443125",
+          "name": "Anne-laure THIERRY",
+          "rankLabel": "D7",
+          "cpph": 1178,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06812050",
+          "name": "Annaelle FERRETE",
+          "rankLabel": "R6",
+          "cpph": 1263,
+          "club": "Plume Lauragaise"
+        },
+        {
+          "playerId": "06620215",
+          "name": "Cassandre GAROT",
+          "rankLabel": "R4",
+          "cpph": 1616,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 13,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 8
+        },
+        {
+          "home": 22,
+          "away": 24
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "00443098",
+          "name": "Pierre THIERRY",
+          "rankLabel": "R5",
+          "cpph": 1906,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07158215",
+          "name": "Yvette CHENG",
+          "rankLabel": "R4",
+          "cpph": 2054,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00207340",
+          "name": "Damien SOCCHI",
+          "rankLabel": "R4",
+          "cpph": 2191,
+          "club": "Plume Lauragaise"
+        },
+        {
+          "playerId": "06620215",
+          "name": "Cassandre GAROT",
+          "rankLabel": "R5",
+          "cpph": 1789,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 23,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 19
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "07327290",
+          "name": "étienne CORBEL",
+          "rankLabel": "R6",
+          "cpph": 1769,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00443125",
+          "name": "Anne-laure THIERRY",
+          "rankLabel": "R6",
+          "cpph": 1754,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07158195",
+          "name": "Maxime CANDEIL",
+          "rankLabel": "R5",
+          "cpph": 1814,
+          "club": "Plume Lauragaise"
+        },
+        {
+          "playerId": "06812050",
+          "name": "Annaelle FERRETE",
+          "rankLabel": "R6",
+          "cpph": 1659,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 11
+        },
+        {
+          "home": 21,
+          "away": 18
+        }
+      ],
+      "winnerSide": "home"
+    }
+  ]
+}

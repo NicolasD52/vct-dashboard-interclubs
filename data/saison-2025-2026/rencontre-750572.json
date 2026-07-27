@@ -1,0 +1,322 @@
+{
+  "id": "750572",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D2 - Poule C - Interclubs Adultes Mixte",
+  "date": "2026-03-18",
+  "ourTeamSide": "away",
+  "homeTeam": {
+    "id": "31-USLB-1",
+    "icbadId": "67060",
+    "name": "Union Spor. Leguevinoise Bad.",
+    "division": "D2",
+    "code": "31-USLB-1",
+    "number": 1
+  },
+  "awayTeam": {
+    "id": "31-VCT-7",
+    "icbadId": "67061",
+    "name": "Volant Club Toulousain",
+    "division": "D2",
+    "code": "31-VCT-7",
+    "number": 7
+  },
+  "scoreHome": 2,
+  "scoreAway": 5,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "00478923",
+          "name": "Romain DESRIAC",
+          "rankLabel": "R6",
+          "cpph": 1629,
+          "club": "Union Spor. Leguevinoise Bad."
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07234039",
+          "name": "Maxandre BEGUE-OLIE",
+          "rankLabel": "R6",
+          "cpph": 1646,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 22,
+          "away": 24
+        },
+        {
+          "home": 19,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06465198",
+          "name": "Frédéric BARAN",
+          "rankLabel": "D8",
+          "cpph": 1297,
+          "club": "Union Spor. Leguevinoise Bad."
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00324505",
+          "name": "Aurélien NANAME",
+          "rankLabel": "D8",
+          "cpph": 1178,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 17,
+          "away": 21
+        },
+        {
+          "home": 18,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "06462582",
+          "name": "Anne CZWARTKOWSKYJ",
+          "rankLabel": "D9",
+          "cpph": 774,
+          "club": "Union Spor. Leguevinoise Bad."
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07273506",
+          "name": "Tram NGUYEN",
+          "rankLabel": "D7",
+          "cpph": 1148,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 17,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 18
+        },
+        {
+          "home": 19,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "07148898",
+          "name": "Clément BERNARD",
+          "rankLabel": "D7",
+          "cpph": 1535,
+          "club": "Union Spor. Leguevinoise Bad."
+        },
+        {
+          "playerId": "06534667",
+          "name": "Yves MERLOZ",
+          "rankLabel": "D8",
+          "cpph": 1357,
+          "club": "Union Spor. Leguevinoise Bad."
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00352262",
+          "name": "Nicolas LEPLAT",
+          "rankLabel": "D8",
+          "cpph": 1177,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07264703",
+          "name": "Renjith MUNNILATH",
+          "rankLabel": "D7",
+          "cpph": 1369,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 21,
+          "away": 19
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "06868419",
+          "name": "Vanessa LE MEUR",
+          "rankLabel": "D8",
+          "cpph": 1006,
+          "club": "Union Spor. Leguevinoise Bad."
+        },
+        {
+          "playerId": "00548488",
+          "name": "Agnès LETALLE",
+          "rankLabel": "D8",
+          "cpph": 977,
+          "club": "Union Spor. Leguevinoise Bad."
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07568153",
+          "name": "Elodie JEZ",
+          "rankLabel": "D8",
+          "cpph": 997,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06690980",
+          "name": "Juliette LE MOUEL",
+          "rankLabel": "D8",
+          "cpph": 929,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 16
+        },
+        {
+          "home": 21,
+          "away": 18
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06658085",
+          "name": "Mickael LAFFONT",
+          "rankLabel": "D9",
+          "cpph": 980,
+          "club": "Union Spor. Leguevinoise Bad."
+        },
+        {
+          "playerId": "06868419",
+          "name": "Vanessa LE MEUR",
+          "rankLabel": "R6",
+          "cpph": 1645,
+          "club": "Union Spor. Leguevinoise Bad."
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06809919",
+          "name": "Jean-didier MEROPE",
+          "rankLabel": "D7",
+          "cpph": 1379,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06816342",
+          "name": "Cécile LEFRANC",
+          "rankLabel": "D7",
+          "cpph": 1426,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 18,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 16,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06911292",
+          "name": "Clément DUBOULOZ",
+          "rankLabel": "P11",
+          "cpph": 636,
+          "club": "Union Spor. Leguevinoise Bad."
+        },
+        {
+          "playerId": "06462582",
+          "name": "Anne CZWARTKOWSKYJ",
+          "rankLabel": "D9",
+          "cpph": 1159,
+          "club": "Union Spor. Leguevinoise Bad."
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00266559",
+          "name": "Antoine GUINET",
+          "rankLabel": "D7",
+          "cpph": 1495,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06690980",
+          "name": "Juliette LE MOUEL",
+          "rankLabel": "D8",
+          "cpph": 1203,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 16,
+          "away": 21
+        },
+        {
+          "home": 15,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "id": "719686",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D1 - Poule B - Interclubs Adultes Mixte",
+  "date": "2026-04-17",
+  "ourTeamSide": "away",
+  "homeTeam": {
+    "id": "31-PL-1",
+    "icbadId": "62499",
+    "name": "Plume Lauragaise",
+    "division": "D1",
+    "code": "31-PL-1",
+    "number": 1
+  },
+  "awayTeam": {
+    "id": "31-VCT-3",
+    "icbadId": "62503",
+    "name": "Volant Club Toulousain",
+    "division": "D1",
+    "code": "31-VCT-3",
+    "number": 3
+  },
+  "scoreHome": 4,
+  "scoreAway": 3,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07158195",
+          "name": "Maxime CANDEIL",
+          "rankLabel": "D7",
+          "cpph": 1525,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07327290",
+          "name": "étienne CORBEL",
+          "rankLabel": "R6",
+          "cpph": 1593,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 17
+        },
+        {
+          "home": 21,
+          "away": 12
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "00284421",
+          "name": "Sébastien FRANCOISE",
+          "rankLabel": "D7",
+          "cpph": 1517,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06938462",
+          "name": "Maxime DETCHEPARE",
+          "rankLabel": "R6",
+          "cpph": 1658,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 12
+        },
+        {
+          "home": 21,
+          "away": 17
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "06620215",
+          "name": "Cassandre GAROT",
+          "rankLabel": "R4",
+          "cpph": 1784,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07019899",
+          "name": "Emma BARAL",
+          "rankLabel": "R6",
+          "cpph": 1269,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 18
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "07158195",
+          "name": "Maxime CANDEIL",
+          "rankLabel": "R5",
+          "cpph": 1950,
+          "club": "Plume Lauragaise"
+        },
+        {
+          "playerId": "00284421",
+          "name": "Sébastien FRANCOISE",
+          "rankLabel": "R6",
+          "cpph": 1696,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07327290",
+          "name": "étienne CORBEL",
+          "rankLabel": "R4",
+          "cpph": 2064,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06938462",
+          "name": "Maxime DETCHEPARE",
+          "rankLabel": "R4",
+          "cpph": 2057,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 17,
+          "away": 21
+        },
+        {
+          "home": 18,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "06620215",
+          "name": "Cassandre GAROT",
+          "rankLabel": "R4",
+          "cpph": 1667,
+          "club": "Plume Lauragaise"
+        },
+        {
+          "playerId": "06547548",
+          "name": "Lisa LAGER",
+          "rankLabel": "R6",
+          "cpph": 1243,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07019899",
+          "name": "Emma BARAL",
+          "rankLabel": "R5",
+          "cpph": 1594,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00443125",
+          "name": "Anne-laure THIERRY",
+          "rankLabel": "R6",
+          "cpph": 1227,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 14,
+          "away": 21
+        },
+        {
+          "home": 22,
+          "away": 24
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "07158195",
+          "name": "Maxime CANDEIL",
+          "rankLabel": "R5",
+          "cpph": 1930,
+          "club": "Plume Lauragaise"
+        },
+        {
+          "playerId": "06547548",
+          "name": "Lisa LAGER",
+          "rankLabel": "R6",
+          "cpph": 1702,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07327290",
+          "name": "étienne CORBEL",
+          "rankLabel": "R5",
+          "cpph": 1848,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00443125",
+          "name": "Anne-laure THIERRY",
+          "rankLabel": "R5",
+          "cpph": 1849,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 13,
+          "away": 21
+        },
+        {
+          "home": 18,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "00284421",
+          "name": "Sébastien FRANCOISE",
+          "rankLabel": "D7",
+          "cpph": 1453,
+          "club": "Plume Lauragaise"
+        },
+        {
+          "playerId": "06620215",
+          "name": "Cassandre GAROT",
+          "rankLabel": "R5",
+          "cpph": 1839,
+          "club": "Plume Lauragaise"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06938462",
+          "name": "Maxime DETCHEPARE",
+          "rankLabel": "R6",
+          "cpph": 1748,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07158215",
+          "name": "Yvette CHENG",
+          "rankLabel": "R4",
+          "cpph": 2039,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 16
+        },
+        {
+          "home": 14,
+          "away": 21
+        },
+        {
+          "home": 22,
+          "away": 20
+        }
+      ],
+      "winnerSide": "home"
+    }
+  ]
+}

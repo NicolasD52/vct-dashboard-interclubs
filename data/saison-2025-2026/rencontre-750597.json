@@ -1,0 +1,314 @@
+{
+  "id": "750597",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D2 - Poule D - Interclubs Adultes Mixte",
+  "date": "2026-02-04",
+  "ourTeamSide": "home",
+  "homeTeam": {
+    "id": "31-VCT-6",
+    "icbadId": "67067",
+    "name": "Volant Club Toulousain",
+    "division": "D2",
+    "code": "31-VCT-6",
+    "number": 6
+  },
+  "awayTeam": {
+    "id": "31-ASA-1",
+    "icbadId": "67062",
+    "name": "A.s. Ayguesvivoise",
+    "division": "D2",
+    "code": "31-ASA-1",
+    "number": 1
+  },
+  "scoreHome": 7,
+  "scoreAway": 0,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07020746",
+          "name": "Gael RICHET",
+          "rankLabel": "D7",
+          "cpph": 1533,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07029105",
+          "name": "Jules VANDENBERGHE",
+          "rankLabel": "D9",
+          "cpph": 1126,
+          "club": "A.s. Ayguesvivoise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 14
+        },
+        {
+          "home": 21,
+          "away": 5
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06683103",
+          "name": "Gaspard BEZZA",
+          "rankLabel": "D7",
+          "cpph": 1504,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07020015",
+          "name": "Stéphane DUCONGE",
+          "rankLabel": "D9",
+          "cpph": 1051,
+          "club": "A.s. Ayguesvivoise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 21,
+          "away": 11
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "07322218",
+          "name": "Sophie FLECHE",
+          "rankLabel": "D8",
+          "cpph": 948,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07053638",
+          "name": "Céline BERNEAU",
+          "rankLabel": "D7",
+          "cpph": 1027,
+          "club": "A.s. Ayguesvivoise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 16
+        },
+        {
+          "home": 21,
+          "away": 15
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "00116543",
+          "name": "Jean-christophe POFILET",
+          "rankLabel": "D7",
+          "cpph": 1481,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07020746",
+          "name": "Gael RICHET",
+          "rankLabel": "D8",
+          "cpph": 1285,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07020015",
+          "name": "Stéphane DUCONGE",
+          "rankLabel": "D8",
+          "cpph": 1343,
+          "club": "A.s. Ayguesvivoise"
+        },
+        {
+          "playerId": "07029105",
+          "name": "Jules VANDENBERGHE",
+          "rankLabel": "P10",
+          "cpph": 899,
+          "club": "A.s. Ayguesvivoise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 12
+        },
+        {
+          "home": 21,
+          "away": 14
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "00316703",
+          "name": "Carine BIDARD",
+          "rankLabel": "D8",
+          "cpph": 1000,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06631266",
+          "name": "Iris LANG",
+          "rankLabel": "D8",
+          "cpph": 1006,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07053638",
+          "name": "Céline BERNEAU",
+          "rankLabel": "D8",
+          "cpph": 994,
+          "club": "A.s. Ayguesvivoise"
+        },
+        {
+          "playerId": "06616804",
+          "name": "Stéphanie LOMBARD",
+          "rankLabel": "D9",
+          "cpph": 781,
+          "club": "A.s. Ayguesvivoise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 13
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06469427",
+          "name": "Benjamin POIRIER",
+          "rankLabel": "R6",
+          "cpph": 1614,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00316703",
+          "name": "Carine BIDARD",
+          "rankLabel": "D7",
+          "cpph": 1437,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06566061",
+          "name": "Frederic AUBRY",
+          "rankLabel": "D8",
+          "cpph": 1167,
+          "club": "A.s. Ayguesvivoise"
+        },
+        {
+          "playerId": "00433020",
+          "name": "Christelle LANDEVILLE",
+          "rankLabel": "D9",
+          "cpph": 1131,
+          "club": "A.s. Ayguesvivoise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 8
+        },
+        {
+          "home": 21,
+          "away": 13
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06574115",
+          "name": "Matteo CHAPUY",
+          "rankLabel": "D8",
+          "cpph": 1204,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06631266",
+          "name": "Iris LANG",
+          "rankLabel": "R6",
+          "cpph": 1600,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06933276",
+          "name": "Sylvain BOSSU",
+          "rankLabel": "D9",
+          "cpph": 1137,
+          "club": "A.s. Ayguesvivoise"
+        },
+        {
+          "playerId": "06616804",
+          "name": "Stéphanie LOMBARD",
+          "rankLabel": "P10",
+          "cpph": 812,
+          "club": "A.s. Ayguesvivoise"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 21,
+          "away": 15
+        }
+      ],
+      "winnerSide": "home"
+    }
+  ]
+}

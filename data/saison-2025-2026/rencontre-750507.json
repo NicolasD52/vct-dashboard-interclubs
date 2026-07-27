@@ -1,0 +1,322 @@
+{
+  "id": "750507",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D2 - Poule A - Interclubs Adultes Mixte",
+  "date": "2026-02-06",
+  "ourTeamSide": "home",
+  "homeTeam": {
+    "id": "31-VCT-4",
+    "icbadId": "67049",
+    "name": "Volant Club Toulousain",
+    "division": "D2",
+    "code": "31-VCT-4",
+    "number": 4
+  },
+  "awayTeam": {
+    "id": "31-OBC-1",
+    "icbadId": "67047",
+    "name": "Olympe Badminton Club",
+    "division": "D2",
+    "code": "31-OBC-1",
+    "number": 1
+  },
+  "scoreHome": 4,
+  "scoreAway": 3,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06699298",
+          "name": "Quentin CERDEIRA",
+          "rankLabel": "R6",
+          "cpph": 1654,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06613700",
+          "name": "Romain HUC",
+          "rankLabel": "D7",
+          "cpph": 1495,
+          "club": "Olympe Badminton Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 16,
+          "away": 21
+        },
+        {
+          "home": 18,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "00538782",
+          "name": "Marc KERMORGANT",
+          "rankLabel": "D9",
+          "cpph": 1082,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00100557",
+          "name": "Philippe HAERTEL",
+          "rankLabel": "D7",
+          "cpph": 1412,
+          "club": "Olympe Badminton Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 18,
+          "away": 21
+        },
+        {
+          "home": 14,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "06859703",
+          "name": "Jade JUSTEAU",
+          "rankLabel": "D7",
+          "cpph": 1093,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06854980",
+          "name": "Laurie DEBOES",
+          "rankLabel": "P10",
+          "cpph": 606,
+          "club": "Olympe Badminton Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 13
+        },
+        {
+          "home": 21,
+          "away": 11
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "00516772",
+          "name": "Nicolas DUJON",
+          "rankLabel": "R5",
+          "cpph": 1787,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00277696",
+          "name": "Jean christophe THIONG-LY",
+          "rankLabel": "R6",
+          "cpph": 1710,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00284039",
+          "name": "Thibault CHRISTOPHE",
+          "rankLabel": "D9",
+          "cpph": 1017,
+          "club": "Olympe Badminton Club"
+        },
+        {
+          "playerId": "06613700",
+          "name": "Romain HUC",
+          "rankLabel": "R6",
+          "cpph": 1655,
+          "club": "Olympe Badminton Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 25,
+          "away": 23
+        },
+        {
+          "home": 21,
+          "away": 19
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "06859703",
+          "name": "Jade JUSTEAU",
+          "rankLabel": "D7",
+          "cpph": 1159,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00360138",
+          "name": "Delphine MAZARS",
+          "rankLabel": "D7",
+          "cpph": 1164,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06727069",
+          "name": "Marine AUBOURG",
+          "rankLabel": "D7",
+          "cpph": 1064,
+          "club": "Olympe Badminton Club"
+        },
+        {
+          "playerId": "07149629",
+          "name": "Magdalena FIJAS",
+          "rankLabel": "D9",
+          "cpph": 850,
+          "club": "Olympe Badminton Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 14
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "00441200",
+          "name": "Josselin LERON",
+          "rankLabel": "R6",
+          "cpph": 1647,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06472293",
+          "name": "Marie PRAT",
+          "rankLabel": "R6",
+          "cpph": 1712,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06723495",
+          "name": "Damien RIZZO",
+          "rankLabel": "D7",
+          "cpph": 1361,
+          "club": "Olympe Badminton Club"
+        },
+        {
+          "playerId": "06727069",
+          "name": "Marine AUBOURG",
+          "rankLabel": "R6",
+          "cpph": 1584,
+          "club": "Olympe Badminton Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 21,
+          "away": 17
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06699298",
+          "name": "Quentin CERDEIRA",
+          "rankLabel": "D8",
+          "cpph": 1323,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06886971",
+          "name": "Mathilde CALCAGNO",
+          "rankLabel": "R6",
+          "cpph": 1738,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06750851",
+          "name": "Arthur COLLET",
+          "rankLabel": "D8",
+          "cpph": 1319,
+          "club": "Olympe Badminton Club"
+        },
+        {
+          "playerId": "06854980",
+          "name": "Laurie DEBOES",
+          "rankLabel": "D8",
+          "cpph": 1320,
+          "club": "Olympe Badminton Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 19,
+          "away": 21
+        },
+        {
+          "home": 13,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    }
+  ]
+}

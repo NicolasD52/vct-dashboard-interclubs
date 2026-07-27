@@ -8,7 +8,13 @@ const DATA_DIR = path.join(process.cwd(), "data");
 /** Une note n'est traitée que si elle vient bien d'une page de rencontre icbad. */
 const SOURCE_RENCONTRE = /^source:\s*"?https:\/\/icbad\.ffbad\.org\/rencontre\/\d+/m;
 
-const OUR_CLUB_NAME = "Volant Club Toulousain";
+/**
+ * Le club est identifié par son code d'équipe (« 31-VCT-4 »), pas par son nom :
+ * icbad écrit le nom tantôt seul, tantôt suffixé du numéro d'équipe selon la
+ * compétition. Une comparaison sur le nom rate donc une rencontre sur trois et,
+ * pire, attribue silencieusement la rencontre à l'adversaire.
+ */
+const OUR_CLUB_CODE = "31-VCT";
 
 const MONTHS_FR = {
   janvier: "01", février: "02", fevrier: "02", mars: "03", avril: "04",
@@ -53,8 +59,20 @@ function parseTitle(title) {
 }
 
 function parseDivision(description) {
-  const m = description.match(/(Pré[- ]?Nationale|Nationale\s*\d?|Régionale\s*\d?|R\d)/i);
+  // `D\d` couvre les divisions départementales (Comité 31 D1/D2/D4), absentes
+  // tant qu'on n'avait que les équipes régionales.
+  const m = description.match(/\b(Pré[- ]?Nationale|Nationale\s*\d?|Régionale\s*\d?|[RD]\d)\b/i);
   return m ? m[1] : description;
+}
+
+/** « Volant Club Toulousain - 4 » -> « Volant Club Toulousain ». */
+function clubName(titleName) {
+  return titleName.replace(/\s*-\s*\d+$/, "").trim();
+}
+
+/** « 31-VCT-4 » -> « 31-VCT » ; le numéro d'équipe est lu à part. */
+function clubCode(teamCode) {
+  return teamCode.replace(/-\d+$/, "");
 }
 
 function cleanText(text) {
@@ -85,13 +103,39 @@ function parseRencontre(fileContent) {
   const scoreText = headerTable.find("th.uk-text-nowrap").text().trim();
   const [scoreHome, scoreAway] = scoreText.split("-").map((s) => Number(s.trim()));
 
-  const ourTeamSide = teamAName === OUR_CLUB_NAME ? "home" : "away";
+  const homeIsOurs = clubCode(homeCode) === OUR_CLUB_CODE;
+  const awayIsOurs = clubCode(awayCode) === OUR_CLUB_CODE;
+  if (!homeIsOurs && !awayIsOurs) {
+    throw new Error(
+      `Aucune équipe du club dans cette rencontre (${homeCode} vs ${awayCode}) — clip à retirer du coffre ?`
+    );
+  }
+  if (homeIsOurs && awayIsOurs) {
+    // Deux équipes du club l'une contre l'autre : le modèle n'a qu'un seul
+    // « notre camp », donc on refuse plutôt que de n'en compter qu'une moitié.
+    throw new Error(
+      `Rencontre entre deux équipes du club (${homeCode} vs ${awayCode}) — non gérée par le modèle actuel`
+    );
+  }
+  const ourTeamSide = homeIsOurs ? "home" : "away";
   const division = parseDivision(description);
 
-  const homeTeam = { id: homeTeamId, name: teamAName, division, code: homeCode, number: teamNumber(homeCode) };
-  const awayTeam = { id: awayTeamId, name: teamBName, division, code: awayCode, number: teamNumber(awayCode) };
+  // L'identité d'une équipe est son code, pas l'id icbad : icbad crée une
+  // nouvelle entrée /equipe/{id} à chaque phase (poule, barrages, petite
+  // finale), ce qui dédoublait les équipes du club au fil de la saison.
+  const teamRef = (code, icbadId, titleName) => ({
+    id: code || icbadId,
+    icbadId,
+    name: clubName(titleName),
+    division,
+    code,
+    number: teamNumber(code),
+  });
+  const homeTeam = teamRef(homeCode, homeTeamId, teamAName);
+  const awayTeam = teamRef(awayCode, awayTeamId, teamBName);
 
   const matches = [];
+  const skipped = [];
   for (let i = 1; i < tables.length; i++) {
     const table = tables.eq(i);
     const headerText = cleanText(table.find("th[colspan]").first().text());
@@ -145,7 +189,24 @@ function parseRencontre(fileContent) {
       away: awaySide.setScores[idx],
     }));
     const winnerSide = homeSide.isWinner ? "home" : awaySide.isWinner ? "away" : null;
-    if (!winnerSide) throw new Error(`Aucun gagnant identifié pour ${code} (rencontre ${id})`);
+    if (!winnerSide) {
+      // En barrage / play-off, la rencontre s'arrête dès qu'elle est jouée :
+      // les matchs restants apparaissent sans score ni vainqueur. On les ignore
+      // au lieu de perdre toute la rencontre.
+      if (sets.length === 0) {
+        skipped.push(`${code} (non joué)`);
+        continue;
+      }
+      throw new Error(`Aucun gagnant identifié pour ${code} alors que le score est renseigné`);
+    }
+
+    // Forfait : un camp n'aligne personne. La victoire compte dans le score de
+    // la rencontre mais pas dans les statistiques individuelles — sans
+    // adversaire il n'y a ni CPPH de référence, ni performance à mesurer.
+    if (homeSide.players.length === 0 || awaySide.players.length === 0) {
+      skipped.push(`${code} (forfait)`);
+      continue;
+    }
 
     matches.push({
       code,
@@ -160,16 +221,19 @@ function parseRencontre(fileContent) {
   const season = month >= 7 ? `${year}/${year + 1}` : `${year - 1}/${year}`;
 
   return {
-    id,
-    season,
-    competition: description,
-    date,
-    ourTeamSide,
-    homeTeam,
-    awayTeam,
-    scoreHome,
-    scoreAway,
-    matches,
+    rencontre: {
+      id,
+      season,
+      competition: description,
+      date,
+      ourTeamSide,
+      homeTeam,
+      awayTeam,
+      scoreHome,
+      scoreAway,
+      matches,
+    },
+    skipped,
   };
 }
 
@@ -179,6 +243,16 @@ function parseRencontre(fileContent) {
  * plutôt que sur un dossier : réorganiser le coffre ne casse plus l'import,
  * et les notes qui ne sont pas des rencontres sont ignorées sans bruit.
  */
+/** Fichiers déjà produits par ce script (et eux seuls). */
+function walkGenerated(dir) {
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) return walkGenerated(fullPath);
+    return /^rencontre-\d+\.json$/.test(entry.name) ? [fullPath] : [];
+  });
+}
+
 function findClippings(dir) {
   return fs.readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
     if (entry.name.startsWith(".")) return [];
@@ -205,13 +279,24 @@ function main() {
     return;
   }
 
+  // Les fichiers sont intégralement régénérés depuis le coffre : on efface les
+  // sorties précédentes pour qu'un clip supprimé ou renommé ne laisse pas
+  // derrière lui une rencontre fantôme qui continuerait d'alimenter les stats.
+  for (const stale of walkGenerated(DATA_DIR)) fs.rmSync(stale);
+
   let ok = 0;
   const equipes = new Map();
+  const vus = new Map();
+  const ignores = [];
 
   for (const { fullPath, content } of files) {
     const file = path.relative(VAULT_DIR, fullPath);
     try {
-      const rencontre = parseRencontre(content);
+      const { rencontre, skipped } = parseRencontre(content);
+      const doublon = vus.get(rencontre.id);
+      if (doublon) throw new Error(`Rencontre ${rencontre.id} déjà clippée dans « ${doublon} »`);
+      vus.set(rencontre.id, path.basename(file));
+      if (skipped.length > 0) ignores.push(`rencontre ${rencontre.id} : ${skipped.join(", ")}`);
       // Le dossier suit la saison déduite de la date, pour que l'ajout d'une
       // nouvelle saison ne vienne pas se mélanger à la précédente.
       const dossier = path.join(DATA_DIR, `saison-${rencontre.season.replace("/", "-")}`);
@@ -231,7 +316,11 @@ function main() {
   }
 
   console.log(`\n${ok}/${files.length} rencontres converties.`);
-  console.log(`Équipes du club détectées :`);
+  if (ignores.length > 0) {
+    console.log(`\nMatchs exclus des statistiques :`);
+    for (const ligne of ignores) console.log(`  ${ligne}`);
+  }
+  console.log(`\nÉquipes du club détectées :`);
   for (const [code, n] of [...equipes].sort()) {
     console.log(`  ${code} — ${n} rencontre${n > 1 ? "s" : ""}`);
   }

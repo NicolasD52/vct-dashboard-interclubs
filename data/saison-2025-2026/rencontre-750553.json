@@ -1,0 +1,330 @@
+{
+  "id": "750553",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D2 - Poule C - Interclubs Adultes Mixte",
+  "date": "2025-11-18",
+  "ourTeamSide": "away",
+  "homeTeam": {
+    "id": "31-ASTMB-1",
+    "icbadId": "67056",
+    "name": "A.s. Toulouse Mirail Badminton",
+    "division": "D2",
+    "code": "31-ASTMB-1",
+    "number": 1
+  },
+  "awayTeam": {
+    "id": "31-VCT-7",
+    "icbadId": "67061",
+    "name": "Volant Club Toulousain",
+    "division": "D2",
+    "code": "31-VCT-7",
+    "number": 7
+  },
+  "scoreHome": 6,
+  "scoreAway": 1,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "00430188",
+          "name": "Mathias MAURIN",
+          "rankLabel": "R6",
+          "cpph": 1703,
+          "club": "A.s. Toulouse Mirail Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07234039",
+          "name": "Maxandre BEGUE-OLIE",
+          "rankLabel": "R6",
+          "cpph": 1636,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 18,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 24,
+          "away": 22
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "00542330",
+          "name": "Jordan RAMASSAMY",
+          "rankLabel": "D7",
+          "cpph": 1365,
+          "club": "A.s. Toulouse Mirail Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00324505",
+          "name": "Aurélien NANAME",
+          "rankLabel": "D9",
+          "cpph": 993,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 17
+        },
+        {
+          "home": 21,
+          "away": 15
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "07553647",
+          "name": "Nakou MORRISSON",
+          "rankLabel": "D8",
+          "cpph": 911,
+          "club": "A.s. Toulouse Mirail Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07273506",
+          "name": "Tram NGUYEN",
+          "rankLabel": "D7",
+          "cpph": 1106,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 20,
+          "away": 22
+        },
+        {
+          "home": 21,
+          "away": 18
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "00124748",
+          "name": "Francois FRADIN",
+          "rankLabel": "D8",
+          "cpph": 1185,
+          "club": "A.s. Toulouse Mirail Badminton"
+        },
+        {
+          "playerId": "00237584",
+          "name": "Clément GIANFERRARI",
+          "rankLabel": "D8",
+          "cpph": 1304,
+          "club": "A.s. Toulouse Mirail Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00352262",
+          "name": "Nicolas LEPLAT",
+          "rankLabel": "D9",
+          "cpph": 1163,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07264703",
+          "name": "Renjith MUNNILATH",
+          "rankLabel": "D8",
+          "cpph": 1318,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "06905531",
+          "name": "Noémie LERCHUNDI",
+          "rankLabel": "D8",
+          "cpph": 971,
+          "club": "A.s. Toulouse Mirail Badminton"
+        },
+        {
+          "playerId": "06832985",
+          "name": "Kendra THONGSAMOUTH",
+          "rankLabel": "D9",
+          "cpph": 814,
+          "club": "A.s. Toulouse Mirail Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07568153",
+          "name": "Elodie JEZ",
+          "rankLabel": "D9",
+          "cpph": 858,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06690980",
+          "name": "Juliette LE MOUEL",
+          "rankLabel": "D9",
+          "cpph": 867,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 13,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 22,
+          "away": 20
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "07257071",
+          "name": "Anurag KULKARNI",
+          "rankLabel": "D7",
+          "cpph": 1433,
+          "club": "A.s. Toulouse Mirail Badminton"
+        },
+        {
+          "playerId": "07401875",
+          "name": "Eva PULVERIN",
+          "rankLabel": "D8",
+          "cpph": 1340,
+          "club": "A.s. Toulouse Mirail Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07264703",
+          "name": "Renjith MUNNILATH",
+          "rankLabel": "D8",
+          "cpph": 1204,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07568153",
+          "name": "Elodie JEZ",
+          "rankLabel": "D8",
+          "cpph": 1320,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 10,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 13
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "00124748",
+          "name": "Francois FRADIN",
+          "rankLabel": "D9",
+          "cpph": 1060,
+          "club": "A.s. Toulouse Mirail Badminton"
+        },
+        {
+          "playerId": "07553647",
+          "name": "Nakou MORRISSON",
+          "rankLabel": "D7",
+          "cpph": 1366,
+          "club": "A.s. Toulouse Mirail Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00266559",
+          "name": "Antoine GUINET",
+          "rankLabel": "D8",
+          "cpph": 1262,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06690980",
+          "name": "Juliette LE MOUEL",
+          "rankLabel": "D9",
+          "cpph": 1071,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 15,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 23
+        }
+      ],
+      "winnerSide": "away"
+    }
+  ]
+}

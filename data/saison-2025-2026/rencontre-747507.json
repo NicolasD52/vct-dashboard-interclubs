@@ -1,0 +1,330 @@
+{
+  "id": "747507",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D4 - Poule C - Interclubs Adultes Mixte",
+  "date": "2025-12-05",
+  "ourTeamSide": "away",
+  "homeTeam": {
+    "id": "31-BBC-9",
+    "icbadId": "64547",
+    "name": "Blagnac Badminton Club",
+    "division": "D4",
+    "code": "31-BBC-9",
+    "number": 9
+  },
+  "awayTeam": {
+    "id": "31-VCT-9",
+    "icbadId": "64551",
+    "name": "Volant Club Toulousain",
+    "division": "D4",
+    "code": "31-VCT-9",
+    "number": 9
+  },
+  "scoreHome": 3,
+  "scoreAway": 4,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06759336",
+          "name": "Quentin LECHEVALIER",
+          "rankLabel": "D8",
+          "cpph": 1186,
+          "club": "Blagnac Badminton Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06576827",
+          "name": "Doume DENIS",
+          "rankLabel": "P10",
+          "cpph": 819,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 15,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 18
+        },
+        {
+          "home": 18,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07209594",
+          "name": "Florian MEISSONNIER",
+          "rankLabel": "D9",
+          "cpph": 1116,
+          "club": "Blagnac Badminton Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07499367",
+          "name": "Radhakrishnan ASHOK",
+          "rankLabel": "P11",
+          "cpph": 750,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 14
+        },
+        {
+          "home": 21,
+          "away": 17
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "07424986",
+          "name": "Elsa BECART",
+          "rankLabel": "P10",
+          "cpph": 693,
+          "club": "Blagnac Badminton Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06959594",
+          "name": "Olivia BIALCZYK",
+          "rankLabel": "D9",
+          "cpph": 723,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 15,
+          "away": 21
+        },
+        {
+          "home": 16,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "07050969",
+          "name": "Nathan BLECHET",
+          "rankLabel": "D9",
+          "cpph": 1158,
+          "club": "Blagnac Badminton Club"
+        },
+        {
+          "playerId": "00485150",
+          "name": "Etienne ROBLET",
+          "rankLabel": "D9",
+          "cpph": 1061,
+          "club": "Blagnac Badminton Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06576827",
+          "name": "Doume DENIS",
+          "rankLabel": "P10",
+          "cpph": 752,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06720953",
+          "name": "Jim KOMMER",
+          "rankLabel": "D9",
+          "cpph": 962,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 18
+        },
+        {
+          "home": 11,
+          "away": 21
+        },
+        {
+          "home": 14,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "07044115",
+          "name": "Léa BELLOC",
+          "rankLabel": "P11",
+          "cpph": 511,
+          "club": "Blagnac Badminton Club"
+        },
+        {
+          "playerId": "06961883",
+          "name": "Mylène FLOURIEUSSE",
+          "rankLabel": "P10",
+          "cpph": 645,
+          "club": "Blagnac Badminton Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06959594",
+          "name": "Olivia BIALCZYK",
+          "rankLabel": "P10",
+          "cpph": 645,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07433019",
+          "name": "Elodie RINEAU",
+          "rankLabel": "D9",
+          "cpph": 782,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 8,
+          "away": 21
+        },
+        {
+          "home": 10,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "07417268",
+          "name": "Matthieu PLICOT",
+          "rankLabel": "D8",
+          "cpph": 1207,
+          "club": "Blagnac Badminton Club"
+        },
+        {
+          "playerId": "06694697",
+          "name": "Galina BOROVKOVA",
+          "rankLabel": "P11",
+          "cpph": 644,
+          "club": "Blagnac Badminton Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07091017",
+          "name": "Xavier BERTIN",
+          "rankLabel": "D9",
+          "cpph": 1006,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06957215",
+          "name": "Mathilde SPIESSER",
+          "rankLabel": "D8",
+          "cpph": 1321,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 13,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 16
+        },
+        {
+          "home": 21,
+          "away": 19
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "07050969",
+          "name": "Nathan BLECHET",
+          "rankLabel": "P10",
+          "cpph": 807,
+          "club": "Blagnac Badminton Club"
+        },
+        {
+          "playerId": "07044115",
+          "name": "Léa BELLOC",
+          "rankLabel": "P11",
+          "cpph": 626,
+          "club": "Blagnac Badminton Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06881877",
+          "name": "Guillaume MAURY",
+          "rankLabel": "D9",
+          "cpph": 1083,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07433019",
+          "name": "Elodie RINEAU",
+          "rankLabel": "D9",
+          "cpph": 1042,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 16
+        },
+        {
+          "home": 22,
+          "away": 24
+        },
+        {
+          "home": 21,
+          "away": 17
+        }
+      ],
+      "winnerSide": "home"
+    }
+  ]
+}

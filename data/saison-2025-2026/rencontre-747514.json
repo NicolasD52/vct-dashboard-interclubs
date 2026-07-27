@@ -1,0 +1,318 @@
+{
+  "id": "747514",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D4 - Poule C - Interclubs Adultes Mixte",
+  "date": "2026-01-20",
+  "ourTeamSide": "home",
+  "homeTeam": {
+    "id": "31-VCT-9",
+    "icbadId": "64551",
+    "name": "Volant Club Toulousain",
+    "division": "D4",
+    "code": "31-VCT-9",
+    "number": 9
+  },
+  "awayTeam": {
+    "id": "31-COC-BAD-2",
+    "icbadId": "64548",
+    "name": "Club Olympique Carbonnais",
+    "division": "D4",
+    "code": "31-COC-BAD-2",
+    "number": 2
+  },
+  "scoreHome": 5,
+  "scoreAway": 2,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07274952",
+          "name": "Isaac CIESIELSKI",
+          "rankLabel": "D8",
+          "cpph": 1336,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07458427",
+          "name": "Mai-thanh TRAN",
+          "rankLabel": "D8",
+          "cpph": 1323,
+          "club": "Club Olympique Carbonnais"
+        }
+      ],
+      "sets": [
+        {
+          "home": 22,
+          "away": 20
+        },
+        {
+          "home": 21,
+          "away": 19
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07497950",
+          "name": "Jérémie CHHEANG",
+          "rankLabel": "D9",
+          "cpph": 1146,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00405339",
+          "name": "Yann SEITY",
+          "rankLabel": "D9",
+          "cpph": 1029,
+          "club": "Club Olympique Carbonnais"
+        }
+      ],
+      "sets": [
+        {
+          "home": 18,
+          "away": 21
+        },
+        {
+          "home": 23,
+          "away": 21
+        },
+        {
+          "home": 16,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "06959594",
+          "name": "Olivia BIALCZYK",
+          "rankLabel": "D9",
+          "cpph": 757,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07183856",
+          "name": "Marie LAMARQUE",
+          "rankLabel": "P11",
+          "cpph": 542,
+          "club": "Club Olympique Carbonnais"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 14
+        },
+        {
+          "home": 21,
+          "away": 5
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "06720953",
+          "name": "Jim KOMMER",
+          "rankLabel": "D9",
+          "cpph": 994,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06881877",
+          "name": "Guillaume MAURY",
+          "rankLabel": "D9",
+          "cpph": 974,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07550200",
+          "name": "Guillaume ALBUCHER",
+          "rankLabel": "D9",
+          "cpph": 1014,
+          "club": "Club Olympique Carbonnais"
+        },
+        {
+          "playerId": "07439604",
+          "name": "Nicolas JACOMINO",
+          "rankLabel": "D9",
+          "cpph": 954,
+          "club": "Club Olympique Carbonnais"
+        }
+      ],
+      "sets": [
+        {
+          "home": 17,
+          "away": 21
+        },
+        {
+          "home": 10,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "07209530",
+          "name": "Esther CIESIELSKI",
+          "rankLabel": "D9",
+          "cpph": 724,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07433019",
+          "name": "Elodie RINEAU",
+          "rankLabel": "D9",
+          "cpph": 820,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07586343",
+          "name": "Jessica ALBUCHER",
+          "rankLabel": "P11",
+          "cpph": 517,
+          "club": "Club Olympique Carbonnais"
+        },
+        {
+          "playerId": "07586356",
+          "name": "Julie DUMONT",
+          "rankLabel": "P10",
+          "cpph": 635,
+          "club": "Club Olympique Carbonnais"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 14
+        },
+        {
+          "home": 21,
+          "away": 10
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06576827",
+          "name": "Doume DENIS",
+          "rankLabel": "P10",
+          "cpph": 800,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06957215",
+          "name": "Mathilde SPIESSER",
+          "rankLabel": "D7",
+          "cpph": 1359,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07439283",
+          "name": "Nicolas PHILIPPON",
+          "rankLabel": "D9",
+          "cpph": 1124,
+          "club": "Club Olympique Carbonnais"
+        },
+        {
+          "playerId": "07550198",
+          "name": "Chloé MONFRAIX",
+          "rankLabel": "D9",
+          "cpph": 1057,
+          "club": "Club Olympique Carbonnais"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 7
+        },
+        {
+          "home": 21,
+          "away": 14
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "07499367",
+          "name": "Radhakrishnan ASHOK",
+          "rankLabel": "P10",
+          "cpph": 793,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06654076",
+          "name": "Kathya VENPIN",
+          "rankLabel": "D9",
+          "cpph": 1024,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00405339",
+          "name": "Yann SEITY",
+          "rankLabel": "D9",
+          "cpph": 1066,
+          "club": "Club Olympique Carbonnais"
+        },
+        {
+          "playerId": "07183856",
+          "name": "Marie LAMARQUE",
+          "rankLabel": "D9",
+          "cpph": 931,
+          "club": "Club Olympique Carbonnais"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 12
+        },
+        {
+          "home": 21,
+          "away": 7
+        }
+      ],
+      "winnerSide": "home"
+    }
+  ]
+}

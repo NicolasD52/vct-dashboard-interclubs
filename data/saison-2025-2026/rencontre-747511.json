@@ -1,0 +1,322 @@
+{
+  "id": "747511",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D4 - Poule C - Interclubs Adultes Mixte",
+  "date": "2026-01-09",
+  "ourTeamSide": "away",
+  "homeTeam": {
+    "id": "31-USRB-6",
+    "icbadId": "64550",
+    "name": "U.S. Ramonville Badminton",
+    "division": "D4",
+    "code": "31-USRB-6",
+    "number": 6
+  },
+  "awayTeam": {
+    "id": "31-VCT-9",
+    "icbadId": "64551",
+    "name": "Volant Club Toulousain",
+    "division": "D4",
+    "code": "31-VCT-9",
+    "number": 9
+  },
+  "scoreHome": 2,
+  "scoreAway": 5,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06793721",
+          "name": "Julian LEBRUN",
+          "rankLabel": "D8",
+          "cpph": 1302,
+          "club": "U.S. Ramonville Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07274952",
+          "name": "Isaac CIESIELSKI",
+          "rankLabel": "D8",
+          "cpph": 1316,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 13,
+          "away": 21
+        },
+        {
+          "home": 15,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07434663",
+          "name": "Thomas VAUJOUR",
+          "rankLabel": "D8",
+          "cpph": 1236,
+          "club": "U.S. Ramonville Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07497950",
+          "name": "Jérémie CHHEANG",
+          "rankLabel": "D9",
+          "cpph": 1159,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 10
+        },
+        {
+          "home": 21,
+          "away": 11
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "06681974",
+          "name": "Bertille ETIENNEY",
+          "rankLabel": "P10",
+          "cpph": 647,
+          "club": "U.S. Ramonville Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07209530",
+          "name": "Esther CIESIELSKI",
+          "rankLabel": "D8",
+          "cpph": 967,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 16,
+          "away": 21
+        },
+        {
+          "home": 15,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "07434663",
+          "name": "Thomas VAUJOUR",
+          "rankLabel": "D8",
+          "cpph": 1208,
+          "club": "U.S. Ramonville Badminton"
+        },
+        {
+          "playerId": "06542043",
+          "name": "Clément ZEGHMATI",
+          "rankLabel": "D8",
+          "cpph": 1308,
+          "club": "U.S. Ramonville Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07499367",
+          "name": "Radhakrishnan ASHOK",
+          "rankLabel": "D9",
+          "cpph": 1123,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07091017",
+          "name": "Xavier BERTIN",
+          "rankLabel": "P10",
+          "cpph": 944,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 21,
+          "away": 8
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "07399712",
+          "name": "Chloé ROTENBERG",
+          "rankLabel": "D9",
+          "cpph": 837,
+          "club": "U.S. Ramonville Badminton"
+        },
+        {
+          "playerId": "06573700",
+          "name": "Mathilde SIMEON",
+          "rankLabel": "D9",
+          "cpph": 862,
+          "club": "U.S. Ramonville Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06959594",
+          "name": "Olivia BIALCZYK",
+          "rankLabel": "P10",
+          "cpph": 657,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07433019",
+          "name": "Elodie RINEAU",
+          "rankLabel": "D9",
+          "cpph": 794,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 19,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 23
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06793721",
+          "name": "Julian LEBRUN",
+          "rankLabel": "D9",
+          "cpph": 1081,
+          "club": "U.S. Ramonville Badminton"
+        },
+        {
+          "playerId": "07399712",
+          "name": "Chloé ROTENBERG",
+          "rankLabel": "D8",
+          "cpph": 1239,
+          "club": "U.S. Ramonville Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06881877",
+          "name": "Guillaume MAURY",
+          "rankLabel": "D9",
+          "cpph": 1063,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06959594",
+          "name": "Olivia BIALCZYK",
+          "rankLabel": "D8",
+          "cpph": 1240,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 12
+        },
+        {
+          "home": 16,
+          "away": 21
+        },
+        {
+          "home": 17,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "07113261",
+          "name": "Fabrice PICAUDOU",
+          "rankLabel": "D9",
+          "cpph": 977,
+          "club": "U.S. Ramonville Badminton"
+        },
+        {
+          "playerId": "06573700",
+          "name": "Mathilde SIMEON",
+          "rankLabel": "D9",
+          "cpph": 1133,
+          "club": "U.S. Ramonville Badminton"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06576827",
+          "name": "Doume DENIS",
+          "rankLabel": "P10",
+          "cpph": 777,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06957215",
+          "name": "Mathilde SPIESSER",
+          "rankLabel": "D8",
+          "cpph": 1342,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 18,
+          "away": 21
+        },
+        {
+          "home": 19,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    }
+  ]
+}

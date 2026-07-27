@@ -1,0 +1,351 @@
+{
+  "id": "771690",
+  "season": "2025/2026",
+  "competition": "Interclubs Régionaux OCCI R2 - 2025-2026 - Play-Off R2 (places de 1 à 4) - Interclubs Adultes Mixte",
+  "date": "2026-04-12",
+  "ourTeamSide": "away",
+  "homeTeam": {
+    "id": "34-BADPIG-1",
+    "icbadId": "72241",
+    "name": "Badminton Pignan",
+    "division": "R2",
+    "code": "34-BADPIG-1",
+    "number": 1
+  },
+  "awayTeam": {
+    "id": "31-VCT-2",
+    "icbadId": "72244",
+    "name": "Volant Club Toulousain",
+    "division": "R2",
+    "code": "31-VCT-2",
+    "number": 2
+  },
+  "scoreHome": 1,
+  "scoreAway": 6,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06586881",
+          "name": "Quentin GUILLERM",
+          "rankLabel": "N3",
+          "cpph": 2652,
+          "club": "Badminton Pignan"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06539655",
+          "name": "Maxime WEILL",
+          "rankLabel": "N3",
+          "cpph": 2505,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 0,
+          "away": 21
+        },
+        {
+          "home": 0,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07089630",
+          "name": "Emilien DUVERGER",
+          "rankLabel": "R4",
+          "cpph": 2218,
+          "club": "Badminton Pignan"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06903185",
+          "name": "Antoine LESCA ALLOUL",
+          "rankLabel": "R4",
+          "cpph": 2079,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 20,
+          "away": 22
+        },
+        {
+          "home": 19,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "07106732",
+          "name": "Mylene GUILLERM",
+          "rankLabel": "R6",
+          "cpph": 1348,
+          "club": "Badminton Pignan"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06903575",
+          "name": "Marie SABATOU",
+          "rankLabel": "R4",
+          "cpph": 1608,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 17,
+          "away": 21
+        },
+        {
+          "home": 13,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SD2",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "00415219",
+          "name": "Héloïse MENARD",
+          "rankLabel": "D7",
+          "cpph": 1169,
+          "club": "Badminton Pignan"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07151612",
+          "name": "Léa MERLOZ",
+          "rankLabel": "R4",
+          "cpph": 1583,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 12,
+          "away": 21
+        },
+        {
+          "home": 19,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "07115054",
+          "name": "Sam DELCROIX",
+          "rankLabel": "N3",
+          "cpph": 2518,
+          "club": "Badminton Pignan"
+        },
+        {
+          "playerId": "07089630",
+          "name": "Emilien DUVERGER",
+          "rankLabel": "R4",
+          "cpph": 2024,
+          "club": "Badminton Pignan"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06549435",
+          "name": "Amon AMADIS",
+          "rankLabel": "N3",
+          "cpph": 2571,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06903185",
+          "name": "Antoine LESCA ALLOUL",
+          "rankLabel": "N3",
+          "cpph": 2522,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 20,
+          "away": 22
+        },
+        {
+          "home": 21,
+          "away": 19
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "00415219",
+          "name": "Héloïse MENARD",
+          "rankLabel": "R6",
+          "cpph": 1291,
+          "club": "Badminton Pignan"
+        },
+        {
+          "playerId": "00404994",
+          "name": "Fanny REYNAUD",
+          "rankLabel": "R6",
+          "cpph": 1358,
+          "club": "Badminton Pignan"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06903575",
+          "name": "Marie SABATOU",
+          "rankLabel": "R4",
+          "cpph": 1807,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07568165",
+          "name": "Barbara SALINAS MARTINEZ",
+          "rankLabel": "R5",
+          "cpph": 1588,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 15,
+          "away": 21
+        },
+        {
+          "home": 14,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06586881",
+          "name": "Quentin GUILLERM",
+          "rankLabel": "N3",
+          "cpph": 2345,
+          "club": "Badminton Pignan"
+        },
+        {
+          "playerId": "07106732",
+          "name": "Mylene GUILLERM",
+          "rankLabel": "N3",
+          "cpph": 2331,
+          "club": "Badminton Pignan"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06549435",
+          "name": "Amon AMADIS",
+          "rankLabel": "N3",
+          "cpph": 2513,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07568165",
+          "name": "Barbara SALINAS MARTINEZ",
+          "rankLabel": "R4",
+          "cpph": 1989,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 19,
+          "away": 21
+        },
+        {
+          "home": 18,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "07115054",
+          "name": "Sam DELCROIX",
+          "rankLabel": "N3",
+          "cpph": 2360,
+          "club": "Badminton Pignan"
+        },
+        {
+          "playerId": "00404994",
+          "name": "Fanny REYNAUD",
+          "rankLabel": "R4",
+          "cpph": 2055,
+          "club": "Badminton Pignan"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06539655",
+          "name": "Maxime WEILL",
+          "rankLabel": "R4",
+          "cpph": 2022,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00444470",
+          "name": "Heïdi DEMOULINS",
+          "rankLabel": "R4",
+          "cpph": 2157,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 22,
+          "away": 20
+        },
+        {
+          "home": 21,
+          "away": 18
+        }
+      ],
+      "winnerSide": "home"
+    }
+  ]
+}

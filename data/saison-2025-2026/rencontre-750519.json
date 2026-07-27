@@ -1,0 +1,318 @@
+{
+  "id": "750519",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D2 - Poule A - Interclubs Adultes Mixte",
+  "date": "2026-04-10",
+  "ourTeamSide": "away",
+  "homeTeam": {
+    "id": "31-BBC-6",
+    "icbadId": "67045",
+    "name": "Blagnac Badminton Club",
+    "division": "D2",
+    "code": "31-BBC-6",
+    "number": 6
+  },
+  "awayTeam": {
+    "id": "31-VCT-4",
+    "icbadId": "67049",
+    "name": "Volant Club Toulousain",
+    "division": "D2",
+    "code": "31-VCT-4",
+    "number": 4
+  },
+  "scoreHome": 6,
+  "scoreAway": 1,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06911784",
+          "name": "Ludovic MAGNAN",
+          "rankLabel": "R5",
+          "cpph": 1965,
+          "club": "Blagnac Badminton Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06699298",
+          "name": "Quentin CERDEIRA",
+          "rankLabel": "R6",
+          "cpph": 1642,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 21,
+          "away": 15
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07151507",
+          "name": "Victor THEZELAIS",
+          "rankLabel": "R5",
+          "cpph": 1932,
+          "club": "Blagnac Badminton Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00538782",
+          "name": "Marc KERMORGANT",
+          "rankLabel": "D9",
+          "cpph": 1075,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 16
+        },
+        {
+          "home": 21,
+          "away": 12
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "06955568",
+          "name": "Karen ALVES",
+          "rankLabel": "D7",
+          "cpph": 1129,
+          "club": "Blagnac Badminton Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00360138",
+          "name": "Delphine MAZARS",
+          "rankLabel": "D8",
+          "cpph": 988,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 8
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "06587938",
+          "name": "Sylvain HORBACH",
+          "rankLabel": "R6",
+          "cpph": 1771,
+          "club": "Blagnac Badminton Club"
+        },
+        {
+          "playerId": "00468144",
+          "name": "Baptiste MARTIN",
+          "rankLabel": "R6",
+          "cpph": 1697,
+          "club": "Blagnac Badminton Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07162912",
+          "name": "Loick ANEZO",
+          "rankLabel": "R4",
+          "cpph": 2036,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06734777",
+          "name": "Pierre-jean GURIZZAN",
+          "rankLabel": "R6",
+          "cpph": 1596,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 12,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 12
+        },
+        {
+          "home": 27,
+          "away": 25
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "06955568",
+          "name": "Karen ALVES",
+          "rankLabel": "D8",
+          "cpph": 981,
+          "club": "Blagnac Badminton Club"
+        },
+        {
+          "playerId": "07230528",
+          "name": "Annaelle LE HUU NHO",
+          "rankLabel": "D8",
+          "cpph": 939,
+          "club": "Blagnac Badminton Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06886971",
+          "name": "Mathilde CALCAGNO",
+          "rankLabel": "D7",
+          "cpph": 1160,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07276813",
+          "name": "Lena DUCROS",
+          "rankLabel": "D8",
+          "cpph": 960,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 16
+        },
+        {
+          "home": 21,
+          "away": 14
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06587938",
+          "name": "Sylvain HORBACH",
+          "rankLabel": "R6",
+          "cpph": 1646,
+          "club": "Blagnac Badminton Club"
+        },
+        {
+          "playerId": "06955568",
+          "name": "Karen ALVES",
+          "rankLabel": "D8",
+          "cpph": 1321,
+          "club": "Blagnac Badminton Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06734777",
+          "name": "Pierre-jean GURIZZAN",
+          "rankLabel": "R6",
+          "cpph": 1782,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07276813",
+          "name": "Lena DUCROS",
+          "rankLabel": "R6",
+          "cpph": 1635,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 16
+        },
+        {
+          "home": 21,
+          "away": 15
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06911784",
+          "name": "Ludovic MAGNAN",
+          "rankLabel": "R6",
+          "cpph": 1565,
+          "club": "Blagnac Badminton Club"
+        },
+        {
+          "playerId": "07230528",
+          "name": "Annaelle LE HUU NHO",
+          "rankLabel": "D8",
+          "cpph": 1213,
+          "club": "Blagnac Badminton Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07162912",
+          "name": "Loick ANEZO",
+          "rankLabel": "R6",
+          "cpph": 1680,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06886971",
+          "name": "Mathilde CALCAGNO",
+          "rankLabel": "R6",
+          "cpph": 1681,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 14,
+          "away": 21
+        },
+        {
+          "home": 8,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    }
+  ]
+}

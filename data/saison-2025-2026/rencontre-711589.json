@@ -5,14 +5,16 @@
   "date": "2026-03-15",
   "ourTeamSide": "home",
   "homeTeam": {
-    "id": "58735",
+    "id": "31-VCT-2",
+    "icbadId": "58735",
     "name": "Volant Club Toulousain",
     "division": "R2",
     "code": "31-VCT-2",
     "number": 2
   },
   "awayTeam": {
-    "id": "58733",
+    "id": "31-TOAC-3",
+    "icbadId": "58733",
     "name": "Toulouse Olympique Aerospatiale Club",
     "division": "R2",
     "code": "31-TOAC-3",

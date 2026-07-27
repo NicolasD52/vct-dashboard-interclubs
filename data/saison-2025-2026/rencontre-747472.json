@@ -1,0 +1,318 @@
+{
+  "id": "747472",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D4 - Poule B - Interclubs Adultes Mixte",
+  "date": "2025-11-14",
+  "ourTeamSide": "home",
+  "homeTeam": {
+    "id": "31-VCT-8",
+    "icbadId": "64545",
+    "name": "Volant Club Toulousain",
+    "division": "D4",
+    "code": "31-VCT-8",
+    "number": 8
+  },
+  "awayTeam": {
+    "id": "31-FVA-2",
+    "icbadId": "64543",
+    "name": "Les Fous du Volant Aussonnais",
+    "division": "D4",
+    "code": "31-FVA-2",
+    "number": 2
+  },
+  "scoreHome": 7,
+  "scoreAway": 0,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "00274963",
+          "name": "Paul adrien CORTET",
+          "rankLabel": "D9",
+          "cpph": 1171,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06670598",
+          "name": "Florian DELRUE",
+          "rankLabel": "D9",
+          "cpph": 1034,
+          "club": "Les Fous du Volant Aussonnais"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 12
+        },
+        {
+          "home": 21,
+          "away": 14
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07318481",
+          "name": "Maxime PIRAS",
+          "rankLabel": "D9",
+          "cpph": 1064,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07496904",
+          "name": "Thierry CHEAR",
+          "rankLabel": "P12",
+          "cpph": 566,
+          "club": "Les Fous du Volant Aussonnais"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 12
+        },
+        {
+          "home": 21,
+          "away": 4
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "06964977",
+          "name": "Léa ZANARDI-CESAR",
+          "rankLabel": "D9",
+          "cpph": 869,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00437117",
+          "name": "Emily DEJUNIAT BERNARDINI",
+          "rankLabel": "P11",
+          "cpph": 580,
+          "club": "Les Fous du Volant Aussonnais"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 11
+        },
+        {
+          "home": 21,
+          "away": 7
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "07496481",
+          "name": "Alexis ANGEVIN",
+          "rankLabel": "P10",
+          "cpph": 892,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07499080",
+          "name": "Kyllian CHEVALIER",
+          "rankLabel": "D7",
+          "cpph": 1369,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07504296",
+          "name": "Lionel CROS",
+          "rankLabel": "P11",
+          "cpph": 681,
+          "club": "Les Fous du Volant Aussonnais"
+        },
+        {
+          "playerId": "00011289",
+          "name": "Philippe GALICE",
+          "rankLabel": "P10",
+          "cpph": 847,
+          "club": "Les Fous du Volant Aussonnais"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 5
+        },
+        {
+          "home": 21,
+          "away": 7
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "07359164",
+          "name": "Léa CORROCHER",
+          "rankLabel": "D9",
+          "cpph": 781,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06959638",
+          "name": "Shana MASDEU",
+          "rankLabel": "D9",
+          "cpph": 821,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06633423",
+          "name": "Geraldine CONTI",
+          "rankLabel": "P10",
+          "cpph": 610,
+          "club": "Les Fous du Volant Aussonnais"
+        },
+        {
+          "playerId": "00437117",
+          "name": "Emily DEJUNIAT BERNARDINI",
+          "rankLabel": "P10",
+          "cpph": 629,
+          "club": "Les Fous du Volant Aussonnais"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 14
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "00514766",
+          "name": "Jordan HAAGER",
+          "rankLabel": "D8",
+          "cpph": 1224,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07373812",
+          "name": "Lisa FOURNIER",
+          "rankLabel": "D8",
+          "cpph": 1206,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06670598",
+          "name": "Florian DELRUE",
+          "rankLabel": "D9",
+          "cpph": 1077,
+          "club": "Les Fous du Volant Aussonnais"
+        },
+        {
+          "playerId": "06854486",
+          "name": "Elodie FARGERE",
+          "rankLabel": "D9",
+          "cpph": 1074,
+          "club": "Les Fous du Volant Aussonnais"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 18,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "00540338",
+          "name": "Pascal LAGARDE",
+          "rankLabel": "D9",
+          "cpph": 1150,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00540337",
+          "name": "Anne LAGARDE",
+          "rankLabel": "D8",
+          "cpph": 1248,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07391052",
+          "name": "Frédéric MARTIN",
+          "rankLabel": "D9",
+          "cpph": 975,
+          "club": "Les Fous du Volant Aussonnais"
+        },
+        {
+          "playerId": "06755007",
+          "name": "Amélie POUTS-SAINT-GERME",
+          "rankLabel": "P11",
+          "cpph": 747,
+          "club": "Les Fous du Volant Aussonnais"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 12
+        },
+        {
+          "home": 21,
+          "away": 9
+        }
+      ],
+      "winnerSide": "home"
+    }
+  ]
+}

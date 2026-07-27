@@ -1,0 +1,330 @@
+{
+  "id": "719679",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D1 - Poule B - Interclubs Adultes Mixte",
+  "date": "2026-02-17",
+  "ourTeamSide": "home",
+  "homeTeam": {
+    "id": "31-VCT-3",
+    "icbadId": "62503",
+    "name": "Volant Club Toulousain",
+    "division": "D1",
+    "code": "31-VCT-3",
+    "number": 3
+  },
+  "awayTeam": {
+    "id": "31-TOAC-4",
+    "icbadId": "62501",
+    "name": "Toulouse Olympique Aerospatiale Club",
+    "division": "D1",
+    "code": "31-TOAC-4",
+    "number": 4
+  },
+  "scoreHome": 4,
+  "scoreAway": 3,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06652133",
+          "name": "Camille BLOT",
+          "rankLabel": "R4",
+          "cpph": 2075,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07095233",
+          "name": "Romain LENORMAND",
+          "rankLabel": "R5",
+          "cpph": 1858,
+          "club": "Toulouse Olympique Aerospatiale Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 22,
+          "away": 20
+        },
+        {
+          "home": 21,
+          "away": 14
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06585382",
+          "name": "Guillaume NGUYEN",
+          "rankLabel": "R5",
+          "cpph": 1909,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06624709",
+          "name": "Hugo DANJOU",
+          "rankLabel": "R6",
+          "cpph": 1651,
+          "club": "Toulouse Olympique Aerospatiale Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 12,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 21,
+          "away": 15
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "00368130",
+          "name": "Lucie MORIN",
+          "rankLabel": "D7",
+          "cpph": 1126,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07338264",
+          "name": "Clémentine CAUBISENS",
+          "rankLabel": "D7",
+          "cpph": 1087,
+          "club": "Toulouse Olympique Aerospatiale Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 12,
+          "away": 21
+        },
+        {
+          "home": 17,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "06938462",
+          "name": "Maxime DETCHEPARE",
+          "rankLabel": "R4",
+          "cpph": 1986,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00443098",
+          "name": "Pierre THIERRY",
+          "rankLabel": "R4",
+          "cpph": 2004,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06624709",
+          "name": "Hugo DANJOU",
+          "rankLabel": "D7",
+          "cpph": 1388,
+          "club": "Toulouse Olympique Aerospatiale Club"
+        },
+        {
+          "playerId": "06583036",
+          "name": "Yoann LACAZE",
+          "rankLabel": "R4",
+          "cpph": 2033,
+          "club": "Toulouse Olympique Aerospatiale Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 17
+        },
+        {
+          "home": 15,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 12
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "07019899",
+          "name": "Emma BARAL",
+          "rankLabel": "R5",
+          "cpph": 1419,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00443125",
+          "name": "Anne-laure THIERRY",
+          "rankLabel": "D7",
+          "cpph": 1168,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00415800",
+          "name": "Carole BOURDIL",
+          "rankLabel": "R5",
+          "cpph": 1449,
+          "club": "Toulouse Olympique Aerospatiale Club"
+        },
+        {
+          "playerId": "00548453",
+          "name": "Isabelle RIOU",
+          "rankLabel": "R6",
+          "cpph": 1370,
+          "club": "Toulouse Olympique Aerospatiale Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 14,
+          "away": 21
+        },
+        {
+          "home": 19,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "00443098",
+          "name": "Pierre THIERRY",
+          "rankLabel": "R4",
+          "cpph": 2026,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07019899",
+          "name": "Emma BARAL",
+          "rankLabel": "R5",
+          "cpph": 1979,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06583036",
+          "name": "Yoann LACAZE",
+          "rankLabel": "R4",
+          "cpph": 2174,
+          "club": "Toulouse Olympique Aerospatiale Club"
+        },
+        {
+          "playerId": "06633424",
+          "name": "Marie HAZET",
+          "rankLabel": "R5",
+          "cpph": 1908,
+          "club": "Toulouse Olympique Aerospatiale Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 16,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 16
+        },
+        {
+          "home": 19,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06652133",
+          "name": "Camille BLOT",
+          "rankLabel": "R5",
+          "cpph": 1783,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00443125",
+          "name": "Anne-laure THIERRY",
+          "rankLabel": "R5",
+          "cpph": 1801,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07095233",
+          "name": "Romain LENORMAND",
+          "rankLabel": "R6",
+          "cpph": 1661,
+          "club": "Toulouse Olympique Aerospatiale Club"
+        },
+        {
+          "playerId": "00519109",
+          "name": "Lindsey MARSHALL FLORES",
+          "rankLabel": "R6",
+          "cpph": 1637,
+          "club": "Toulouse Olympique Aerospatiale Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 7
+        },
+        {
+          "home": 21,
+          "away": 9
+        }
+      ],
+      "winnerSide": "home"
+    }
+  ]
+}

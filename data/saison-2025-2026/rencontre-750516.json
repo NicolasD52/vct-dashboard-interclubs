@@ -1,0 +1,330 @@
+{
+  "id": "750516",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D2 - Poule A - Interclubs Adultes Mixte",
+  "date": "2026-04-03",
+  "ourTeamSide": "away",
+  "homeTeam": {
+    "id": "31-BCG-1",
+    "icbadId": "67044",
+    "name": "Bad Club Grenadin",
+    "division": "D2",
+    "code": "31-BCG-1",
+    "number": 1
+  },
+  "awayTeam": {
+    "id": "31-VCT-4",
+    "icbadId": "67049",
+    "name": "Volant Club Toulousain",
+    "division": "D2",
+    "code": "31-VCT-4",
+    "number": 4
+  },
+  "scoreHome": 5,
+  "scoreAway": 2,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "00301175",
+          "name": "Jules CANTEGRIL",
+          "rankLabel": "R6",
+          "cpph": 1755,
+          "club": "Bad Club Grenadin"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06734777",
+          "name": "Pierre-jean GURIZZAN",
+          "rankLabel": "R6",
+          "cpph": 1596,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 9
+        },
+        {
+          "home": 21,
+          "away": 13
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06585981",
+          "name": "Thomas TRUCIOS",
+          "rankLabel": "R6",
+          "cpph": 1632,
+          "club": "Bad Club Grenadin"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06596915",
+          "name": "Alexis GIACOMINI",
+          "rankLabel": "R6",
+          "cpph": 1714,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 17
+        },
+        {
+          "home": 21,
+          "away": 12
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "06608903",
+          "name": "Sarah ZGLINSKI",
+          "rankLabel": "D7",
+          "cpph": 1062,
+          "club": "Bad Club Grenadin"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06859703",
+          "name": "Jade JUSTEAU",
+          "rankLabel": "D7",
+          "cpph": 1078,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 13
+        },
+        {
+          "home": 13,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 18
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "00301175",
+          "name": "Jules CANTEGRIL",
+          "rankLabel": "R6",
+          "cpph": 1614,
+          "club": "Bad Club Grenadin"
+        },
+        {
+          "playerId": "00466118",
+          "name": "Arnaud MEYER",
+          "rankLabel": "R5",
+          "cpph": 1812,
+          "club": "Bad Club Grenadin"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00516772",
+          "name": "Nicolas DUJON",
+          "rankLabel": "R5",
+          "cpph": 1792,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06596915",
+          "name": "Alexis GIACOMINI",
+          "rankLabel": "R5",
+          "cpph": 1915,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 15,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 16
+        },
+        {
+          "home": 8,
+          "away": 4
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "07072385",
+          "name": "Christelle GABRIEL",
+          "rankLabel": "D7",
+          "cpph": 1054,
+          "club": "Bad Club Grenadin"
+        },
+        {
+          "playerId": "06739434",
+          "name": "Bénédicte GRIGY",
+          "rankLabel": "D8",
+          "cpph": 909,
+          "club": "Bad Club Grenadin"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07276813",
+          "name": "Lena DUCROS",
+          "rankLabel": "D8",
+          "cpph": 946,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00360138",
+          "name": "Delphine MAZARS",
+          "rankLabel": "R6",
+          "cpph": 1236,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 21,
+          "away": 23
+        },
+        {
+          "home": 16,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "00466118",
+          "name": "Arnaud MEYER",
+          "rankLabel": "R6",
+          "cpph": 1653,
+          "club": "Bad Club Grenadin"
+        },
+        {
+          "playerId": "07072385",
+          "name": "Christelle GABRIEL",
+          "rankLabel": "R6",
+          "cpph": 1662,
+          "club": "Bad Club Grenadin"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06596915",
+          "name": "Alexis GIACOMINI",
+          "rankLabel": "R5",
+          "cpph": 1904,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06472293",
+          "name": "Marie PRAT",
+          "rankLabel": "R6",
+          "cpph": 1679,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 17,
+          "away": 21
+        },
+        {
+          "home": 13,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06585981",
+          "name": "Thomas TRUCIOS",
+          "rankLabel": "R6",
+          "cpph": 1781,
+          "club": "Bad Club Grenadin"
+        },
+        {
+          "playerId": "06608903",
+          "name": "Sarah ZGLINSKI",
+          "rankLabel": "D7",
+          "cpph": 1548,
+          "club": "Bad Club Grenadin"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06734777",
+          "name": "Pierre-jean GURIZZAN",
+          "rankLabel": "R5",
+          "cpph": 1797,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06886971",
+          "name": "Mathilde CALCAGNO",
+          "rankLabel": "R6",
+          "cpph": 1696,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 14,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 16
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "id": "747518",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D4 - Poule C - Interclubs Adultes Mixte",
+  "date": "2026-02-09",
+  "ourTeamSide": "away",
+  "homeTeam": {
+    "id": "31-SJBC-4",
+    "icbadId": "64549",
+    "name": "Saint Jean Badminton Club",
+    "division": "D4",
+    "code": "31-SJBC-4",
+    "number": 4
+  },
+  "awayTeam": {
+    "id": "31-VCT-9",
+    "icbadId": "64551",
+    "name": "Volant Club Toulousain",
+    "division": "D4",
+    "code": "31-VCT-9",
+    "number": 9
+  },
+  "scoreHome": 1,
+  "scoreAway": 6,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07458448",
+          "name": "Thomas PIERRE",
+          "rankLabel": "D9",
+          "cpph": 987,
+          "club": "Saint Jean Badminton Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07274952",
+          "name": "Isaac CIESIELSKI",
+          "rankLabel": "D7",
+          "cpph": 1380,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 16,
+          "away": 21
+        },
+        {
+          "home": 22,
+          "away": 24
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06896730",
+          "name": "Natalino GUERREIRO DOS SANTOS",
+          "rankLabel": "P10",
+          "cpph": 886,
+          "club": "Saint Jean Badminton Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07497950",
+          "name": "Jérémie CHHEANG",
+          "rankLabel": "D9",
+          "cpph": 1130,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 19
+        },
+        {
+          "home": 14,
+          "away": 21
+        },
+        {
+          "home": 23,
+          "away": 21
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "00280475",
+          "name": "Pauline BERARD",
+          "rankLabel": "P11",
+          "cpph": 536,
+          "club": "Saint Jean Badminton Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07209530",
+          "name": "Esther CIESIELSKI",
+          "rankLabel": "D8",
+          "cpph": 976,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 7,
+          "away": 21
+        },
+        {
+          "home": 14,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "07153255",
+          "name": "Arnaud DALAC",
+          "rankLabel": "D9",
+          "cpph": 995,
+          "club": "Saint Jean Badminton Club"
+        },
+        {
+          "playerId": "07458448",
+          "name": "Thomas PIERRE",
+          "rankLabel": "P11",
+          "cpph": 719,
+          "club": "Saint Jean Badminton Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07499367",
+          "name": "Radhakrishnan ASHOK",
+          "rankLabel": "D9",
+          "cpph": 1113,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06576827",
+          "name": "Doume DENIS",
+          "rankLabel": "P10",
+          "cpph": 816,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 16,
+          "away": 21
+        },
+        {
+          "home": 22,
+          "away": 24
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "06752477",
+          "name": "Marine MESTRE",
+          "rankLabel": "P10",
+          "cpph": 639,
+          "club": "Saint Jean Badminton Club"
+        },
+        {
+          "playerId": "06820431",
+          "name": "Nadége RICHETON",
+          "rankLabel": "P10",
+          "cpph": 655,
+          "club": "Saint Jean Badminton Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07209530",
+          "name": "Esther CIESIELSKI",
+          "rankLabel": "D9",
+          "cpph": 738,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06957215",
+          "name": "Mathilde SPIESSER",
+          "rankLabel": "D8",
+          "cpph": 977,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 12,
+          "away": 21
+        },
+        {
+          "home": 6,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06896730",
+          "name": "Natalino GUERREIRO DOS SANTOS",
+          "rankLabel": "D9",
+          "cpph": 994,
+          "club": "Saint Jean Badminton Club"
+        },
+        {
+          "playerId": "00280475",
+          "name": "Pauline BERARD",
+          "rankLabel": "P11",
+          "cpph": 585,
+          "club": "Saint Jean Badminton Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06576827",
+          "name": "Doume DENIS",
+          "rankLabel": "P10",
+          "cpph": 823,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06957215",
+          "name": "Mathilde SPIESSER",
+          "rankLabel": "D7",
+          "cpph": 1376,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 8,
+          "away": 21
+        },
+        {
+          "home": 9,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "07458448",
+          "name": "Thomas PIERRE",
+          "rankLabel": "P10",
+          "cpph": 908,
+          "club": "Saint Jean Badminton Club"
+        },
+        {
+          "playerId": "07673406",
+          "name": "Carole ANDREOTTI",
+          "rankLabel": "P12",
+          "cpph": 455,
+          "club": "Saint Jean Badminton Club"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06881877",
+          "name": "Guillaume MAURY",
+          "rankLabel": "D9",
+          "cpph": 1042,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07433019",
+          "name": "Elodie RINEAU",
+          "rankLabel": "D9",
+          "cpph": 1022,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "sets": [
+        {
+          "home": 17,
+          "away": 21
+        },
+        {
+          "home": 13,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    }
+  ]
+}

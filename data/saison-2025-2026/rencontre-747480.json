@@ -1,0 +1,318 @@
+{
+  "id": "747480",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D4 - Poule B - Interclubs Adultes Mixte",
+  "date": "2026-01-08",
+  "ourTeamSide": "home",
+  "homeTeam": {
+    "id": "31-VCT-8",
+    "icbadId": "64545",
+    "name": "Volant Club Toulousain",
+    "division": "D4",
+    "code": "31-VCT-8",
+    "number": 8
+  },
+  "awayTeam": {
+    "id": "31-NBC-1",
+    "icbadId": "64544",
+    "name": "Nailloux Badminton Club",
+    "division": "D4",
+    "code": "31-NBC-1",
+    "number": 1
+  },
+  "scoreHome": 4,
+  "scoreAway": 3,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07040524",
+          "name": "Clément FABRE-DAUCH",
+          "rankLabel": "D8",
+          "cpph": 1299,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07461913",
+          "name": "Maxime SEVRIN",
+          "rankLabel": "D9",
+          "cpph": 1028,
+          "club": "Nailloux Badminton Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 16,
+          "away": 21
+        },
+        {
+          "home": 15,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "07318481",
+          "name": "Maxime PIRAS",
+          "rankLabel": "D9",
+          "cpph": 1047,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06881779",
+          "name": "Victor ROULET",
+          "rankLabel": "P10",
+          "cpph": 871,
+          "club": "Nailloux Badminton Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 14,
+          "away": 21
+        },
+        {
+          "home": 9,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "06964977",
+          "name": "Léa ZANARDI-CESAR",
+          "rankLabel": "D8",
+          "cpph": 887,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "00137018",
+          "name": "Marjorie BELMAS",
+          "rankLabel": "P10",
+          "cpph": 681,
+          "club": "Nailloux Badminton Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 9
+        },
+        {
+          "home": 21,
+          "away": 18
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "07496481",
+          "name": "Alexis ANGEVIN",
+          "rankLabel": "P10",
+          "cpph": 910,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07499080",
+          "name": "Kyllian CHEVALIER",
+          "rankLabel": "D8",
+          "cpph": 1355,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07444206",
+          "name": "Yannick MATTER",
+          "rankLabel": "D9",
+          "cpph": 992,
+          "club": "Nailloux Badminton Club"
+        },
+        {
+          "playerId": "07461913",
+          "name": "Maxime SEVRIN",
+          "rankLabel": "P10",
+          "cpph": 900,
+          "club": "Nailloux Badminton Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 12
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "07359164",
+          "name": "Léa CORROCHER",
+          "rankLabel": "P10",
+          "cpph": 664,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "06959638",
+          "name": "Shana MASDEU",
+          "rankLabel": "D9",
+          "cpph": 851,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06748140",
+          "name": "Celine ALVERNHE",
+          "rankLabel": "P10",
+          "cpph": 679,
+          "club": "Nailloux Badminton Club"
+        },
+        {
+          "playerId": "00137018",
+          "name": "Marjorie BELMAS",
+          "rankLabel": "P10",
+          "cpph": 677,
+          "club": "Nailloux Badminton Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 12
+        },
+        {
+          "home": 21,
+          "away": 18
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "00514766",
+          "name": "Jordan HAAGER",
+          "rankLabel": "D8",
+          "cpph": 1272,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07373812",
+          "name": "Lisa FOURNIER",
+          "rankLabel": "D8",
+          "cpph": 1245,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06881779",
+          "name": "Victor ROULET",
+          "rankLabel": "D9",
+          "cpph": 1014,
+          "club": "Nailloux Badminton Club"
+        },
+        {
+          "playerId": "06748140",
+          "name": "Celine ALVERNHE",
+          "rankLabel": "D9",
+          "cpph": 1101,
+          "club": "Nailloux Badminton Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 12
+        },
+        {
+          "home": 17,
+          "away": 21
+        },
+        {
+          "home": 12,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "07562369",
+          "name": "Pierre RICHAUD",
+          "rankLabel": "D8",
+          "cpph": 1278,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00540337",
+          "name": "Anne LAGARDE",
+          "rankLabel": "D8",
+          "cpph": 1271,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07444206",
+          "name": "Yannick MATTER",
+          "rankLabel": "D9",
+          "cpph": 1009,
+          "club": "Nailloux Badminton Club"
+        },
+        {
+          "playerId": "00137018",
+          "name": "Marjorie BELMAS",
+          "rankLabel": "P10",
+          "cpph": 882,
+          "club": "Nailloux Badminton Club"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 7
+        },
+        {
+          "home": 21,
+          "away": 10
+        }
+      ],
+      "winnerSide": "home"
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "id": "719665",
+  "season": "2025/2026",
+  "competition": "Interclubs Comité 31 D1 - Poule B - Interclubs Adultes Mixte",
+  "date": "2025-12-02",
+  "ourTeamSide": "home",
+  "homeTeam": {
+    "id": "31-VCT-3",
+    "icbadId": "62503",
+    "name": "Volant Club Toulousain",
+    "division": "D1",
+    "code": "31-VCT-3",
+    "number": 3
+  },
+  "awayTeam": {
+    "id": "31-TUCB-3",
+    "icbadId": "62502",
+    "name": "Toulouse Université Club badminton",
+    "division": "D1",
+    "code": "31-TUCB-3",
+    "number": 3
+  },
+  "scoreHome": 6,
+  "scoreAway": 1,
+  "matches": [
+    {
+      "code": "SH1",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "06585382",
+          "name": "Guillaume NGUYEN",
+          "rankLabel": "R5",
+          "cpph": 1926,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06791666",
+          "name": "Thomas ZEUTZIUS",
+          "rankLabel": "R5",
+          "cpph": 1883,
+          "club": "Toulouse Université Club badminton"
+        }
+      ],
+      "sets": [
+        {
+          "home": 10,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 17
+        },
+        {
+          "home": 10,
+          "away": 21
+        }
+      ],
+      "winnerSide": "away"
+    },
+    {
+      "code": "SH2",
+      "discipline": "SH",
+      "home": [
+        {
+          "playerId": "00390628",
+          "name": "Julien MORIN",
+          "rankLabel": "R6",
+          "cpph": 1705,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "07119034",
+          "name": "Geraud BOYER",
+          "rankLabel": "D7",
+          "cpph": 1521,
+          "club": "Toulouse Université Club badminton"
+        }
+      ],
+      "sets": [
+        {
+          "home": 17,
+          "away": 21
+        },
+        {
+          "home": 21,
+          "away": 10
+        },
+        {
+          "home": 22,
+          "away": 20
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "SD1",
+      "discipline": "SD",
+      "home": [
+        {
+          "playerId": "07019899",
+          "name": "Emma BARAL",
+          "rankLabel": "R6",
+          "cpph": 1310,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06987070",
+          "name": "Clothilde COILHAC",
+          "rankLabel": "D7",
+          "cpph": 1118,
+          "club": "Toulouse Université Club badminton"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 18
+        },
+        {
+          "home": 21,
+          "away": 17
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DH1",
+      "discipline": "DH",
+      "home": [
+        {
+          "playerId": "06938462",
+          "name": "Maxime DETCHEPARE",
+          "rankLabel": "R5",
+          "cpph": 1977,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00443098",
+          "name": "Pierre THIERRY",
+          "rankLabel": "R5",
+          "cpph": 1950,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06876709",
+          "name": "Nathan DINTILHAC",
+          "rankLabel": "R6",
+          "cpph": 1665,
+          "club": "Toulouse Université Club badminton"
+        },
+        {
+          "playerId": "06717569",
+          "name": "Pierre MORENA",
+          "rankLabel": "R6",
+          "cpph": 1734,
+          "club": "Toulouse Université Club badminton"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 17
+        },
+        {
+          "home": 21,
+          "away": 16
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DD1",
+      "discipline": "DD",
+      "home": [
+        {
+          "playerId": "07019899",
+          "name": "Emma BARAL",
+          "rankLabel": "R5",
+          "cpph": 1416,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07158215",
+          "name": "Yvette CHENG",
+          "rankLabel": "D7",
+          "cpph": 1130,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06818792",
+          "name": "Sophie ALBINET",
+          "rankLabel": "D7",
+          "cpph": 1119,
+          "club": "Toulouse Université Club badminton"
+        },
+        {
+          "playerId": "06735067",
+          "name": "Anaïs JACQUIN",
+          "rankLabel": "R6",
+          "cpph": 1225,
+          "club": "Toulouse Université Club badminton"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 18
+        },
+        {
+          "home": 21,
+          "away": 15
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX1",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "06938462",
+          "name": "Maxime DETCHEPARE",
+          "rankLabel": "R6",
+          "cpph": 1714,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "07158215",
+          "name": "Yvette CHENG",
+          "rankLabel": "R4",
+          "cpph": 2037,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06601715",
+          "name": "Jérémie RENAUDEAU",
+          "rankLabel": "R5",
+          "cpph": 1787,
+          "club": "Toulouse Université Club badminton"
+        },
+        {
+          "playerId": "06879947",
+          "name": "Cécile BOFF",
+          "rankLabel": "R5",
+          "cpph": 1816,
+          "club": "Toulouse Université Club badminton"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 16
+        },
+        {
+          "home": 21,
+          "away": 15
+        }
+      ],
+      "winnerSide": "home"
+    },
+    {
+      "code": "DX2",
+      "discipline": "DX",
+      "home": [
+        {
+          "playerId": "07327290",
+          "name": "étienne CORBEL",
+          "rankLabel": "R6",
+          "cpph": 1661,
+          "club": "Volant Club Toulousain"
+        },
+        {
+          "playerId": "00443125",
+          "name": "Anne-laure THIERRY",
+          "rankLabel": "R6",
+          "cpph": 1723,
+          "club": "Volant Club Toulousain"
+        }
+      ],
+      "away": [
+        {
+          "playerId": "06631902",
+          "name": "Renan BRISSE",
+          "rankLabel": "R6",
+          "cpph": 1651,
+          "club": "Toulouse Université Club badminton"
+        },
+        {
+          "playerId": "07359446",
+          "name": "Ophelie NOGUER",
+          "rankLabel": "R6",
+          "cpph": 1586,
+          "club": "Toulouse Université Club badminton"
+        }
+      ],
+      "sets": [
+        {
+          "home": 21,
+          "away": 14
+        },
+        {
+          "home": 21,
+          "away": 17
+        }
+      ],
+      "winnerSide": "home"
+    }
+  ]
+}
