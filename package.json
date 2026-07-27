@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "import": "node scripts/parse-clippings.mjs",
+    "calibrate": "node scripts/calibrate-sigma.mjs"
   },
   "dependencies": {
     "next": "16.2.12",

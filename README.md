@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bilan de saison — interclubs VCT
 
-## Getting Started
+Tableau de bord des équipes du Volant Club Toulousain en championnat interclubs.
 
-First, run the development server:
+**En ligne : https://vct-dashboard-interclubs.vercel.app**
+
+Trois onglets : vue d'ensemble du club, tableau des joueuses et joueurs, fiche
+par équipe. L'indicateur central compare les victoires réelles de chacun·e à
+celles que son classement CPPH laissait attendre — battre plus fort rapporte
+plus, perdre contre plus faible coûte plus. 100 % signifie « a gagné exactement
+ce que son classement laissait attendre » : ce n'est pas un taux de victoire.
+
+## Ajouter les résultats d'une rencontre
+
+1. Ouvrir la page de la rencontre sur `icbad.ffbad.org`.
+2. La clipper dans Obsidian avec le template « rencontre icbad » (`Alt+Shift+O`).
+   La note peut aller n'importe où dans le coffre `VCT_obsi`.
+3. Dans ce dossier :
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run import
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Le script relit tout le coffre et régénère `data/`. Il affiche un récapitulatif
+par équipe en fin d'exécution — **c'est le moment de vérifier** : si une équipe
+adverse apparaît dans la liste, ou si un compte de rencontres ne correspond pas,
+quelque chose n'a pas été lu correctement.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. Vérifier le rendu, puis publier :
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run dev      # http://localhost:3000
+npm run build    # doit passer avant de publier
+git add -A && git commit -m "Ajouter les rencontres du <date>"
+git push         # Vercel déploie automatiquement
+```
 
-## Learn More
+> Si `npm` refuse de démarrer dans PowerShell (« l'exécution de scripts est
+> désactivée sur ce système »), utiliser `npm.cmd` à la place de `npm`.
 
-To learn more about Next.js, take a look at the following resources:
+## Fin de saison
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run calibrate
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Réestime l'échelle CPPH (`SIGMA_CPPH`) sur les résultats réellement observés et
+vérifie que le modèle prédit juste. Reporter la valeur obtenue dans
+`lib/calculations/performanceVsRanking.ts` si elle a bougé.
 
-## Deploy on Vercel
+Pour une nouvelle saison, rien de particulier à faire : le script range les
+rencontres dans un dossier par saison, déduit de leur date.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Réglages
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Tout ce qui se règle est dans `lib/calculations/performanceVsRanking.ts`, avec
+le raisonnement en commentaire :
+
+| Constante | Rôle |
+| --- | --- |
+| `SIGMA_CPPH` | Écart de CPPH donnant 90 % de chances au favori |
+| `SEUIL_FIABILITE` | Nombre de matchs minimum pour être classé |
+| `MATCHS_DE_REFERENCE` | Force de l'atténuation des petits échantillons, au podium |
+
+## Sous le capot
+
+Next.js (App Router, TypeScript), déployé sur Vercel. Pas de base de données ni
+d'import automatique : les rencontres sont des fichiers JSON versionnés dans
+`data/`, validés par zod au chargement. Les notes d'implémentation et les pièges
+connus sont dans `AGENTS.md` ; le raisonnement derrière chaque décision de
+calcul est dans l'historique git.
