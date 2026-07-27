@@ -34,6 +34,14 @@ function ourTeam(rencontre: Rencontre): TeamRef {
   return rencontre.ourTeamSide === "home" ? rencontre.homeTeam : rencontre.awayTeam;
 }
 
+/**
+ * Les équipes du club, triées par numéro (1, 2, … 9).
+ *
+ * Sans ce tri elles sortaient dans l'ordre de lecture des fichiers, qui suit
+ * les identifiants de rencontre icbad : l'ordre des compétitions, pas celui des
+ * équipes. Le tri est fait ici pour que la vue d'ensemble, l'onglet Équipes et
+ * le filtre du tableau partagent le même ordre sans avoir à le retrier chacun.
+ */
 export function getOurTeams(): TeamRef[] {
   const rencontres = loadRencontres();
   const byId = new Map<string, TeamRef>();
@@ -41,7 +49,9 @@ export function getOurTeams(): TeamRef[] {
     const team = ourTeam(rencontre);
     byId.set(team.id, team);
   }
-  return [...byId.values()];
+  return [...byId.values()].sort(
+    (a, b) => a.name.localeCompare(b.name) || (a.number ?? 0) - (b.number ?? 0)
+  );
 }
 
 export function getRencontresForTeam(teamId: string): Rencontre[] {
